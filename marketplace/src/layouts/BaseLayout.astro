@@ -55,11 +55,17 @@ const { title, description = "Browse 244 searchable agent skills and 259 plugins
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
 
-        // Log page view
-        logEvent(analytics, 'page_view', {
+        // Log page view with UTM attribution
+        const urlParams = new URLSearchParams(window.location.search);
+        const pageViewParams = {
           page_path: window.location.pathname,
           page_title: document.title
-        });
+        };
+        const utmSource = urlParams.get('utm_source');
+        const utmMedium = urlParams.get('utm_medium');
+        if (utmSource) pageViewParams.source = utmSource;
+        if (utmMedium) pageViewParams.medium = utmMedium;
+        logEvent(analytics, 'page_view', pageViewParams);
 
         // Make analytics available globally for custom events
         window.firebaseAnalytics = analytics;
