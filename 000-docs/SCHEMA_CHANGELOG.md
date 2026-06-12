@@ -69,6 +69,28 @@ from Jeremy Longshore in the issue/PR thread BEFORE the change lands.
 
 ---
 
+## Kernel changelog citation — authoring/v1 semantics are canonical upstream
+
+Standing rule (2026-06-12, changelog-observance gate per intent-eval-lab doc
+045 § 6): the contract semantics of the `authoring/v1` family — required-field
+sets, folds, field types for skill-frontmatter and the other authoring
+contracts — are **CANONICAL in the Spec Authority Kernel's changelog**:
+
+[`@intentsolutions/core` → `schemas/authoring/v1/CHANGELOG.md`](https://github.com/jeremylongshore/intent-eval-core/blob/main/schemas/authoring/v1/CHANGELOG.md)
+
+When an entry below concerns a kernel-tracked field, it **cites the matching
+kernel changelog entry instead of duplicating its rationale**. CCP entries stay
+scoped to what changed HERE (validator behavior, tier wiring, prose-spec text);
+the "why" for contract semantics lives in the kernel entry being cited.
+
+This section is additive: it does not modify, weaken, or reinterpret the
+NON-NEGOTIABLES above. The IS 8-field rubric and the errors-not-warnings tier
+semantics are unchanged — the kernel encodes that same rubric as its
+`is-overlay` schemas, and its overlay-required floor evolves under the same
+approval discipline.
+
+---
+
 ## How we got here — the 2026-04-28 schema debacle
 
 This section exists so the same mistake doesn't get re-made. The full
@@ -123,6 +145,32 @@ open spec. The validator already knows about both. Bug fixes that improve spec
 compliance are welcome; structural changes to the IS rubric are not.
 
 ---
+
+## [3.9.0] — 2026-06-12 — Kernel-loaded shadow comparison (advisory, additive)
+
+Consumer-cutover cleanup for the Spec Authority Kernel (DR-049 shadow soak;
+the advisory→authoritative flip is explicitly OUT of this change). **No change
+to `ALWAYS_REQUIRED`, the tier model, or error-vs-warning semantics** — the
+hand-authored 8-field set stays authoritative and is now annotated as the
+D4-preserved audit trail.
+
+- New `load_kernel_required()` helper: existence-guarded read of
+  `node_modules/@intentsolutions/core/schemas/authoring/v1/skill-frontmatter`
+  (upstream-base + is-overlay layers); derives the kernel effective required
+  set (base ∪ overlay) and combined property surface. Kernel absent → degrades
+  gracefully, never raises.
+- New `--kernel-shadow` flag: prints the comparison at startup (stderr).
+  Identical sets → NOTE; delta → WARNING listing the difference. Advisory
+  only — never affects verdicts or exit codes.
+- `--json` output now always carries a trailing `{"kernel_shadow": {...}}`
+  advisory element (both batch and single-file modes) with the required-set
+  comparison plus the `disallowed-tools` presence comparison. In-repo
+  consumers (`run-verification-pipeline.mjs`, `pr-prescreen/coordinator.py`,
+  `kernel-shadow-validation.mjs`) skip entries carrying the `kernel_shadow`
+  key.
+- `ALWAYS_REQUIRED` and the `disallowed-tools` registry entry are commented
+  as D4 hand-authored entries preserved as audit trail; the kernel shadow
+  compares at runtime.
 
 ## [3.8.0] — 2026-06-11 — Real `allowed-tools` entry validation + standard-tier missing-`name` diagnostic (additive)
 
