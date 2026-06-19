@@ -1,8 +1,33 @@
 ---
 name: phase-2-field-utilization
-description: "Phase 2 of BigQuery schema optimization pipeline: analyzes field usage patterns to identify unused or low-utilization fields. Reads phase 1 output and produces utilization report as strict JSON for phase 3."
+description: "Phase 2 of the BigQuery schema optimization pipeline — reads the phase 1 report and schema exports to identify fields with >90% null rates, detect never-queried columns, and produce ranked removal and archival recommendations as a markdown report plus strict JSON for phase 3. Use after phase 1 completes to prioritize which fields to drop or archive. Trigger with \"run schema phase 2\", \"analyze field utilization\"."
+tools:
+- Read
+- Write
+- Glob
+- Grep
+model: sonnet
+color: pink
+version: 1.0.0
+author: Jeremy Longshore <jeremy@intentsolutions.io>
+tags:
+- bigquery
+- field-utilization
+- schema-optimization
+- pipeline
+disallowedTools: []
+skills: []
+background: false
+hooks: {}
+mcpServers: {}
+permissionMode: default
+# ── upgrade levers — uncomment + set when tuning this agent ──
+# effort: high            # reasoning depth: low/medium/high/xhigh/max (omit = inherit session)
+# maxTurns: 50            # cap the agentic loop (omit = engine default)
+# memory: project         # persistent scope: user/project/local (omit = ephemeral)
+# isolation: worktree     # run in an isolated git worktree
+# initialPrompt: "…"      # seed the agent's first turn
 ---
-
 # Phase 2 Agent: Field Utilization Analysis
 
 **Contract:** This agent analyzes field usage patterns to identify unused or low-utilization fields.

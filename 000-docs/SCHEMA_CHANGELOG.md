@@ -146,6 +146,119 @@ compliance are welcome; structural changes to the IS rubric are not.
 
 ---
 
+## [3.11.0] — 2026-06-18 — Agent body-vs-allowlist consistency check (additive, issue #843)
+
+**Additive MINOR — no change to any required-field set, tier model, or
+error-vs-warning semantics for those fields.** `validate_agent()` now inspects
+the agent BODY (previously it read only frontmatter) and cross-checks it against
+the `tools` allowlist, which is a runtime gate (tools not listed are blocked at
+runtime). Closes the defect class where an agent's body invokes an MCP tool it
+never declares and silently runtime-blocks every call (surfaced on
+`kobiton/automate#67` by the customer, not our validator).
+
+New checks in `check_agent_body_vs_allowlist()`:
+
+- **CHECK 1 (ERROR):** body contains a fully-qualified `mcp__<server>__<tool>`
+  that is not in the declared allowlist (partial-coverage case).
+- **CHECK 3 (ERROR):** the allowlist declares zero `mcp__*` tools but the body
+  references fully-qualified MCP tools — highest-confidence form; every call
+  would block.
+- **CHECK 2 (WARN):** body backtick-mentions a verbCamelCase short name
+  (`listDevices`, `getSession`, …) with no matching declared `mcp__*__<name>`.
+  Heuristic; gated to MCP-oriented agents only (declares an mcp tool or has a
+  FQ ref) to avoid flagging plain code prose like `getStaticProps`.
+- **WARN (over-declared):** a declared `mcp__*__<tool>` whose suffix never
+  appears in the body — privilege drift.
+
+Fenced code blocks are stripped before matching so documented examples don't
+trip the FQ checks. Errors are agent-level (agents are not tier-gated).
+
+**Corpus impact:** run against all 317 in-repo agents — caught one genuine
+pre-existing defect (`plugins/analytics/web-analytics/agents/data-collector.md`
+invoked six `mcp__umami__*` tools with only `Read` declared), fixed in the same
+change by declaring the six tools. Zero false-positive errors elsewhere.
+
+Tests: `tests/test_validate_skills_schema_frontmatter.py` (9 `843` cases —
+CHECK 1/2/3, over-declared, fenced-code exemption, non-MCP suppression, and an
+end-to-end `validate_agent` fixture). `validate-agent` skill SKILL.md updated to
+reference the validator-side check (the shell heuristic becomes a fallback).
+
+---
+
+## [3.10.0] — 2026-06-17 — AGENT gate flipped to kernel-strict + enterprise-fleshed (required-field-set change, **approved**)
+
+**This is an architectural change to the AGENT required-field set** (NON-NEGOTIABLE
+#7 — architectural changes need explicit approval BEFORE landing — governs it). It
+ships under Jeremy's explicit 2026-06-17 sign-off: "strictness =
+kernel-strict always" + "flesh out the entire spec enterprise — empties and all."
+It does **NOT** touch the SKILL `ALWAYS_REQUIRED` set, the skill tier model, or skill
+error-vs-warning semantics — only the agent contract. (The parallel skill treatment
+is a separate, deliberate change — the skill required set is the debacle-sensitive
+zone and moves only on its own explicit sign-off.)
+
+**The required set is now two layers, both ERRORS at every tier (agents are NOT
+tier-gated like skills):**
+
+- **(a) Kernel floor (8):** `name, description, tools, model, color, version,
+  author, tags` — the kernel `agent-definition` effective-required set.
+- **(b) Enterprise live set on top of the floor** — "flesh out the entire spec,
+  empties and all," so every authored agent carries the full supported surface and
+  the upgrade levers are always visible:
+  - `+ disallowedTools, skills, background` for **all** agents → **11 required on a
+    plugin agent** (the common case; `disallowedTools: []`, `skills: []`,
+    `background: false` are the no-op empties).
+  - `+ hooks, mcpServers, permissionMode` for **standalone** agents only → **14
+    required** (those three are configured at the plugin level and runtime-ignored
+    on a plugin agent, so requiring them there would be noise + a warning).
+  - The five fields with **no valid empty value** — `effort, maxTurns, memory,
+    isolation, initialPrompt` — are carried as a commented **"upgrade levers"** block
+    in the agent body template (visible standing menu, not parser-required).
+
+Rationale: `/validate-agent` and the marketplace validator had drifted ~6 months and
+were lenient on agents (only `name` + `description` required; the IS-invented
+`capabilities` / `expertise_level` / `activation_priority` were warnings). 311 agents
+shipping publicly in `plugins/*/agents/` were below bar (0/311 carried `tags`; 23
+carried banned fields). A gate that does not enforce the standard cannot hold the
+fleet to it — so the gate is fixed first.
+
+Authority for the agent required set is the **Spec Authority Kernel**
+(`@intentsolutions/core` `schemas/authoring/v1/agent-definition.schema.json`): the
+union of the upstream-base floor `[name, description]`
+(code.claude.com/docs/en/sub-agents § "Supported frontmatter fields") and the
+is-overlay required delta `[tools, model, color, version, author, tags]`. Kernel
+CHANGELOG is canonical for that schema.
+
+- **Agents are NOT tier-gated like skills.** The required set (kernel floor ∪
+  enterprise live set — 11 on a plugin agent, 14 standalone) is now an **ERROR at
+  every tier** when any member is missing (was: only `name` + `description`). The
+  `AGENT_ENTERPRISE_LIVE_COMMON` / `AGENT_STANDALONE_ONLY_REQUIRED` /
+  `AGENT_UPGRADE_LEVERS` constants carry the layering; `is_plugin_agent` selects the
+  11-vs-14 set.
+- New `load_kernel_agent_required()`: existence-guarded read of the kernel
+  `agent-definition` base + overlay layers; returns the union `required` set, or
+  `None` (degrade to the inline `AGENT_ALWAYS_REQUIRED` mirror) when the kernel is
+  not vendored. Never raises. This is the "consume the kernel schema" path; the
+  inline mirror is the fallback, tagged with a TODO to the DR-049 consumer-cutover
+  bead.
+- `fable` added to the agent `model` enum →
+  `[sonnet, haiku, opus, fable, inherit]` (matches the kernel enum +
+  code.claude.com/docs/en/sub-agents § "Choose a model").
+- Banned agent fields promoted **WARN → ERROR**: `capabilities`, `expertise_level`,
+  `activation_priority`, `activation_triggers`, `type`, `category` (IS-invented, in
+  no canonical spec) plus `compatible-with` / `when_to_use` (kernel
+  `deprecationRegistry` universal fold). `DEPRECATED_AGENT_FIELDS` is now empty.
+- `tools` accepts `string|array` (tolerant): the kernel narrows the wire form to a
+  YAML array, but the documented Anthropic form is a comma-separated string and the
+  public corpus uses both. Required-presence is enforced without forcing a
+  mechanical re-typing of every agent. `tags` entries are validated as strings.
+- Agent `description` over-length **warning** realigned `200 → 1536` (the kernel
+  `disclosureMarkers` cap) so a trigger-rich A-grade description ("Use when…/Trigger
+  with…") no longer warns. The `< 20` minimum stays an error.
+
+Migration: the 311 in-repo product agents are remediated to green in the **same
+branch/PR** as this change — flipping the gate strict turns CI red until they carry
+the 8 fields, so the gate and the fleet land together.
+
 ## [3.9.0] — 2026-06-12 — Kernel-loaded shadow comparison (advisory, additive)
 
 Consumer-cutover cleanup for the Spec Authority Kernel (DR-049 shadow soak;
