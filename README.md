@@ -81,33 +81,32 @@ ccpi update                     # Pull latest versions
 
 ### 📦 Live npm Downloads
 
-Across **454 published packages** in the
-[claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
+Across **454 published packages** in the [claude-code-plugins](https://www.npmjs.com/~jeremylongshore) namespace. Updated daily by GitHub Actions.
 
-| Window        | All packages | Established (>30d) |
-| ------------- | -----------: | -----------------: |
-| Last 24 hours |          301 |                262 |
-| Last 7 days   |        5,427 |              5,122 |
-| Last 30 days  |       33,555 |             30,542 |
+| Window | All packages | Established (>30d) |
+|--------|-------------:|-------------------:|
+| Last 24 hours | 362 | 353 |
+| Last 7 days | 2,307 | 2,258 |
+| Last 30 days | 16,947 | 15,730 |
 
 <sub>"Established" excludes packages first published within the last 30 days, so a bulk-publish event doesn't dominate the headline.</sub>
 
 **Top 10 by last 30 days:**
 
-| #   | Package                                                                                                                                                    | Last 30d |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------: |
-| 1   | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack)                                                   |      975 |
-| 2   | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor)                                   |      650 |
-| 3   | [`@intentsolutionsio/000-jeremy-content-consistency-validator`](https://www.npmjs.com/package/@intentsolutionsio/000-jeremy-content-consistency-validator) |      428 |
-| 4   | [`@intentsolutionsio/wondelai-influence-psychology`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-influence-psychology)                       |      423 |
-| 5   | [`@intentsolutionsio/wondelai-drive-motivation`](https://www.npmjs.com/package/@intentsolutionsio/wondelai-drive-motivation)                               |      395 |
-| 6   | [`@intentsolutionsio/skill-creator`](https://www.npmjs.com/package/@intentsolutionsio/skill-creator)                                                       |      304 |
-| 7   | [`@intentsolutionsio/hubspot-pack`](https://www.npmjs.com/package/@intentsolutionsio/hubspot-pack)                                                         |      286 |
-| 8   | [`@intentsolutionsio/validate-plugin`](https://www.npmjs.com/package/@intentsolutionsio/validate-plugin)                                                   |      278 |
-| 9   | [`@intentsolutionsio/notion-pack`](https://www.npmjs.com/package/@intentsolutionsio/notion-pack)                                                           |      263 |
-| 10  | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack)                                                   |      260 |
+| # | Package | Last 30d |
+|---|---------|---------:|
+| 1 | [`@intentsolutionsio/groq-pack`](https://www.npmjs.com/package/@intentsolutionsio/groq-pack) | 333 |
+| 2 | [`@intentsolutionsio/databricks-pack`](https://www.npmjs.com/package/@intentsolutionsio/databricks-pack) | 332 |
+| 3 | [`@intentsolutionsio/wallet-security-auditor`](https://www.npmjs.com/package/@intentsolutionsio/wallet-security-auditor) | 286 |
+| 4 | [`@intentsolutionsio/openrouter-pack`](https://www.npmjs.com/package/@intentsolutionsio/openrouter-pack) | 280 |
+| 5 | [`@intentsolutionsio/clickhouse-pack`](https://www.npmjs.com/package/@intentsolutionsio/clickhouse-pack) | 279 |
+| 6 | [`@intentsolutionsio/notion-pack`](https://www.npmjs.com/package/@intentsolutionsio/notion-pack) | 263 |
+| 7 | [`@intentsolutionsio/skill-creator`](https://www.npmjs.com/package/@intentsolutionsio/skill-creator) | 259 |
+| 8 | [`@intentsolutionsio/elevenlabs-pack`](https://www.npmjs.com/package/@intentsolutionsio/elevenlabs-pack) | 238 |
+| 9 | [`@intentsolutionsio/tonone`](https://www.npmjs.com/package/@intentsolutionsio/tonone) | 237 |
+| 10 | [`@intentsolutionsio/freshie-inventory-manager`](https://www.npmjs.com/package/@intentsolutionsio/freshie-inventory-manager) | 221 |
 
-<sub>Last refreshed 2026-07-29T01:26:41.589Z.</sub>
+<sub>Last refreshed 2026-08-12T15:31:38.244Z.</sub>
 
 <!-- NPM-STATS:END -->
 
