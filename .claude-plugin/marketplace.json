@@ -7119,14 +7119,16 @@
     {
       "name": "remofirst-pack",
       "source": "./plugins/saas-packs/remofirst-pack",
-      "description": "Claude Code skill pack for RemoFirst (12 skills)",
-      "version": "1.4.0",
+      "description": "Evidence-backed RemoFirst operator workflows for EOR, contractors, payroll, security, and supported HRIS connectors (12 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "remofirst",
         "saas",
-        "sdk",
-        "integration"
+        "eor",
+        "payroll",
+        "workday",
+        "adp"
       ],
       "author": {
         "name": "Jeremy Longshore",
