@@ -6281,8 +6281,8 @@
     {
       "name": "anima-pack",
       "source": "./plugins/saas-packs/anima-pack",
-      "description": "Claude Code skill pack for Anima (18 skills)",
-      "version": "1.4.0",
+      "description": "Anima design-to-code operator pack with 18 production-grade skills",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "anima",
