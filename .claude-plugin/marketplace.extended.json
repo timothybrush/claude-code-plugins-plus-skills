@@ -9743,14 +9743,16 @@
     {
       "name": "ramp-pack",
       "source": "./plugins/saas-packs/ramp-pack",
-      "description": "Claude Code skill pack for Ramp (24 skills)",
-      "version": "1.4.0",
+      "description": "Evidence-backed Ramp operator workflows for OAuth, cards, accounting, webhooks, security, reliability, and migration (24 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "ramp",
-        "saas",
-        "sdk",
-        "integration"
+        "fintech",
+        "accounting",
+        "webhooks",
+        "security",
+        "reliability"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -9761,10 +9763,10 @@
         "skills": 24
       },
       "verification": {
-        "score": 85,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 98,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-12T00:00:00.000Z"
       }
     },
     {
