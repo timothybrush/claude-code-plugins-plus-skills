@@ -6243,13 +6243,14 @@
     {
       "name": "alchemy-pack",
       "source": "./plugins/saas-packs/alchemy-pack",
-      "description": "Claude Code skill pack for Alchemy (18 skills)",
-      "version": "1.5.0",
+      "description": "Evidence-backed Alchemy operator workflows for current Node, Data, Portfolio, NFT, Wallet, Notify, Admin, reliability, security, and migration contracts (18 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "alchemy",
         "saas",
-        "sdk",
+        "viem",
+        "wallet-apis",
         "integration"
       ],
       "author": {
