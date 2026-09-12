@@ -1636,6 +1636,7 @@
       "video-generation",
       "video-processing",
       "video-production",
+      "viem",
       "vision",
       "visual-content",
       "visual-organization",
@@ -1653,6 +1654,7 @@
       "vulnerability",
       "vulnerability-scanning",
       "wallet",
+      "wallet-apis",
       "wandb",
       "wasabi",
       "waterfall",
@@ -11743,12 +11745,14 @@
       "slug": "alchemy-pack",
       "name": "alchemy-pack",
       "displayName": "alchemy pack",
-      "description": "Claude Code skill pack for Alchemy (18 skills)",
+      "description": "Evidence-backed Alchemy operator workflows for current Node, Data, Portfolio, NFT, Wallet, Notify, Admin, reliability, security, and migration contracts (18 skills)",
       "category": "saas-packs",
       "keywords": [
         "alchemy",
+        "web3",
         "saas",
-        "sdk",
+        "viem",
+        "wallet-apis",
         "integration"
       ],
       "author": {
@@ -11757,15 +11761,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.5.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 84,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "alchemy pack claude code skill pack for alchemy (18 skills) saas-packs alchemy saas sdk integration"
+      "verificationScore": 98,
+      "verificationGrade": "A",
+      "verificationBadge": "verified",
+      "searchText": "alchemy pack evidence-backed alchemy operator workflows for current node, data, portfolio, nft, wallet, notify, admin, reliability, security, and migration contracts (18 skills) saas-packs alchemy web3 saas viem wallet-apis integration"
     },
     {
       "type": "plugin",
@@ -16461,390 +16465,396 @@
       "id": "alchemy-ci-integration",
       "slug": "alchemy-ci-integration",
       "name": "alchemy-ci-integration",
-      "description": "Configure CI/CD pipeline for Alchemy-powered Web3 applications. Use when setting up automated testing with Hardhat forks, smart contract verification, or testnet deployment pipelines. Trigger: \"alchemy CI\", \"alchemy GitHub Actions\", \"web3 CI/CD pipeline\".",
+      "description": "Gate Alchemy integration changes with deterministic unit, contract, fork, secret, and negative-path checks. Use when adding Alchemy to CI or hardening an existing pipeline. Trigger with \"Alchemy CI\", \"Alchemy GitHub Actions\", or \"test Alchemy in CI\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-ci-integration configure ci/cd pipeline for alchemy-powered web3 applications. use when setting up automated testing with hardhat forks, smart contract verification, or testnet deployment pipelines. trigger: \"alchemy ci\", \"alchemy github actions\", \"web3 ci/cd pipeline\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "alchemy-ci-integration gate alchemy integration changes with deterministic unit, contract, fork, secret, and negative-path checks. use when adding alchemy to ci or hardening an existing pipeline. trigger with \"alchemy ci\", \"alchemy github actions\", or \"test alchemy in ci\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-common-errors",
       "slug": "alchemy-common-errors",
       "name": "alchemy-common-errors",
-      "description": "Diagnose and fix common Alchemy SDK and Web3 API errors. Use when encountering rate limits, RPC failures, invalid parameters, or blockchain query errors with the Alchemy SDK. Trigger: \"alchemy error\", \"alchemy not working\", \"alchemy 429\", \"alchemy debug\", \"fix alchemy issue\".",
+      "description": "Classify Alchemy authentication, JSON-RPC, Data API, throughput, and partial-response failures before applying bounded recovery. Use when an Alchemy integration fails or degrades. Trigger with \"Alchemy error\", \"Alchemy 429\", or \"debug an Alchemy request\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-common-errors diagnose and fix common alchemy sdk and web3 api errors. use when encountering rate limits, rpc failures, invalid parameters, or blockchain query errors with the alchemy sdk. trigger: \"alchemy error\", \"alchemy not working\", \"alchemy 429\", \"alchemy debug\", \"fix alchemy issue\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "alchemy-common-errors classify alchemy authentication, json-rpc, data api, throughput, and partial-response failures before applying bounded recovery. use when an alchemy integration fails or degrades. trigger with \"alchemy error\", \"alchemy 429\", or \"debug an alchemy request\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-core-workflow-a",
       "slug": "alchemy-core-workflow-a",
       "name": "alchemy-core-workflow-a",
-      "description": "Build a complete wallet portfolio tracker using Alchemy Enhanced APIs. Use when implementing token balance dashboards, NFT galleries, transaction history views, or wallet analytics applications. Trigger: \"alchemy wallet tracker\", \"alchemy portfolio\", \"alchemy token dashboard\", \"alchemy transaction history\", \"build dApp with alchemy\".",
+      "description": "Design a multi-chain holdings workflow on Alchemy Portfolio APIs with explicit pagination, partial-failure, privacy, and reconciliation contracts. Use when building wallet portfolio views. Trigger with \"Alchemy portfolio\", \"multi-chain token balances\", or \"wallet holdings dashboard\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-core-workflow-a build a complete wallet portfolio tracker using alchemy enhanced apis. use when implementing token balance dashboards, nft galleries, transaction history views, or wallet analytics applications. trigger: \"alchemy wallet tracker\", \"alchemy portfolio\", \"alchemy token dashboard\", \"alchemy transaction history\", \"build dapp with alchemy\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "alchemy-core-workflow-a design a multi-chain holdings workflow on alchemy portfolio apis with explicit pagination, partial-failure, privacy, and reconciliation contracts. use when building wallet portfolio views. trigger with \"alchemy portfolio\", \"multi-chain token balances\", or \"wallet holdings dashboard\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-core-workflow-b",
       "slug": "alchemy-core-workflow-b",
       "name": "alchemy-core-workflow-b",
-      "description": "Build NFT collection explorer and smart contract interaction with Alchemy. Use when fetching NFT metadata, building galleries, reading contract state, or implementing NFT marketplace features. Trigger: \"alchemy NFT\", \"alchemy smart contract\", \"alchemy collection\", \"alchemy NFT metadata\", \"alchemy contract read\".",
+      "description": "Build an NFT discovery workflow with Alchemy NFT API v3 and isolate typed on-chain reads through viem. Use when creating collection explorers or ownership checks. Trigger with \"Alchemy NFT API\", \"NFT collection explorer\", or \"read an NFT contract\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-core-workflow-b build nft collection explorer and smart contract interaction with alchemy. use when fetching nft metadata, building galleries, reading contract state, or implementing nft marketplace features. trigger: \"alchemy nft\", \"alchemy smart contract\", \"alchemy collection\", \"alchemy nft metadata\", \"alchemy contract read\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "alchemy-core-workflow-b build an nft discovery workflow with alchemy nft api v3 and isolate typed on-chain reads through viem. use when creating collection explorers or ownership checks. trigger with \"alchemy nft api\", \"nft collection explorer\", or \"read an nft contract\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-cost-tuning",
       "slug": "alchemy-cost-tuning",
       "name": "alchemy-cost-tuning",
-      "description": "Optimize Alchemy API costs through CU budgeting, caching, and plan selection. Use when analyzing Alchemy billing, reducing Compute Unit consumption, or choosing the right plan for your dApp traffic. Trigger: \"alchemy cost\", \"alchemy pricing\", \"alchemy CU budget\", \"alchemy billing optimization\", \"alchemy free tier limits\".",
+      "description": "Govern Alchemy compute usage and spend with current account evidence, workload attribution, budgets, and reversible optimizations. Use when forecasting or reducing Alchemy cost. Trigger with \"Alchemy cost\", \"Alchemy compute units\", or \"reduce Alchemy spend\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-cost-tuning optimize alchemy api costs through cu budgeting, caching, and plan selection. use when analyzing alchemy billing, reducing compute unit consumption, or choosing the right plan for your dapp traffic. trigger: \"alchemy cost\", \"alchemy pricing\", \"alchemy cu budget\", \"alchemy billing optimization\", \"alchemy free tier limits\". saas-packs read write edit bash(npm:*) "
+      "searchText": "alchemy-cost-tuning govern alchemy compute usage and spend with current account evidence, workload attribution, budgets, and reversible optimizations. use when forecasting or reducing alchemy cost. trigger with \"alchemy cost\", \"alchemy compute units\", or \"reduce alchemy spend\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-debug-bundle",
       "slug": "alchemy-debug-bundle",
       "name": "alchemy-debug-bundle",
-      "description": "Collect Alchemy SDK debug evidence for troubleshooting and support tickets. Use when encountering persistent issues, preparing support tickets, or debugging blockchain query failures. Trigger: \"alchemy debug bundle\", \"alchemy support ticket\", \"alchemy diagnostics\".",
+      "description": "Collect a deterministic, secret-safe Alchemy diagnostic bundle for triage and escalation. Use when a provider issue needs reproducible evidence. Trigger with \"Alchemy debug bundle\", \"collect Alchemy diagnostics\", or \"prepare an Alchemy support case\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Bash(node:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-debug-bundle collect alchemy sdk debug evidence for troubleshooting and support tickets. use when encountering persistent issues, preparing support tickets, or debugging blockchain query failures. trigger: \"alchemy debug bundle\", \"alchemy support ticket\", \"alchemy diagnostics\". saas-packs read write edit bash(curl:*) bash(node:*) grep "
+      "searchText": "alchemy-debug-bundle collect a deterministic, secret-safe alchemy diagnostic bundle for triage and escalation. use when a provider issue needs reproducible evidence. trigger with \"alchemy debug bundle\", \"collect alchemy diagnostics\", or \"prepare an alchemy support case\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-deploy-integration",
       "slug": "alchemy-deploy-integration",
       "name": "alchemy-deploy-integration",
-      "description": "Deploy Alchemy-powered Web3 applications to Vercel, Cloud Run, and AWS. Use when deploying dApps with server-side Alchemy SDK access, configuring API key secrets, or setting up RPC proxy endpoints. Trigger: \"deploy alchemy\", \"alchemy Vercel\", \"alchemy Cloud Run\", \"alchemy production deploy\", \"dApp deploy\".",
+      "description": "Deploy an Alchemy-backed service through environment-scoped credentials, chain assertions, canaries, and rollback gates. Use when promoting an integration to hosted environments. Trigger with \"deploy Alchemy integration\", \"Alchemy production deploy\", or \"promote an Alchemy service\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vercel:*)",
-        "Bash(gcloud:*)",
-        "Bash(docker:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-deploy-integration deploy alchemy-powered web3 applications to vercel, cloud run, and aws. use when deploying dapps with server-side alchemy sdk access, configuring api key secrets, or setting up rpc proxy endpoints. trigger: \"deploy alchemy\", \"alchemy vercel\", \"alchemy cloud run\", \"alchemy production deploy\", \"dapp deploy\". saas-packs read write edit bash(vercel:*) bash(gcloud:*) bash(docker:*) "
+      "searchText": "alchemy-deploy-integration deploy an alchemy-backed service through environment-scoped credentials, chain assertions, canaries, and rollback gates. use when promoting an integration to hosted environments. trigger with \"deploy alchemy integration\", \"alchemy production deploy\", or \"promote an alchemy service\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-hello-world",
       "slug": "alchemy-hello-world",
       "name": "alchemy-hello-world",
-      "description": "Create a minimal Alchemy Web3 example: get ETH balance, fetch NFTs, read token balances. Use when starting blockchain development, testing Alchemy setup, or learning basic blockchain query patterns. Trigger: \"alchemy hello world\", \"alchemy example\", \"alchemy quick start\", \"get ETH balance\", \"fetch NFTs alchemy\".",
+      "description": "Build a minimal, reviewable Alchemy EVM read with viem and prove its network, authentication, and failure behavior. Use when starting an Alchemy integration or replacing an SDK sample. Trigger with \"Alchemy hello world\", \"read an Ethereum block\", or \"test my Alchemy connection\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-hello-world create a minimal alchemy web3 example: get eth balance, fetch nfts, read token balances. use when starting blockchain development, testing alchemy setup, or learning basic blockchain query patterns. trigger: \"alchemy hello world\", \"alchemy example\", \"alchemy quick start\", \"get eth balance\", \"fetch nfts alchemy\". saas-packs read write edit bash(npm:*) "
+      "searchText": "alchemy-hello-world build a minimal, reviewable alchemy evm read with viem and prove its network, authentication, and failure behavior. use when starting an alchemy integration or replacing an sdk sample. trigger with \"alchemy hello world\", \"read an ethereum block\", or \"test my alchemy connection\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-install-auth",
       "slug": "alchemy-install-auth",
       "name": "alchemy-install-auth",
-      "description": "Install the Alchemy SDK and configure API key authentication for Web3 development. Use when setting up blockchain API access, creating an Alchemy app, or configuring multi-chain RPC endpoints. Trigger: \"install alchemy\", \"setup alchemy\", \"alchemy auth\", \"alchemy API key\".",
+      "description": "Select and prove the current Alchemy client, key type, network, and authentication boundary before integration work. Use when creating or repairing Alchemy connectivity. Trigger with \"set up Alchemy\", \"configure an Alchemy API key\", or \"choose viem or Wallet APIs\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(pip:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-install-auth install the alchemy sdk and configure api key authentication for web3 development. use when setting up blockchain api access, creating an alchemy app, or configuring multi-chain rpc endpoints. trigger: \"install alchemy\", \"setup alchemy\", \"alchemy auth\", \"alchemy api key\". saas-packs read write edit bash(npm:*) bash(pip:*) grep "
+      "searchText": "alchemy-install-auth select and prove the current alchemy client, key type, network, and authentication boundary before integration work. use when creating or repairing alchemy connectivity. trigger with \"set up alchemy\", \"configure an alchemy api key\", or \"choose viem or wallet apis\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-local-dev-loop",
       "slug": "alchemy-local-dev-loop",
       "name": "alchemy-local-dev-loop",
-      "description": "Set up local Web3 development workflow with Alchemy, Hardhat, and testnets. Use when configuring local blockchain dev, testing with Sepolia faucets, or setting up hot-reload for smart contract development. Trigger: \"alchemy local dev\", \"alchemy hardhat\", \"alchemy testnet setup\".",
+      "description": "Establish a deterministic local EVM development loop with pinned forks, synthetic fixtures, and bounded Alchemy usage. Use when adding local chain tests or repairing flaky fork-based development. Trigger with \"Alchemy local dev\", \"Hardhat fork with Alchemy\", or \"pin a mainnet fork\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(npx:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-local-dev-loop set up local web3 development workflow with alchemy, hardhat, and testnets. use when configuring local blockchain dev, testing with sepolia faucets, or setting up hot-reload for smart contract development. trigger: \"alchemy local dev\", \"alchemy hardhat\", \"alchemy testnet setup\". saas-packs read write edit bash(npm:*) bash(npx:*) grep "
+      "searchText": "alchemy-local-dev-loop establish a deterministic local evm development loop with pinned forks, synthetic fixtures, and bounded alchemy usage. use when adding local chain tests or repairing flaky fork-based development. trigger with \"alchemy local dev\", \"hardhat fork with alchemy\", or \"pin a mainnet fork\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-performance-tuning",
       "slug": "alchemy-performance-tuning",
       "name": "alchemy-performance-tuning",
-      "description": "Optimize Alchemy SDK performance with caching, batching, and multi-chain parallelism. Use when reducing latency for blockchain queries, optimizing CU consumption, or scaling dApps for high request volumes. Trigger: \"alchemy performance\", \"alchemy slow\", \"alchemy optimization\", \"alchemy caching\", \"alchemy batch requests\".",
+      "description": "Tune Alchemy-backed reads with measured latency, cache semantics, batching, concurrency, and freshness SLOs. Use when an integration is slow or wasteful. Trigger with \"optimize Alchemy performance\", \"cache Alchemy data\", or \"reduce Alchemy latency\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-performance-tuning optimize alchemy sdk performance with caching, batching, and multi-chain parallelism. use when reducing latency for blockchain queries, optimizing cu consumption, or scaling dapps for high request volumes. trigger: \"alchemy performance\", \"alchemy slow\", \"alchemy optimization\", \"alchemy caching\", \"alchemy batch requests\". saas-packs read write edit bash(npm:*) "
+      "searchText": "alchemy-performance-tuning tune alchemy-backed reads with measured latency, cache semantics, batching, concurrency, and freshness slos. use when an integration is slow or wasteful. trigger with \"optimize alchemy performance\", \"cache alchemy data\", or \"reduce alchemy latency\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-prod-checklist",
       "slug": "alchemy-prod-checklist",
       "name": "alchemy-prod-checklist",
-      "description": "Execute production readiness checklist for Alchemy-powered dApps. Use when deploying Web3 applications, preparing for mainnet launch, or validating blockchain integration before go-live. Trigger: \"alchemy production\", \"alchemy go-live\", \"alchemy mainnet checklist\", \"dApp production readiness\".",
+      "description": "Make an evidence-backed go or no-go decision for an Alchemy-backed production release. Use when reviewing a launch or material integration change. Trigger with \"Alchemy production checklist\", \"Alchemy go-live review\", or \"is this Alchemy integration ready\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-prod-checklist execute production readiness checklist for alchemy-powered dapps. use when deploying web3 applications, preparing for mainnet launch, or validating blockchain integration before go-live. trigger: \"alchemy production\", \"alchemy go-live\", \"alchemy mainnet checklist\", \"dapp production readiness\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "alchemy-prod-checklist make an evidence-backed go or no-go decision for an alchemy-backed production release. use when reviewing a launch or material integration change. trigger with \"alchemy production checklist\", \"alchemy go-live review\", or \"is this alchemy integration ready\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-rate-limits",
       "slug": "alchemy-rate-limits",
       "name": "alchemy-rate-limits",
-      "description": "Implement Alchemy Compute Unit (CU) rate limiting and request throttling. Use when handling 429 errors, optimizing CU usage, or managing concurrent blockchain queries within plan limits. Trigger: \"alchemy rate limit\", \"alchemy 429\", \"alchemy compute units\", \"alchemy throttling\", \"alchemy CU budget\".",
+      "description": "Design account-aware Alchemy throttling, bounded retries, and admission control from observed throughput rather than stale plan constants. Use when preventing or handling rate limits. Trigger with \"Alchemy rate limit\", \"Alchemy throughput\", or \"fix Alchemy 429s\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-rate-limits implement alchemy compute unit (cu) rate limiting and request throttling. use when handling 429 errors, optimizing cu usage, or managing concurrent blockchain queries within plan limits. trigger: \"alchemy rate limit\", \"alchemy 429\", \"alchemy compute units\", \"alchemy throttling\", \"alchemy cu budget\". saas-packs read write edit bash(npm:*) "
+      "searchText": "alchemy-rate-limits design account-aware alchemy throttling, bounded retries, and admission control from observed throughput rather than stale plan constants. use when preventing or handling rate limits. trigger with \"alchemy rate limit\", \"alchemy throughput\", or \"fix alchemy 429s\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-reference-architecture",
       "slug": "alchemy-reference-architecture",
       "name": "alchemy-reference-architecture",
-      "description": "Implement reference architecture for Alchemy-powered Web3 applications. Use when designing dApp infrastructure, planning multi-chain deployments, or structuring a production blockchain application. Trigger: \"alchemy architecture\", \"dApp architecture\", \"alchemy project structure\", \"web3 system design\", \"alchemy multi-chain design\".",
+      "description": "Design a production Alchemy architecture with capability-specific adapters, explicit trust boundaries, partial-state semantics, and reversible operations. Use when reviewing or creating an Alchemy-backed system. Trigger with \"Alchemy architecture\", \"design an Alchemy dApp backend\", or \"review Alchemy boundaries\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-reference-architecture implement reference architecture for alchemy-powered web3 applications. use when designing dapp infrastructure, planning multi-chain deployments, or structuring a production blockchain application. trigger: \"alchemy architecture\", \"dapp architecture\", \"alchemy project structure\", \"web3 system design\", \"alchemy multi-chain design\". saas-packs read write edit "
+      "searchText": "alchemy-reference-architecture design a production alchemy architecture with capability-specific adapters, explicit trust boundaries, partial-state semantics, and reversible operations. use when reviewing or creating an alchemy-backed system. trigger with \"alchemy architecture\", \"design an alchemy dapp backend\", or \"review alchemy boundaries\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-sdk-patterns",
       "slug": "alchemy-sdk-patterns",
       "name": "alchemy-sdk-patterns",
-      "description": "Apply production-ready Alchemy SDK patterns for Web3 applications. Use when building reusable blockchain clients, implementing caching, multi-chain abstractions, or type-safe contract interactions. Trigger: \"alchemy SDK patterns\", \"alchemy best practices\", \"alchemy code patterns\".",
+      "description": "Route Alchemy work to viem, direct Data APIs, Wallet APIs v5, or Solana Web3.js without reviving the archived SDK. Use when designing shared clients and adapters. Trigger with \"Alchemy SDK pattern\", \"replace alchemy-sdk\", or \"choose an Alchemy client\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-sdk-patterns apply production-ready alchemy sdk patterns for web3 applications. use when building reusable blockchain clients, implementing caching, multi-chain abstractions, or type-safe contract interactions. trigger: \"alchemy sdk patterns\", \"alchemy best practices\", \"alchemy code patterns\". saas-packs read write edit "
+      "searchText": "alchemy-sdk-patterns route alchemy work to viem, direct data apis, wallet apis v5, or solana web3.js without reviving the archived sdk. use when designing shared clients and adapters. trigger with \"alchemy sdk pattern\", \"replace alchemy-sdk\", or \"choose an alchemy client\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-security-basics",
       "slug": "alchemy-security-basics",
       "name": "alchemy-security-basics",
-      "description": "Apply Web3 security best practices for Alchemy-powered applications. Use when securing API keys, validating blockchain inputs, preventing private key exposure, or hardening dApp infrastructure. Trigger: \"alchemy security\", \"web3 security\", \"protect private key\", \"alchemy API key security\", \"dApp security\".",
+      "description": "Analyze and secure Alchemy credentials, browser access, wallet authority, webhook verification, and untrusted chain data. Use when securing an Alchemy-backed application. Trigger with \"secure Alchemy\", \"Alchemy API key exposure\", or \"verify an Alchemy webhook\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-security-basics apply web3 security best practices for alchemy-powered applications. use when securing api keys, validating blockchain inputs, preventing private key exposure, or hardening dapp infrastructure. trigger: \"alchemy security\", \"web3 security\", \"protect private key\", \"alchemy api key security\", \"dapp security\". saas-packs read write edit grep "
+      "searchText": "alchemy-security-basics analyze and secure alchemy credentials, browser access, wallet authority, webhook verification, and untrusted chain data. use when securing an alchemy-backed application. trigger with \"secure alchemy\", \"alchemy api key exposure\", or \"verify an alchemy webhook\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-upgrade-migration",
       "slug": "alchemy-upgrade-migration",
       "name": "alchemy-upgrade-migration",
-      "description": "Migrate from alchemy-sdk v2 to v3 and handle breaking changes. Use when upgrading Alchemy SDK versions, migrating from deprecated alchemy-web3, or adapting to new API patterns. Trigger: \"alchemy upgrade\", \"alchemy migration\", \"alchemy-sdk v3\", \"migrate alchemy-web3\", \"alchemy breaking changes\".",
+      "description": "Migrate archived Alchemy JavaScript SDK integrations to current capability-specific clients with parity, canary, and rollback evidence. Use when removing alchemy-sdk or upgrading Wallet APIs. Trigger with \"migrate alchemy-sdk\", \"replace alchemy-web3\", or \"upgrade Wallet APIs to v5\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-upgrade-migration migrate from alchemy-sdk v2 to v3 and handle breaking changes. use when upgrading alchemy sdk versions, migrating from deprecated alchemy-web3, or adapting to new api patterns. trigger: \"alchemy upgrade\", \"alchemy migration\", \"alchemy-sdk v3\", \"migrate alchemy-web3\", \"alchemy breaking changes\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "alchemy-upgrade-migration migrate archived alchemy javascript sdk integrations to current capability-specific clients with parity, canary, and rollback evidence. use when removing alchemy-sdk or upgrading wallet apis. trigger with \"migrate alchemy-sdk\", \"replace alchemy-web3\", or \"upgrade wallet apis to v5\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "alchemy-webhooks-events",
       "slug": "alchemy-webhooks-events",
       "name": "alchemy-webhooks-events",
-      "description": "Implement Alchemy Notify webhooks for real-time blockchain event notifications. Use when tracking wallet activity, monitoring mined transactions, watching smart contract events, or building real-time dApp features. Trigger: \"alchemy webhook\", \"alchemy notify\", \"alchemy events\", \"alchemy address activity\", \"alchemy real-time notifications\".",
+      "description": "Operate Alchemy Notify webhooks with raw-body HMAC verification, idempotent intake, durable processing, and safe lifecycle changes. Use when implementing or repairing blockchain event delivery. Trigger with \"Alchemy webhook\", \"Alchemy Notify\", or \"verify X-Alchemy-Signature\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "alchemy-pack",
         "category": "saas-packs"
       },
-      "searchText": "alchemy-webhooks-events implement alchemy notify webhooks for real-time blockchain event notifications. use when tracking wallet activity, monitoring mined transactions, watching smart contract events, or building real-time dapp features. trigger: \"alchemy webhook\", \"alchemy notify\", \"alchemy events\", \"alchemy address activity\", \"alchemy real-time notifications\". saas-packs read write edit bash(curl:*) "
+      "searchText": "alchemy-webhooks-events operate alchemy notify webhooks with raw-body hmac verification, idempotent intake, durable processing, and safe lifecycle changes. use when implementing or repairing blockchain event delivery. trigger with \"alchemy webhook\", \"alchemy notify\", or \"verify x-alchemy-signature\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
