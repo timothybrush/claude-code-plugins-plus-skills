@@ -98,7 +98,6 @@
       "Bash(compliance-check:*)",
       "Bash(config-scan:*)",
       "Bash(cp:*)",
-      "Bash(cr:*)",
       "Bash(cron:*)",
       "Bash(crypto:arbitrage-*)",
       "Bash(crypto:derivatives-*)",
@@ -10496,7 +10495,7 @@
       "slug": "coderabbit-pack",
       "name": "coderabbit-pack",
       "displayName": "coderabbit pack",
-      "description": "Complete CodeRabbit integration skill pack with 24 skills covering AI code review, PR automation, and code quality analysis. Flagship tier vendor pack.",
+      "description": "Evidence-backed CodeRabbit operator workflows for reviews, CLI, configuration, security, governance, APIs, and incident response (24 skills)",
       "category": "saas-packs",
       "keywords": [
         "coderabbit",
@@ -10512,15 +10511,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.11.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 24,
-      "verificationScore": 85,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "coderabbit pack complete coderabbit integration skill pack with 24 skills covering ai code review, pr automation, and code quality analysis. flagship tier vendor pack. saas-packs coderabbit code-review pr-automation ai-review code-quality github-integration"
+      "verificationScore": 98,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "coderabbit pack evidence-backed coderabbit operator workflows for reviews, cli, configuration, security, governance, apis, and incident response (24 skills) saas-packs coderabbit code-review pr-automation ai-review code-quality github-integration"
     },
     {
       "type": "plugin",
@@ -28450,523 +28449,528 @@
       "id": "coderabbit-ci-integration",
       "slug": "coderabbit-ci-integration",
       "name": "coderabbit-ci-integration",
-      "description": "Configure CodeRabbit as a CI gate with GitHub Actions, branch protection, and review enforcement. Use when setting up CodeRabbit as a required check, gating merges on review approval, or integrating CodeRabbit status into your CI pipeline. Trigger with phrases like \"coderabbit CI\", \"coderabbit GitHub Actions\", \"coderabbit required check\", \"coderabbit merge gate\", \"coderabbit CI pipeline\".",
+      "description": "Design a fail-closed merge policy that combines CodeRabbit review state with provider checks without inventing a CodeRabbit status-check name. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"gate merges with CodeRabbit\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-ci-integration configure coderabbit as a ci gate with github actions, branch protection, and review enforcement. use when setting up coderabbit as a required check, gating merges on review approval, or integrating coderabbit status into your ci pipeline. trigger with phrases like \"coderabbit ci\", \"coderabbit github actions\", \"coderabbit required check\", \"coderabbit merge gate\", \"coderabbit ci pipeline\". saas-packs read write edit bash(gh:*) bash(git:*) "
+      "searchText": "coderabbit-ci-integration design a fail-closed merge policy that combines coderabbit review state with provider checks without inventing a coderabbit status-check name. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"gate merges with coderabbit\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-common-errors",
       "slug": "coderabbit-common-errors",
       "name": "coderabbit-common-errors",
-      "description": "Diagnose and fix CodeRabbit common errors and configuration issues. Use when CodeRabbit is not reviewing PRs, posting duplicate comments, ignoring configuration, or behaving unexpectedly. Trigger with phrases like \"coderabbit error\", \"fix coderabbit\", \"coderabbit not working\", \"debug coderabbit\", \"coderabbit broken\".",
+      "description": "Triage missing, duplicate, noisy, or misconfigured reviews from observed pull-request and configuration evidence. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"debug CodeRabbit reviews\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
         "Grep",
-        "Bash(gh:*)",
-        "Bash(git:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-common-errors diagnose and fix coderabbit common errors and configuration issues. use when coderabbit is not reviewing prs, posting duplicate comments, ignoring configuration, or behaving unexpectedly. trigger with phrases like \"coderabbit error\", \"fix coderabbit\", \"coderabbit not working\", \"debug coderabbit\", \"coderabbit broken\". saas-packs read grep bash(gh:*) bash(git:*) "
+      "searchText": "coderabbit-common-errors triage missing, duplicate, noisy, or misconfigured reviews from observed pull-request and configuration evidence. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"debug coderabbit reviews\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-core-workflow-a",
       "slug": "coderabbit-core-workflow-a",
       "name": "coderabbit-core-workflow-a",
-      "description": "Execute CodeRabbit primary workflow: automated PR code review with configuration. Use when setting up automated code reviews on pull requests, configuring review behavior, or establishing the core CodeRabbit review loop. Trigger with phrases like \"coderabbit review workflow\", \"coderabbit PR review\", \"coderabbit auto review\", \"configure coderabbit reviews\".",
+      "description": "Run the primary CodeRabbit review loop from eligibility through finding disposition and verification. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"run a CodeRabbit PR review\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-core-workflow-a execute coderabbit primary workflow: automated pr code review with configuration. use when setting up automated code reviews on pull requests, configuring review behavior, or establishing the core coderabbit review loop. trigger with phrases like \"coderabbit review workflow\", \"coderabbit pr review\", \"coderabbit auto review\", \"configure coderabbit reviews\". saas-packs read write edit bash(gh:*) bash(git:*) grep "
+      "searchText": "coderabbit-core-workflow-a run the primary coderabbit review loop from eligibility through finding disposition and verification. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"run a coderabbit pr review\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-core-workflow-b",
       "slug": "coderabbit-core-workflow-b",
       "name": "coderabbit-core-workflow-b",
-      "description": "Tune CodeRabbit review configuration: learnings, code guidelines, and noise reduction. Use when fine-tuning review quality, training CodeRabbit with team preferences, adding code guidelines, or reducing false positives. Trigger with phrases like \"coderabbit tune reviews\", \"coderabbit learnings\", \"coderabbit guidelines\", \"reduce coderabbit noise\", \"coderabbit false positives\".",
+      "description": "Tune review signal with current learnings, detected guideline files, path instructions, and measured feedback. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"tune CodeRabbit reviews\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-core-workflow-b tune coderabbit review configuration: learnings, code guidelines, and noise reduction. use when fine-tuning review quality, training coderabbit with team preferences, adding code guidelines, or reducing false positives. trigger with phrases like \"coderabbit tune reviews\", \"coderabbit learnings\", \"coderabbit guidelines\", \"reduce coderabbit noise\", \"coderabbit false positives\". saas-packs read write edit bash(gh:*) grep "
+      "searchText": "coderabbit-core-workflow-b tune review signal with current learnings, detected guideline files, path instructions, and measured feedback. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"tune coderabbit reviews\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-cost-tuning",
       "slug": "coderabbit-cost-tuning",
       "name": "coderabbit-cost-tuning",
-      "description": "Optimize CodeRabbit costs through seat management, repo selection, and review scope tuning. Use when analyzing CodeRabbit billing, reducing per-seat costs, or implementing usage monitoring and budget optimization. Trigger with phrases like \"coderabbit cost\", \"coderabbit billing\", \"reduce coderabbit costs\", \"coderabbit pricing\", \"coderabbit expensive\", \"coderabbit budget\".",
+      "description": "Review plan, seat, limit, and pay-as-you-go usage from current billing evidence without hard-coded prices. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"reduce CodeRabbit cost\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
         "Grep",
-        "Bash(gh:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-cost-tuning optimize coderabbit costs through seat management, repo selection, and review scope tuning. use when analyzing coderabbit billing, reducing per-seat costs, or implementing usage monitoring and budget optimization. trigger with phrases like \"coderabbit cost\", \"coderabbit billing\", \"reduce coderabbit costs\", \"coderabbit pricing\", \"coderabbit expensive\", \"coderabbit budget\". saas-packs read grep bash(gh:*) "
+      "searchText": "coderabbit-cost-tuning review plan, seat, limit, and pay-as-you-go usage from current billing evidence without hard-coded prices. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"reduce coderabbit cost\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-data-handling",
       "slug": "coderabbit-data-handling",
       "name": "coderabbit-data-handling",
-      "description": "Implement CodeRabbit PII handling, data retention, and GDPR/CCPA compliance patterns. Use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for CodeRabbit integrations. Trigger with phrases like \"coderabbit data\", \"coderabbit PII\", \"coderabbit GDPR\", \"coderabbit data retention\", \"coderabbit privacy\", \"coderabbit CCPA\".",
+      "description": "Define code, cache, retention, export, and sensitive-path controls for a repository or organization. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"audit CodeRabbit data handling\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-data-handling implement coderabbit pii handling, data retention, and gdpr/ccpa compliance patterns. use when handling sensitive data, implementing data redaction, configuring retention policies, or ensuring compliance with privacy regulations for coderabbit integrations. trigger with phrases like \"coderabbit data\", \"coderabbit pii\", \"coderabbit gdpr\", \"coderabbit data retention\", \"coderabbit privacy\", \"coderabbit ccpa\". saas-packs read write edit "
+      "searchText": "coderabbit-data-handling define code, cache, retention, export, and sensitive-path controls for a repository or organization. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"audit coderabbit data handling\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-debug-bundle",
       "slug": "coderabbit-debug-bundle",
       "name": "coderabbit-debug-bundle",
-      "description": "Collect CodeRabbit debug evidence for support tickets and troubleshooting. Use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for CodeRabbit problems. Trigger with phrases like \"coderabbit debug\", \"coderabbit support bundle\", \"coderabbit diagnostic\", \"coderabbit not working evidence\".",
+      "description": "Assemble a minimal redacted diagnostic package for configuration, review, CLI, or provider failures. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"build a CodeRabbit debug bundle\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(gh:*)",
-        "Bash(git:*)",
-        "Bash(python3:*)",
-        "Grep"
+        "Glob",
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-debug-bundle collect coderabbit debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for coderabbit problems. trigger with phrases like \"coderabbit debug\", \"coderabbit support bundle\", \"coderabbit diagnostic\", \"coderabbit not working evidence\". saas-packs read bash(gh:*) bash(git:*) bash(python3:*) grep "
+      "searchText": "coderabbit-debug-bundle assemble a minimal redacted diagnostic package for configuration, review, cli, or provider failures. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"build a coderabbit debug bundle\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-deploy-integration",
       "slug": "coderabbit-deploy-integration",
       "name": "coderabbit-deploy-integration",
-      "description": "Roll out CodeRabbit across an organization: multi-repo deployment, org-level config, and team onboarding. Use when deploying CodeRabbit org-wide, creating shared configurations, or onboarding development teams to AI code review. Trigger with phrases like \"deploy coderabbit\", \"coderabbit org rollout\", \"coderabbit multi-repo\", \"coderabbit onboarding\", \"coderabbit team setup\".",
+      "description": "Roll out CodeRabbit with staged installation, central configuration, ownership, evidence, and rollback. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"deploy CodeRabbit organization-wide\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-deploy-integration roll out coderabbit across an organization: multi-repo deployment, org-level config, and team onboarding. use when deploying coderabbit org-wide, creating shared configurations, or onboarding development teams to ai code review. trigger with phrases like \"deploy coderabbit\", \"coderabbit org rollout\", \"coderabbit multi-repo\", \"coderabbit onboarding\", \"coderabbit team setup\". saas-packs read write edit bash(gh:*) bash(git:*) "
+      "searchText": "coderabbit-deploy-integration roll out coderabbit with staged installation, central configuration, ownership, evidence, and rollback. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"deploy coderabbit organization-wide\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-enterprise-rbac",
       "slug": "coderabbit-enterprise-rbac",
       "name": "coderabbit-enterprise-rbac",
-      "description": "Configure CodeRabbit enterprise access control, seat management, and organization policies. Use when managing who gets AI reviews, configuring organization-level defaults, or implementing access policies for CodeRabbit across teams. Trigger with phrases like \"coderabbit SSO\", \"coderabbit RBAC\", \"coderabbit enterprise\", \"coderabbit roles\", \"coderabbit permissions\", \"coderabbit seats\".",
+      "description": "Design and audit roles, seats, API access, and administrative separation for an enterprise organization. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"audit CodeRabbit RBAC\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-enterprise-rbac configure coderabbit enterprise access control, seat management, and organization policies. use when managing who gets ai reviews, configuring organization-level defaults, or implementing access policies for coderabbit across teams. trigger with phrases like \"coderabbit sso\", \"coderabbit rbac\", \"coderabbit enterprise\", \"coderabbit roles\", \"coderabbit permissions\", \"coderabbit seats\". saas-packs read write edit bash(gh:*) "
+      "searchText": "coderabbit-enterprise-rbac design and audit roles, seats, api access, and administrative separation for an enterprise organization. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"audit coderabbit rbac\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-hello-world",
       "slug": "coderabbit-hello-world",
       "name": "coderabbit-hello-world",
-      "description": "Create a minimal working CodeRabbit configuration and trigger your first AI review. Use when starting with CodeRabbit, testing your setup, or learning basic .coderabbit.yaml patterns. Trigger with phrases like \"coderabbit hello world\", \"coderabbit example\", \"coderabbit quick start\", \"first coderabbit review\".",
+      "description": "Run a bounded first pull-request review with minimal supported configuration and explicit cleanup. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"smoke test CodeRabbit\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-hello-world create a minimal working coderabbit configuration and trigger your first ai review. use when starting with coderabbit, testing your setup, or learning basic .coderabbit.yaml patterns. trigger with phrases like \"coderabbit hello world\", \"coderabbit example\", \"coderabbit quick start\", \"first coderabbit review\". saas-packs read write edit bash(gh:*) bash(git:*) "
+      "searchText": "coderabbit-hello-world run a bounded first pull-request review with minimal supported configuration and explicit cleanup. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"smoke test coderabbit\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-incident-runbook",
       "slug": "coderabbit-incident-runbook",
       "name": "coderabbit-incident-runbook",
-      "description": "Execute CodeRabbit incident response procedures when reviews stop working or block PRs. Use when CodeRabbit is down, reviews are not posting, PRs are blocked by stale checks, or CodeRabbit is producing incorrect reviews. Trigger with phrases like \"coderabbit incident\", \"coderabbit outage\", \"coderabbit down\", \"coderabbit broken\", \"coderabbit emergency\", \"coderabbit not reviewing\".",
+      "description": "Coordinate a review outage, harmful-output wave, access incident, or merge-policy failure without silently bypassing safeguards. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"handle a CodeRabbit incident\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
         "Grep",
-        "Bash(gh:*)",
-        "Bash(curl:*)",
-        "Bash(git:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-incident-runbook execute coderabbit incident response procedures when reviews stop working or block prs. use when coderabbit is down, reviews are not posting, prs are blocked by stale checks, or coderabbit is producing incorrect reviews. trigger with phrases like \"coderabbit incident\", \"coderabbit outage\", \"coderabbit down\", \"coderabbit broken\", \"coderabbit emergency\", \"coderabbit not reviewing\". saas-packs read grep bash(gh:*) bash(curl:*) bash(git:*) "
+      "searchText": "coderabbit-incident-runbook coordinate a review outage, harmful-output wave, access incident, or merge-policy failure without silently bypassing safeguards. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"handle a coderabbit incident\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-install-auth",
       "slug": "coderabbit-install-auth",
       "name": "coderabbit-install-auth",
-      "description": "Install and configure CodeRabbit AI code review on GitHub or GitLab repositories. Use when setting up CodeRabbit for the first time, installing the GitHub App, configuring the CLI, or connecting CodeRabbit to your repositories. Trigger with phrases like \"install coderabbit\", \"setup coderabbit\", \"coderabbit auth\", \"configure coderabbit\", \"add coderabbit to repo\".",
+      "description": "Analyze and implement platform installation plus interactive or headless CLI authentication with least privilege. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"install CodeRabbit\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-install-auth install and configure coderabbit ai code review on github or gitlab repositories. use when setting up coderabbit for the first time, installing the github app, configuring the cli, or connecting coderabbit to your repositories. trigger with phrases like \"install coderabbit\", \"setup coderabbit\", \"coderabbit auth\", \"configure coderabbit\", \"add coderabbit to repo\". saas-packs read write edit bash(gh:*) bash(curl:*) "
+      "searchText": "coderabbit-install-auth analyze and implement platform installation plus interactive or headless cli authentication with least privilege. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"install coderabbit\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-local-dev-loop",
       "slug": "coderabbit-local-dev-loop",
       "name": "coderabbit-local-dev-loop",
-      "description": "Configure CodeRabbit CLI for local pre-commit code reviews and fast iteration. Use when setting up local development with CodeRabbit CLI reviews, integrating AI review into your commit workflow, or testing config changes. Trigger with phrases like \"coderabbit dev setup\", \"coderabbit local development\", \"coderabbit CLI workflow\", \"coderabbit pre-commit review\".",
+      "description": "Operate CLI reviews inside an agentic coding loop with bounded diffs, current authentication, and fix verification. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"review local changes with CodeRabbit\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(cr:*)",
-        "Bash(git:*)",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-local-dev-loop configure coderabbit cli for local pre-commit code reviews and fast iteration. use when setting up local development with coderabbit cli reviews, integrating ai review into your commit workflow, or testing config changes. trigger with phrases like \"coderabbit dev setup\", \"coderabbit local development\", \"coderabbit cli workflow\", \"coderabbit pre-commit review\". saas-packs read write edit bash(cr:*) bash(git:*) bash(npm:*) grep "
+      "searchText": "coderabbit-local-dev-loop operate cli reviews inside an agentic coding loop with bounded diffs, current authentication, and fix verification. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"review local changes with coderabbit\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-migration-deep-dive",
       "slug": "coderabbit-migration-deep-dive",
       "name": "coderabbit-migration-deep-dive",
-      "description": "Migrate to CodeRabbit from other code review tools or roll out across a large organization. Use when switching from another AI review tool, migrating from manual-only reviews, or planning a phased CodeRabbit adoption strategy. Trigger with phrases like \"migrate to coderabbit\", \"coderabbit migration\", \"switch to coderabbit\", \"coderabbit from reviewbot\", \"adopt coderabbit\", \"replace code review tool\".",
+      "description": "Migrate from another review process through measured coexistence, control mapping, and reversible cohorts. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"migrate to CodeRabbit\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-migration-deep-dive migrate to coderabbit from other code review tools or roll out across a large organization. use when switching from another ai review tool, migrating from manual-only reviews, or planning a phased coderabbit adoption strategy. trigger with phrases like \"migrate to coderabbit\", \"coderabbit migration\", \"switch to coderabbit\", \"coderabbit from reviewbot\", \"adopt coderabbit\", \"replace code review tool\". saas-packs read write edit bash(gh:*) bash(git:*) grep "
+      "searchText": "coderabbit-migration-deep-dive migrate from another review process through measured coexistence, control mapping, and reversible cohorts. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"migrate to coderabbit\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-multi-env-setup",
       "slug": "coderabbit-multi-env-setup",
       "name": "coderabbit-multi-env-setup",
-      "description": "Configure CodeRabbit review behavior per branch and environment using path instructions and base branches. Use when setting different review profiles per branch, configuring stricter reviews for release branches, or customizing CodeRabbit behavior across dev/staging/prod workflows. Trigger with phrases like \"coderabbit environments\", \"coderabbit staging\", \"coderabbit per-branch config\", \"coderabbit release review\", \"coderabbit environment setup\".",
+      "description": "Design behavior for default, development, release, and hotfix targets using supported auto-review controls. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"configure CodeRabbit by branch\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-multi-env-setup configure coderabbit review behavior per branch and environment using path instructions and base branches. use when setting different review profiles per branch, configuring stricter reviews for release branches, or customizing coderabbit behavior across dev/staging/prod workflows. trigger with phrases like \"coderabbit environments\", \"coderabbit staging\", \"coderabbit per-branch config\", \"coderabbit release review\", \"coderabbit environment setup\". saas-packs read write edit bash(gh:*) bash(git:*) "
+      "searchText": "coderabbit-multi-env-setup design behavior for default, development, release, and hotfix targets using supported auto-review controls. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"configure coderabbit by branch\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-observability",
       "slug": "coderabbit-observability",
       "name": "coderabbit-observability",
-      "description": "Monitor CodeRabbit review effectiveness with metrics, dashboards, and alerts. Use when tracking review coverage, measuring comment acceptance rates, or building dashboards for CodeRabbit adoption across your organization. Trigger with phrases like \"coderabbit monitoring\", \"coderabbit metrics\", \"coderabbit observability\", \"monitor coderabbit\", \"coderabbit alerts\", \"coderabbit dashboard\".",
+      "description": "Measure review adoption, latency, findings, usage, and outcomes from documented dashboards, exports, reports, or API data. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"measure CodeRabbit reviews\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(node:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-observability monitor coderabbit review effectiveness with metrics, dashboards, and alerts. use when tracking review coverage, measuring comment acceptance rates, or building dashboards for coderabbit adoption across your organization. trigger with phrases like \"coderabbit monitoring\", \"coderabbit metrics\", \"coderabbit observability\", \"monitor coderabbit\", \"coderabbit alerts\", \"coderabbit dashboard\". saas-packs read write edit bash(gh:*) bash(node:*) "
+      "searchText": "coderabbit-observability measure review adoption, latency, findings, usage, and outcomes from documented dashboards, exports, reports, or api data. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"measure coderabbit reviews\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-performance-tuning",
       "slug": "coderabbit-performance-tuning",
       "name": "coderabbit-performance-tuning",
-      "description": "Optimize CodeRabbit review speed, relevance, and signal-to-noise ratio. Use when reviews take too long, contain too many irrelevant comments, or when teams are experiencing review fatigue. Trigger with phrases like \"coderabbit performance\", \"optimize coderabbit\", \"coderabbit slow\", \"coderabbit noise\", \"coderabbit too many comments\", \"coderabbit relevance\".",
+      "description": "Improve review speed and signal using measured scope, config, cache, and review behavior without timing bands. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"tune CodeRabbit performance\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-performance-tuning optimize coderabbit review speed, relevance, and signal-to-noise ratio. use when reviews take too long, contain too many irrelevant comments, or when teams are experiencing review fatigue. trigger with phrases like \"coderabbit performance\", \"optimize coderabbit\", \"coderabbit slow\", \"coderabbit noise\", \"coderabbit too many comments\", \"coderabbit relevance\". saas-packs read write edit bash(gh:*) "
+      "searchText": "coderabbit-performance-tuning improve review speed and signal using measured scope, config, cache, and review behavior without timing bands. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"tune coderabbit performance\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-prod-checklist",
       "slug": "coderabbit-prod-checklist",
       "name": "coderabbit-prod-checklist",
-      "description": "Execute CodeRabbit production readiness checklist for org-wide deployment. Use when preparing to enforce CodeRabbit reviews, going live with required checks, or auditing CodeRabbit configuration before making it a merge gate. Trigger with phrases like \"coderabbit production\", \"coderabbit go-live\", \"coderabbit launch checklist\", \"coderabbit readiness\", \"coderabbit pre-launch\".",
+      "description": "Make an evidence-backed go-live decision for installation, configuration, governance, security, continuity, and operations. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"review CodeRabbit go-live\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(gh:*)",
-        "Bash(git:*)",
-        "Grep"
+        "Glob",
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-prod-checklist execute coderabbit production readiness checklist for org-wide deployment. use when preparing to enforce coderabbit reviews, going live with required checks, or auditing coderabbit configuration before making it a merge gate. trigger with phrases like \"coderabbit production\", \"coderabbit go-live\", \"coderabbit launch checklist\", \"coderabbit readiness\", \"coderabbit pre-launch\". saas-packs read bash(gh:*) bash(git:*) grep "
+      "searchText": "coderabbit-prod-checklist make an evidence-backed go-live decision for installation, configuration, governance, security, continuity, and operations. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"review coderabbit go-live\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-rate-limits",
       "slug": "coderabbit-rate-limits",
       "name": "coderabbit-rate-limits",
-      "description": "Understand and handle CodeRabbit and GitHub API rate limits for review automation. Use when hitting rate limits on @coderabbitai commands, automating review queries, or building scripts that interact with CodeRabbit via the GitHub API. Trigger with phrases like \"coderabbit rate limit\", \"coderabbit throttling\", \"coderabbit too many requests\", \"github api rate limit coderabbit\".",
+      "description": "Analyze PR, IDE, and CLI limits using the current per-developer hourly contract and usage evidence. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"check CodeRabbit rate limits\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-rate-limits understand and handle coderabbit and github api rate limits for review automation. use when hitting rate limits on @coderabbitai commands, automating review queries, or building scripts that interact with coderabbit via the github api. trigger with phrases like \"coderabbit rate limit\", \"coderabbit throttling\", \"coderabbit too many requests\", \"github api rate limit coderabbit\". saas-packs read write edit bash(gh:*) bash(curl:*) "
+      "searchText": "coderabbit-rate-limits analyze pr, ide, and cli limits using the current per-developer hourly contract and usage evidence. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"check coderabbit rate limits\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-reference-architecture",
       "slug": "coderabbit-reference-architecture",
       "name": "coderabbit-reference-architecture",
-      "description": "Implement CodeRabbit reference architecture with production-grade .coderabbit.yaml configuration. Use when designing review configuration for a new project, establishing team standards, or building a comprehensive review setup from scratch. Trigger with phrases like \"coderabbit architecture\", \"coderabbit best practices\", \"coderabbit project structure\", \"coderabbit reference config\", \"coderabbit full setup\".",
+      "description": "Design a governed deployment across provider, configuration, review, knowledge, tools, data, identity, and observability. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"design CodeRabbit architecture\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-reference-architecture implement coderabbit reference architecture with production-grade .coderabbit.yaml configuration. use when designing review configuration for a new project, establishing team standards, or building a comprehensive review setup from scratch. trigger with phrases like \"coderabbit architecture\", \"coderabbit best practices\", \"coderabbit project structure\", \"coderabbit reference config\", \"coderabbit full setup\". saas-packs read write edit bash(gh:*) grep "
+      "searchText": "coderabbit-reference-architecture design a governed deployment across provider, configuration, review, knowledge, tools, data, identity, and observability. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"design coderabbit architecture\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-sdk-patterns",
       "slug": "coderabbit-sdk-patterns",
       "name": "coderabbit-sdk-patterns",
-      "description": "Apply production-ready CodeRabbit automation patterns using GitHub API and PR comments. Use when building automation around CodeRabbit reviews, processing review feedback programmatically, or integrating CodeRabbit into custom workflows. Trigger with phrases like \"coderabbit automation\", \"coderabbit API patterns\", \"automate coderabbit\", \"coderabbit github api\", \"process coderabbit reviews\".",
+      "description": "Build a least-privilege adapter for documented REST API operations without inventing endpoints or treating PR comments as an SDK. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"integrate with the CodeRabbit API\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(node:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-sdk-patterns apply production-ready coderabbit automation patterns using github api and pr comments. use when building automation around coderabbit reviews, processing review feedback programmatically, or integrating coderabbit into custom workflows. trigger with phrases like \"coderabbit automation\", \"coderabbit api patterns\", \"automate coderabbit\", \"coderabbit github api\", \"process coderabbit reviews\". saas-packs read write edit bash(gh:*) bash(node:*) "
+      "searchText": "coderabbit-sdk-patterns build a least-privilege adapter for documented rest api operations without inventing endpoints or treating pr comments as an sdk. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"integrate with the coderabbit api\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-security-basics",
       "slug": "coderabbit-security-basics",
       "name": "coderabbit-security-basics",
-      "description": "Configure CodeRabbit for security-focused code review with secret detection and vulnerability scanning. Use when setting up security review rules, configuring secret detection in PRs, or hardening CodeRabbit configuration for compliance requirements. Trigger with phrases like \"coderabbit security\", \"coderabbit secrets\", \"secure coderabbit\", \"coderabbit vulnerability detection\", \"coderabbit security review\".",
+      "description": "Configure and audit security review capabilities as one layer in a defense-in-depth pull-request program. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"secure CodeRabbit reviews\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-security-basics configure coderabbit for security-focused code review with secret detection and vulnerability scanning. use when setting up security review rules, configuring secret detection in prs, or hardening coderabbit configuration for compliance requirements. trigger with phrases like \"coderabbit security\", \"coderabbit secrets\", \"secure coderabbit\", \"coderabbit vulnerability detection\", \"coderabbit security review\". saas-packs read write edit bash(gh:*) grep "
+      "searchText": "coderabbit-security-basics configure and audit security review capabilities as one layer in a defense-in-depth pull-request program. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"secure coderabbit reviews\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-upgrade-migration",
       "slug": "coderabbit-upgrade-migration",
       "name": "coderabbit-upgrade-migration",
-      "description": "Update CodeRabbit configuration for new features, migrate between plans, and adopt new capabilities. Use when CodeRabbit releases new features, upgrading from Free to Pro plan, or updating .coderabbit.yaml schema for new options. Trigger with phrases like \"upgrade coderabbit\", \"coderabbit new features\", \"update coderabbit config\", \"coderabbit plan upgrade\", \"coderabbit changelog\".",
+      "description": "Analyze and upgrade configuration, plan-enabled features, tools, or platform integration through schema validation and reversible rollout. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"upgrade CodeRabbit configuration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-upgrade-migration update coderabbit configuration for new features, migrate between plans, and adopt new capabilities. use when coderabbit releases new features, upgrading from free to pro plan, or updating .coderabbit.yaml schema for new options. trigger with phrases like \"upgrade coderabbit\", \"coderabbit new features\", \"update coderabbit config\", \"coderabbit plan upgrade\", \"coderabbit changelog\". saas-packs read write edit bash(gh:*) bash(git:*) "
+      "searchText": "coderabbit-upgrade-migration analyze and upgrade configuration, plan-enabled features, tools, or platform integration through schema validation and reversible rollout. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"upgrade coderabbit configuration\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "coderabbit-webhooks-events",
       "slug": "coderabbit-webhooks-events",
       "name": "coderabbit-webhooks-events",
-      "description": "Implement CodeRabbit webhook signature validation and event handling. Use when setting up webhook endpoints, implementing signature verification, or handling CodeRabbit event notifications securely. Trigger with phrases like \"coderabbit webhook\", \"coderabbit events\", \"coderabbit webhook signature\", \"handle coderabbit events\", \"coderabbit notifications\".",
+      "description": "Build customer-owned automation around Git-provider events containing CodeRabbit reviews without claiming a separate CodeRabbit webhook contract. Use when this operator task needs a current, evidence-backed CodeRabbit workflow. Trigger with \"automate CodeRabbit review events\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "coderabbit-pack",
         "category": "saas-packs"
       },
-      "searchText": "coderabbit-webhooks-events implement coderabbit webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling coderabbit event notifications securely. trigger with phrases like \"coderabbit webhook\", \"coderabbit events\", \"coderabbit webhook signature\", \"handle coderabbit events\", \"coderabbit notifications\". saas-packs read write edit bash(curl:*) "
+      "searchText": "coderabbit-webhooks-events build customer-owned automation around git-provider events containing coderabbit reviews without claiming a separate coderabbit webhook contract. use when this operator task needs a current, evidence-backed coderabbit workflow. trigger with \"automate coderabbit review events\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
