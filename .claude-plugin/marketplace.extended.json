@@ -9601,14 +9601,16 @@
     {
       "name": "palantir-pack",
       "source": "./plugins/saas-packs/palantir-pack",
-      "description": "Claude Code skill pack for Palantir (24 skills)",
-      "version": "1.5.0",
+      "description": "Evidence-backed Palantir Foundry operator workflows for data pipelines, Ontology applications, DevOps, governance, security, and operations (24 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "palantir",
-        "saas",
-        "sdk",
-        "integration"
+        "foundry",
+        "ontology",
+        "devops",
+        "data-governance",
+        "security"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -9619,10 +9621,10 @@
         "skills": 24
       },
       "verification": {
-        "score": 85,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 98,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-12T00:00:00.000Z"
       }
     },
     {

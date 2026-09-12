@@ -14,16 +14,16 @@
     "source": "scripts/validate-skills-schema.py --marketplace --skills-only --json",
     "status": "measured",
     "values": {
-      "a_error_total": 30,
-      "a_failing": 13,
-      "ab_error_total": 291,
-      "ab_failing": 141,
-      "b_failing": 128,
-      "error_files": 398,
-      "error_total": 2919,
+      "a_error_total": 29,
+      "a_failing": 12,
+      "ab_error_total": 274,
+      "ab_failing": 124,
+      "b_failing": 112,
+      "error_files": 381,
+      "error_total": 2902,
       "grade_distribution": {
-        "A": 2604,
-        "B": 594,
+        "A": 2626,
+        "B": 572,
         "C": 135,
         "D": 154,
         "F": 4
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25296
+        "tracked_files": 25346
       }
     },
     "2": {
@@ -90,8 +90,8 @@
           "validator_reported_mixed_denominator_percent": 80.9
         },
         "marketplace_terminal": {
-          "error_total_all_validated_surfaces": 3156,
-          "fully_compliant_surfaces": 1770,
+          "error_total_all_validated_surfaces": 3139,
+          "fully_compliant_surfaces": 1794,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,19 +101,19 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 36.8
+          "validator_reported_mixed_denominator_percent": 37.3
         },
         "skill_rows": {
-          "a_error_total": 30,
-          "a_failing": 13,
-          "ab_error_total": 291,
-          "ab_failing": 141,
-          "b_failing": 128,
-          "error_files": 398,
-          "error_total": 2919,
+          "a_error_total": 29,
+          "a_failing": 12,
+          "ab_error_total": 274,
+          "ab_failing": 124,
+          "b_failing": 112,
+          "error_files": 381,
+          "error_total": 2902,
           "grade_distribution": {
-            "A": 2604,
-            "B": 594,
+            "A": 2626,
+            "B": 572,
             "C": 135,
             "D": 154,
             "F": 4
@@ -129,17 +129,17 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "average_score": 91,
+        "average_score": 91.1,
         "grade_distribution": {
-          "A": 2604,
-          "B": 594,
+          "A": 2626,
+          "B": 572,
           "C": 135,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 74.6,
-          "B": 17,
+          "A": 75.2,
+          "B": 16.4,
           "C": 3.9,
           "D": 4.4,
           "F": 0.1
@@ -154,12 +154,12 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "a_error_total": 30,
-        "a_failing": 13,
-        "ab_error_total": 291,
-        "ab_failing": 141,
-        "b_error_total": 261,
-        "b_failing": 128,
+        "a_error_total": 29,
+        "a_failing": 12,
+        "ab_error_total": 274,
+        "ab_failing": 124,
+        "b_error_total": 245,
+        "b_failing": 112,
         "certified_target": 0,
         "skill_summary_rows": 3491
       }
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 255,
+        "distinct_values": 256,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -367,7 +367,7 @@
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2525,
+            "count": 2501,
             "value": "Designed for Claude Code"
           },
           {
@@ -1281,6 +1281,10 @@
           {
             "count": 24,
             "value": "Requires current CodeRabbit documentation and approved access for any live organization, repository, billing, or API change"
+          },
+          {
+            "count": 24,
+            "value": "Requires current Palantir Foundry documentation and approved access for any live resource, permission, data, build, application, or deployment change"
           },
           {
             "count": 1,
@@ -2732,7 +2736,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25296
+        "tracked_files": 25346
       }
     },
     "47": {
@@ -2817,15 +2821,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-118.json",
+        "freshie/reports/run-delta-119.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "kto4f13vpg565gcfiilriiofuf1o9s2h",
+        "dolt_commit": "fhk06tuhmnh0si9mfpfi0t6h7irjsdsk",
         "header_total_skills": 2914,
-        "run_id": 118,
+        "run_id": 119,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -2838,32 +2842,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-118.json"
+        "freshie/reports/run-delta-119.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "kto4f13vpg565gcfiilriiofuf1o9s2h",
-        "export_run_id": 118,
+        "export_dolt_commit": "fhk06tuhmnh0si9mfpfi0t6h7irjsdsk",
+        "export_run_id": 119,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "36195caca1f2742e6f8519afd2e632a5381e2b6aa3bf2b62c478fb71c873bc75",
+        "grades_csv_sha256": "e94ae3c41ea04c632e5733273514aa13775adf9a5c578ecdde985ec51edd961f",
         "histogram_grades": {
-          "A": 2604,
-          "B": 594,
+          "A": 2626,
+          "B": 572,
           "C": 135,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2604,
-          "B": 594,
+          "A": 2626,
+          "B": 572,
           "C": 135,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "kto4f13vpg565gcfiilriiofuf1o9s2h",
-        "inventory_run_id": 118,
+        "inventory_dolt_commit": "fhk06tuhmnh0si9mfpfi0t6h7irjsdsk",
+        "inventory_run_id": 119,
         "target_lag_runs": 0
       }
     },
@@ -2873,7 +2877,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-118.json",
+        "freshie/reports/run-delta-119.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -2887,7 +2891,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 118,
+        "current_run_id": 119,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -2911,7 +2915,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-118.json",
+        "freshie/reports/run-delta-119.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
