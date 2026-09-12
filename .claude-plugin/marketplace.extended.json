@@ -7318,8 +7318,8 @@
     {
       "name": "coderabbit-pack",
       "source": "./plugins/saas-packs/coderabbit-pack",
-      "description": "Complete CodeRabbit integration skill pack with 24 skills covering AI code review, PR automation, and code quality analysis. Flagship tier vendor pack.",
-      "version": "1.11.0",
+      "description": "Evidence-backed CodeRabbit operator workflows for reviews, CLI, configuration, security, governance, APIs, and incident response (24 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "coderabbit",
@@ -7338,10 +7338,10 @@
         "skills": 24
       },
       "verification": {
-        "score": 85,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 98,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-12T00:00:00.000Z"
       }
     },
     {
