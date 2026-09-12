@@ -9935,14 +9935,16 @@
       "slug": "palantir-pack",
       "name": "palantir-pack",
       "displayName": "palantir pack",
-      "description": "Claude Code skill pack for Palantir (24 skills)",
-      "version": "1.5.0",
+      "description": "Evidence-backed Palantir Foundry operator workflows for data pipelines, Ontology applications, DevOps, governance, security, and operations (24 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "palantir",
-        "saas",
-        "sdk",
-        "integration"
+        "foundry",
+        "ontology",
+        "devops",
+        "data-governance",
+        "security"
       ],
       "hasSkills": true,
       "skillCount": 24,
