@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "da43fbd713042d2254c8de1c21218f80bd7c6ca07be17291ae19189e8d219276",
+    "sha256": "bcbd95d9b78083ac8ef5602d0c390b453e39bf214d5c9e09dcf6a89fec6965a9",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -10454,8 +10454,8 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-ci-integration/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10466,7 +10466,7 @@
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-common-errors/SKILL.md",
       "grade": "A",
-      "score": 91,
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10476,105 +10476,6 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-core-workflow-a/SKILL.md",
-      "grade": "C",
-      "score": 76,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 80,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 88,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 85,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 85,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 82,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-install-auth/SKILL.md",
-      "grade": "B",
-      "score": 85,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/anima-pack/skills/anima-prod-checklist/SKILL.md",
       "grade": "A",
       "score": 90,
       "diagnostics": [],
@@ -10585,9 +10486,108 @@
       ]
     },
     {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-core-workflow-b/SKILL.md",
+      "grade": "A",
+      "score": 93,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-cost-tuning/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-debug-bundle/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-deploy-integration/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-hello-world/SKILL.md",
+      "grade": "A",
+      "score": 91,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-install-auth/SKILL.md",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-local-dev-loop/SKILL.md",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-performance-tuning/SKILL.md",
+      "grade": "A",
+      "score": 93,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/anima-pack/skills/anima-prod-checklist/SKILL.md",
+      "grade": "A",
+      "score": 99,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
       "path": "plugins/saas-packs/anima-pack/skills/anima-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10597,8 +10597,8 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-reference-architecture/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 98,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10608,8 +10608,8 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 80,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10619,8 +10619,8 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-security-basics/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10630,8 +10630,8 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10641,8 +10641,8 @@
     },
     {
       "path": "plugins/saas-packs/anima-pack/skills/anima-webhooks-events/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",

@@ -11813,7 +11813,7 @@
       "slug": "anima-pack",
       "name": "anima-pack",
       "displayName": "anima pack",
-      "description": "Claude Code skill pack for Anima (18 skills)",
+      "description": "Anima design-to-code operator pack with 18 production-grade skills",
       "category": "saas-packs",
       "keywords": [
         "anima",
@@ -11827,15 +11827,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.4.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 85,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "anima pack claude code skill pack for anima (18 skills) saas-packs anima saas sdk integration"
+      "verificationScore": 95,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "anima pack anima design-to-code operator pack with 18 production-grade skills saas-packs anima saas sdk integration"
     },
     {
       "type": "plugin",
@@ -17824,7 +17824,7 @@
       "id": "anima-ci-integration",
       "slug": "anima-ci-integration",
       "name": "anima-ci-integration",
-      "description": "Configure CI/CD pipeline for automated Figma-to-code generation with Anima. Use when automating design-to-code in GitHub Actions, setting up PR-based component generation, or integrating Anima into design handoff workflows. Trigger: \"anima CI\", \"anima GitHub Actions\", \"anima automated generation\".",
+      "description": "Configure CI/CD pipeline for automated Figma-to-code generation with Anima. Use when automating design-to-code in GitHub Actions, setting up PR-based component generation, or integrating Anima into design handoff workflows. Trigger with: \"anima CI\", \"anima GitHub Actions\", \"anima automated generation\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17834,19 +17834,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-ci-integration configure ci/cd pipeline for automated figma-to-code generation with anima. use when automating design-to-code in github actions, setting up pr-based component generation, or integrating anima into design handoff workflows. trigger: \"anima ci\", \"anima github actions\", \"anima automated generation\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "anima-ci-integration configure ci/cd pipeline for automated figma-to-code generation with anima. use when automating design-to-code in github actions, setting up pr-based component generation, or integrating anima into design handoff workflows. trigger with: \"anima ci\", \"anima github actions\", \"anima automated generation\". saas-packs read write edit bash(npm:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-common-errors",
       "slug": "anima-common-errors",
       "name": "anima-common-errors",
-      "description": "Diagnose and fix common Anima SDK design-to-code errors. Use when encountering Figma token errors, code generation failures, node not found issues, or output quality problems. Trigger: \"anima error\", \"anima not working\", \"anima debug\", \"figma to code error\".",
+      "description": "Diagnose and fix common Anima SDK design-to-code errors. Use when encountering Figma token errors, code generation failures, node not found issues, or output quality problems. Trigger with: \"anima error\", \"anima not working\", \"anima debug\", \"figma to code error\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17856,19 +17856,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-common-errors diagnose and fix common anima sdk design-to-code errors. use when encountering figma token errors, code generation failures, node not found issues, or output quality problems. trigger: \"anima error\", \"anima not working\", \"anima debug\", \"figma to code error\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "anima-common-errors diagnose and fix common anima sdk design-to-code errors. use when encountering figma token errors, code generation failures, node not found issues, or output quality problems. trigger with: \"anima error\", \"anima not working\", \"anima debug\", \"figma to code error\". saas-packs read write edit bash(curl:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-core-workflow-a",
       "slug": "anima-core-workflow-a",
       "name": "anima-core-workflow-a",
-      "description": "Build automated Figma-to-React pipeline with the Anima SDK. Use when automating design handoff, building CI/CD design-to-code workflows, or creating a design system code generator from Figma components. Trigger: \"anima design pipeline\", \"figma to react pipeline\", \"automated design handoff\", \"anima component generator\".",
+      "description": "Build automated Figma-to-React pipeline with the Anima SDK. Use when automating design handoff, building CI/CD design-to-code workflows, or creating a design system code generator from Figma components. Trigger with: \"anima design pipeline\", \"figma to react pipeline\", \"automated design handoff\", \"anima component generator\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17878,19 +17878,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-core-workflow-a build automated figma-to-react pipeline with the anima sdk. use when automating design handoff, building ci/cd design-to-code workflows, or creating a design system code generator from figma components. trigger: \"anima design pipeline\", \"figma to react pipeline\", \"automated design handoff\", \"anima component generator\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "anima-core-workflow-a build automated figma-to-react pipeline with the anima sdk. use when automating design handoff, building ci/cd design-to-code workflows, or creating a design system code generator from figma components. trigger with: \"anima design pipeline\", \"figma to react pipeline\", \"automated design handoff\", \"anima component generator\". saas-packs read write edit bash(npm:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-core-workflow-b",
       "slug": "anima-core-workflow-b",
       "name": "anima-core-workflow-b",
-      "description": "Clone websites to React/HTML code and customize Anima output with AI. Use when converting live websites to code, customizing generated components, or building design-system-aware code from URL screenshots. Trigger: \"anima website to code\", \"anima URL clone\", \"anima AI customization\", \"website to react\", \"clone website to code\".",
+      "description": "Clone websites to React/HTML code and customize Anima output with AI. Use when converting live websites to code, customizing generated components, or building design-system-aware code from URL screenshots. Trigger with: \"anima website to code\", \"anima URL clone\", \"anima AI customization\", \"website to react\", \"clone website to code\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17900,19 +17900,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-core-workflow-b clone websites to react/html code and customize anima output with ai. use when converting live websites to code, customizing generated components, or building design-system-aware code from url screenshots. trigger: \"anima website to code\", \"anima url clone\", \"anima ai customization\", \"website to react\", \"clone website to code\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "anima-core-workflow-b clone websites to react/html code and customize anima output with ai. use when converting live websites to code, customizing generated components, or building design-system-aware code from url screenshots. trigger with: \"anima website to code\", \"anima url clone\", \"anima ai customization\", \"website to react\", \"clone website to code\". saas-packs read write edit bash(npm:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-cost-tuning",
       "slug": "anima-cost-tuning",
       "name": "anima-cost-tuning",
-      "description": "Optimize Anima API costs through caching, incremental generation, and tier selection. Use when managing Anima API usage, reducing unnecessary code generations, or right-sizing your Anima plan for team size. Trigger: \"anima cost\", \"anima pricing\", \"anima budget\", \"anima API usage\".",
+      "description": "Optimize Anima API costs through caching, incremental generation, and tier selection. Use when managing Anima API usage, reducing unnecessary code generations, or right-sizing your Anima plan for team size. Trigger with: \"anima cost\", \"anima pricing\", \"anima budget\", \"anima API usage\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17921,19 +17921,19 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-cost-tuning optimize anima api costs through caching, incremental generation, and tier selection. use when managing anima api usage, reducing unnecessary code generations, or right-sizing your anima plan for team size. trigger: \"anima cost\", \"anima pricing\", \"anima budget\", \"anima api usage\". saas-packs read write edit bash(npm:*) "
+      "searchText": "anima-cost-tuning optimize anima api costs through caching, incremental generation, and tier selection. use when managing anima api usage, reducing unnecessary code generations, or right-sizing your anima plan for team size. trigger with: \"anima cost\", \"anima pricing\", \"anima budget\", \"anima api usage\". saas-packs read write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "anima-debug-bundle",
       "slug": "anima-debug-bundle",
       "name": "anima-debug-bundle",
-      "description": "Collect Anima SDK debug evidence for support tickets and troubleshooting. Use when filing Anima support requests, debugging code generation issues, or collecting diagnostic data for the Anima team. Trigger: \"anima debug bundle\", \"anima support ticket\", \"anima diagnostics\".",
+      "description": "Collect Anima SDK debug evidence for support tickets and troubleshooting. Use when filing Anima support requests, debugging code generation issues, or collecting diagnostic data for the Anima team. Trigger with: \"anima debug bundle\", \"anima support ticket\", \"anima diagnostics\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17944,19 +17944,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-debug-bundle collect anima sdk debug evidence for support tickets and troubleshooting. use when filing anima support requests, debugging code generation issues, or collecting diagnostic data for the anima team. trigger: \"anima debug bundle\", \"anima support ticket\", \"anima diagnostics\". saas-packs read write edit bash(curl:*) bash(node:*) grep "
+      "searchText": "anima-debug-bundle collect anima sdk debug evidence for support tickets and troubleshooting. use when filing anima support requests, debugging code generation issues, or collecting diagnostic data for the anima team. trigger with: \"anima debug bundle\", \"anima support ticket\", \"anima diagnostics\". saas-packs read write edit bash(curl:*) bash(node:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-deploy-integration",
       "slug": "anima-deploy-integration",
       "name": "anima-deploy-integration",
-      "description": "Deploy Anima design-to-code service as a backend API endpoint. Use when building a design-to-code microservice, deploying Anima SDK as a serverless function, or creating an internal design tool API. Trigger: \"deploy anima\", \"anima service deploy\", \"anima serverless\".",
+      "description": "Deploy Anima design-to-code service as a backend API endpoint. Use when building a design-to-code microservice, deploying Anima SDK as a serverless function, or creating an internal design tool API. Trigger with: \"deploy anima\", \"anima service deploy\", \"anima serverless\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17967,19 +17967,19 @@
         "Bash(docker:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-deploy-integration deploy anima design-to-code service as a backend api endpoint. use when building a design-to-code microservice, deploying anima sdk as a serverless function, or creating an internal design tool api. trigger: \"deploy anima\", \"anima service deploy\", \"anima serverless\". saas-packs read write edit bash(vercel:*) bash(gcloud:*) bash(docker:*) "
+      "searchText": "anima-deploy-integration deploy anima design-to-code service as a backend api endpoint. use when building a design-to-code microservice, deploying anima sdk as a serverless function, or creating an internal design tool api. trigger with: \"deploy anima\", \"anima service deploy\", \"anima serverless\". saas-packs read write edit bash(vercel:*) bash(gcloud:*) bash(docker:*) "
     },
     {
       "type": "skill",
       "id": "anima-hello-world",
       "slug": "anima-hello-world",
       "name": "anima-hello-world",
-      "description": "Generate React/Vue/HTML code from a Figma design using the Anima SDK. Use when testing design-to-code conversion, learning Anima's code output format, or building your first automated design-to-code pipeline. Trigger: \"anima hello world\", \"anima example\", \"figma to react\", \"figma to code\", \"anima generate code\".",
+      "description": "Generate reviewable React or HTML code from a Figma design using the Anima SDK. Use when testing design-to-code conversion, learning Anima's code output format, or building your first automated design-to-code pipeline. Trigger with: \"anima hello world\", \"anima example\", \"figma to react\", \"figma to code\", \"anima generate code\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -17988,19 +17988,19 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-hello-world generate react/vue/html code from a figma design using the anima sdk. use when testing design-to-code conversion, learning anima's code output format, or building your first automated design-to-code pipeline. trigger: \"anima hello world\", \"anima example\", \"figma to react\", \"figma to code\", \"anima generate code\". saas-packs read write edit bash(npm:*) "
+      "searchText": "anima-hello-world generate reviewable react or html code from a figma design using the anima sdk. use when testing design-to-code conversion, learning anima's code output format, or building your first automated design-to-code pipeline. trigger with: \"anima hello world\", \"anima example\", \"figma to react\", \"figma to code\", \"anima generate code\". saas-packs read write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "anima-install-auth",
       "slug": "anima-install-auth",
       "name": "anima-install-auth",
-      "description": "Install the Anima SDK and configure authentication for Figma-to-code generation. Use when setting up design-to-code automation, configuring Figma token access, or initializing the @animaapp/anima-sdk for server-side code generation. Trigger: \"install anima\", \"setup anima\", \"anima auth\", \"anima figma token\".",
+      "description": "Install the Anima SDK and configure authentication for Figma-to-code generation. Use when setting up design-to-code automation, configuring Figma token access, or initializing the @animaapp/anima-sdk for server-side code generation. Trigger with: \"install anima\", \"setup anima\", \"anima auth\", \"anima figma token\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18010,19 +18010,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-install-auth install the anima sdk and configure authentication for figma-to-code generation. use when setting up design-to-code automation, configuring figma token access, or initializing the @animaapp/anima-sdk for server-side code generation. trigger: \"install anima\", \"setup anima\", \"anima auth\", \"anima figma token\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "anima-install-auth install the anima sdk and configure authentication for figma-to-code generation. use when setting up design-to-code automation, configuring figma token access, or initializing the @animaapp/anima-sdk for server-side code generation. trigger with: \"install anima\", \"setup anima\", \"anima auth\", \"anima figma token\". saas-packs read write edit bash(npm:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-local-dev-loop",
       "slug": "anima-local-dev-loop",
       "name": "anima-local-dev-loop",
-      "description": "Set up iterative design-to-code development loop with Anima SDK. Use when rapidly iterating on Figma-to-code output, comparing framework outputs, or building a local preview server for generated components. Trigger: \"anima local dev\", \"anima dev loop\", \"anima preview\", \"anima iteration\".",
+      "description": "Set up iterative design-to-code development loop with Anima SDK. Use when rapidly iterating on Figma-to-code output, comparing framework outputs, or building a local preview server for generated components. Trigger with: \"anima local dev\", \"anima dev loop\", \"anima preview\", \"anima iteration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18032,19 +18032,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-local-dev-loop set up iterative design-to-code development loop with anima sdk. use when rapidly iterating on figma-to-code output, comparing framework outputs, or building a local preview server for generated components. trigger: \"anima local dev\", \"anima dev loop\", \"anima preview\", \"anima iteration\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "anima-local-dev-loop set up iterative design-to-code development loop with anima sdk. use when rapidly iterating on figma-to-code output, comparing framework outputs, or building a local preview server for generated components. trigger with: \"anima local dev\", \"anima dev loop\", \"anima preview\", \"anima iteration\". saas-packs read write edit bash(npm:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-performance-tuning",
       "slug": "anima-performance-tuning",
       "name": "anima-performance-tuning",
-      "description": "Optimize Anima code generation performance with caching, parallelism, and output tuning. Use when reducing generation latency, optimizing batch component generation, or improving generated code quality for production use. Trigger: \"anima performance\", \"anima slow\", \"anima optimization\", \"anima caching\".",
+      "description": "Optimize Anima code generation performance with caching, parallelism, and output tuning. Use when reducing generation latency, optimizing batch component generation, or improving generated code quality for production use. Trigger with: \"anima performance\", \"anima slow\", \"anima optimization\", \"anima caching\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18053,19 +18053,19 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-performance-tuning optimize anima code generation performance with caching, parallelism, and output tuning. use when reducing generation latency, optimizing batch component generation, or improving generated code quality for production use. trigger: \"anima performance\", \"anima slow\", \"anima optimization\", \"anima caching\". saas-packs read write edit bash(npm:*) "
+      "searchText": "anima-performance-tuning optimize anima code generation performance with caching, parallelism, and output tuning. use when reducing generation latency, optimizing batch component generation, or improving generated code quality for production use. trigger with: \"anima performance\", \"anima slow\", \"anima optimization\", \"anima caching\". saas-packs read write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "anima-prod-checklist",
       "slug": "anima-prod-checklist",
       "name": "anima-prod-checklist",
-      "description": "Production readiness checklist for Anima design-to-code pipelines. Use when deploying automated design-to-code services, preparing CI/CD Figma-to-code automation, or validating output quality before production. Trigger: \"anima production\", \"anima go-live\", \"anima prod checklist\".",
+      "description": "Production readiness checklist for Anima design-to-code pipelines. Use when deploying automated design-to-code services, preparing CI/CD Figma-to-code automation, or validating output quality before production. Trigger with: \"anima production\", \"anima go-live\", \"anima prod checklist\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18075,19 +18075,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-prod-checklist production readiness checklist for anima design-to-code pipelines. use when deploying automated design-to-code services, preparing ci/cd figma-to-code automation, or validating output quality before production. trigger: \"anima production\", \"anima go-live\", \"anima prod checklist\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "anima-prod-checklist production readiness checklist for anima design-to-code pipelines. use when deploying automated design-to-code services, preparing ci/cd figma-to-code automation, or validating output quality before production. trigger with: \"anima production\", \"anima go-live\", \"anima prod checklist\". saas-packs read write edit bash(curl:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-rate-limits",
       "slug": "anima-rate-limits",
       "name": "anima-rate-limits",
-      "description": "Implement rate limiting for Anima API code generation requests. Use when batching component generation, handling rate limit errors, or optimizing API throughput for large design systems. Trigger: \"anima rate limit\", \"anima throttling\", \"anima batch generation\".",
+      "description": "Implement rate limiting for Anima API code generation requests. Use when batching component generation, handling rate limit errors, or optimizing API throughput for large design systems. Trigger with: \"anima rate limit\", \"anima throttling\", \"anima batch generation\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18096,19 +18096,19 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-rate-limits implement rate limiting for anima api code generation requests. use when batching component generation, handling rate limit errors, or optimizing api throughput for large design systems. trigger: \"anima rate limit\", \"anima throttling\", \"anima batch generation\". saas-packs read write edit bash(npm:*) "
+      "searchText": "anima-rate-limits implement rate limiting for anima api code generation requests. use when batching component generation, handling rate limit errors, or optimizing api throughput for large design systems. trigger with: \"anima rate limit\", \"anima throttling\", \"anima batch generation\". saas-packs read write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "anima-reference-architecture",
       "slug": "anima-reference-architecture",
       "name": "anima-reference-architecture",
-      "description": "Implement reference architecture for Anima design-to-code automation. Use when designing a design system automation pipeline, structuring a Figma-to-React project, or planning team-scale design handoff. Trigger: \"anima architecture\", \"design-to-code architecture\", \"anima project structure\", \"figma automation architecture\".",
+      "description": "Implement reference architecture for Anima design-to-code automation. Use when designing a design system automation pipeline, structuring a Figma-to-React project, or planning team-scale design handoff. Trigger with: \"anima architecture\", \"design-to-code architecture\", \"anima project structure\", \"figma automation architecture\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18116,19 +18116,19 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-reference-architecture implement reference architecture for anima design-to-code automation. use when designing a design system automation pipeline, structuring a figma-to-react project, or planning team-scale design handoff. trigger: \"anima architecture\", \"design-to-code architecture\", \"anima project structure\", \"figma automation architecture\". saas-packs read write edit "
+      "searchText": "anima-reference-architecture implement reference architecture for anima design-to-code automation. use when designing a design system automation pipeline, structuring a figma-to-react project, or planning team-scale design handoff. trigger with: \"anima architecture\", \"design-to-code architecture\", \"anima project structure\", \"figma automation architecture\". saas-packs read write edit "
     },
     {
       "type": "skill",
       "id": "anima-sdk-patterns",
       "slug": "anima-sdk-patterns",
       "name": "anima-sdk-patterns",
-      "description": "Apply production-ready patterns for the Anima SDK design-to-code pipeline. Use when building reusable Anima client wrappers, implementing output caching, or establishing team standards for design-to-code automation. Trigger: \"anima SDK patterns\", \"anima best practices\", \"anima code patterns\".",
+      "description": "Apply production-ready patterns for the Anima SDK design-to-code pipeline. Use when building reusable Anima client wrappers, implementing output caching, or establishing team standards for design-to-code automation. Trigger with: \"anima SDK patterns\", \"anima best practices\", \"anima code patterns\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18136,19 +18136,19 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-sdk-patterns apply production-ready patterns for the anima sdk design-to-code pipeline. use when building reusable anima client wrappers, implementing output caching, or establishing team standards for design-to-code automation. trigger: \"anima sdk patterns\", \"anima best practices\", \"anima code patterns\". saas-packs read write edit "
+      "searchText": "anima-sdk-patterns apply production-ready patterns for the anima sdk design-to-code pipeline. use when building reusable anima client wrappers, implementing output caching, or establishing team standards for design-to-code automation. trigger with: \"anima sdk patterns\", \"anima best practices\", \"anima code patterns\". saas-packs read write edit "
     },
     {
       "type": "skill",
       "id": "anima-security-basics",
       "slug": "anima-security-basics",
       "name": "anima-security-basics",
-      "description": "Secure Anima and Figma tokens for design-to-code pipelines. Use when protecting API credentials, restricting Figma access scope, or hardening CI/CD design automation pipelines. Trigger: \"anima security\", \"anima token safety\", \"figma token security\".",
+      "description": "Audit and harden Anima and Figma tokens for design-to-code pipelines. Use when protecting API credentials, restricting Figma access scope, or hardening CI/CD design automation pipelines. Trigger with: \"anima security\", \"anima token safety\", \"figma token security\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18157,19 +18157,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-security-basics secure anima and figma tokens for design-to-code pipelines. use when protecting api credentials, restricting figma access scope, or hardening ci/cd design automation pipelines. trigger: \"anima security\", \"anima token safety\", \"figma token security\". saas-packs read write edit grep "
+      "searchText": "anima-security-basics audit and harden anima and figma tokens for design-to-code pipelines. use when protecting api credentials, restricting figma access scope, or hardening ci/cd design automation pipelines. trigger with: \"anima security\", \"anima token safety\", \"figma token security\". saas-packs read write edit grep "
     },
     {
       "type": "skill",
       "id": "anima-upgrade-migration",
       "slug": "anima-upgrade-migration",
       "name": "anima-upgrade-migration",
-      "description": "Upgrade @animaapp/anima-sdk versions and handle API changes. Use when upgrading SDK versions, migrating from the Figma plugin workflow to SDK-based automation, or adapting to new Anima API features. Trigger: \"anima upgrade\", \"anima migration\", \"anima SDK update\".",
+      "description": "Analyze and execute @animaapp/anima-sdk upgrades with rollback evidence. Use when upgrading SDK versions, migrating from the Figma plugin workflow to SDK-based automation, or adapting to new Anima API features. Trigger with: \"anima upgrade\", \"anima migration\", \"anima SDK update\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18179,19 +18179,19 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-upgrade-migration upgrade @animaapp/anima-sdk versions and handle api changes. use when upgrading sdk versions, migrating from the figma plugin workflow to sdk-based automation, or adapting to new anima api features. trigger: \"anima upgrade\", \"anima migration\", \"anima sdk update\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "anima-upgrade-migration analyze and execute @animaapp/anima-sdk upgrades with rollback evidence. use when upgrading sdk versions, migrating from the figma plugin workflow to sdk-based automation, or adapting to new anima api features. trigger with: \"anima upgrade\", \"anima migration\", \"anima sdk update\". saas-packs read write edit bash(npm:*) grep "
     },
     {
       "type": "skill",
       "id": "anima-webhooks-events",
       "slug": "anima-webhooks-events",
       "name": "anima-webhooks-events",
-      "description": "Use Figma webhooks to trigger automatic Anima code generation on design changes. Use when building event-driven design-to-code pipelines, auto-generating components when Figma files change, or integrating design updates into CI. Trigger: \"anima webhook\", \"figma webhook\", \"anima auto-generate on change\".",
+      "description": "Use Figma webhooks to trigger automatic Anima code generation on design changes. Use when building event-driven design-to-code pipelines, auto-generating components when Figma files change, or integrating design updates into CI. Trigger with: \"anima webhook\", \"figma webhook\", \"anima auto-generate on change\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -18200,12 +18200,12 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "anima-pack",
         "category": "saas-packs"
       },
-      "searchText": "anima-webhooks-events use figma webhooks to trigger automatic anima code generation on design changes. use when building event-driven design-to-code pipelines, auto-generating components when figma files change, or integrating design updates into ci. trigger: \"anima webhook\", \"figma webhook\", \"anima auto-generate on change\". saas-packs read write edit bash(curl:*) "
+      "searchText": "anima-webhooks-events use figma webhooks to trigger automatic anima code generation on design changes. use when building event-driven design-to-code pipelines, auto-generating components when figma files change, or integrating design updates into ci. trigger with: \"anima webhook\", \"figma webhook\", \"anima auto-generate on change\". saas-packs read write edit bash(curl:*) "
     },
     {
       "type": "skill",
