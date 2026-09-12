@@ -4,10 +4,10 @@
   "semantics": "Family-name matches are review candidates, not automatic quality or retirement verdicts.",
   "sources": {
     "catalog": ".claude-plugin/marketplace.extended.json",
-    "catalog_sha256": "5caa75f677d614c7d97ff0664fcfcb9bb9979635741f13faf880dab3c99b6adb",
+    "catalog_sha256": "6f1a67846fa540734e163f3fc4bf0213b827470769b4185363d7dc17d66b1339",
     "curated_manifest": "skills/.curated/MANIFEST.json",
-    "curated_manifest_sha256": "d021721618560065e14d278a504adda01f210aafc4d01d499e90614120cf3af2",
-    "tracked_inventory_sha256": "cebc599efe93b4e8eaa91b50ee67b380c8a3744613d6d1a22c3ec84c8853f631"
+    "curated_manifest_sha256": "fd825706cc45efd3b01fa4848e4511f98c44f226980782bb6b03e5f97cd972be",
+    "tracked_inventory_sha256": "4a5673e91aa6cc5ceffae4918f7a53966a4a5d8f190b8188dae125938b391545"
   },
   "family_definition": [
     "advanced-troubleshooting",
@@ -138,764 +138,764 @@
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 81,
-      "pack_inventory_sha256": "a18958ce5db12ebe38b909d7364b50b7082e1ceea747fe3ca6bbb6128a8927cf",
-      "candidate_set_sha256": "f67db7aea452ea37d694b6d7f7da4552fbe17718cd3d9bf86b1391558a7e8047",
+      "pack_inventory_sha256": "e407c09c341a41f0e0c339893c8c7e1a0d620d01d8fe2ce4271707338d316cb7",
+      "candidate_set_sha256": "e4343beb93706eb7d2932791a87637fb18ebf22e2841a0cdb9924f5fbebf9b40",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
       "rank": 2,
-      "pack": "remofirst-pack",
-      "candidate_skills": 12,
-      "skill_count": 12,
-      "candidate_basis_points": 10000,
-      "verification_grade": "B",
-      "verification_score": 84,
-      "pack_inventory_sha256": "5e761f307ef75400222b14c3d2362f147e93527d7627d24c823776a53d19f287",
-      "candidate_set_sha256": "2f24dd2a91a3779bd3ec325369716e32c8dfe5686de47c56b01b28e95f199c51",
-      "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
-    },
-    {
-      "rank": 3,
       "pack": "coderabbit-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "e65423dae53b69857c7ceaa732a10148be160d712e7d5964f287ef3fc2db2803",
-      "candidate_set_sha256": "d1535b73434c1e23b1c03a556525fcbe2ee3157b79cb4a99a2ab4bb4032a4062",
+      "pack_inventory_sha256": "ab033b2283bd2792a016ba4b07f22f874970f0202738cc76cf2b7b2723c13106",
+      "candidate_set_sha256": "deca65c11aa6b4af4147c5116ba9037d12b60e58fa45f757f5a11859fff69ce2",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "pack": "palantir-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "6d6f7d1ab73efcf559d1243c3f2fc0ca7ee9085033dae07500fd55a4d6005369",
-      "candidate_set_sha256": "f2f23cb0d9440070d2ea2d859579fc4d85ca0e86156ec03754c64b65361140b9",
+      "pack_inventory_sha256": "d222b940a2757f432b572779e6357f763481a7751b861355adf9c0978725d959",
+      "candidate_set_sha256": "a9cc7ac448d8c1aa6c8d137e2664f979b3b48550970d45d96935e229412b7cbd",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "pack": "ramp-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "67bdef9d6c6b09de7531238f8706e951f1a0229d8c65b02c6971448e725711af",
-      "candidate_set_sha256": "a0343c2686c68cdf0b32023ea3116663aea2d3b45152278c0a68390ee85ed710",
+      "pack_inventory_sha256": "5f2a80a63fc5f10b5fed49ba1293d10aa4b5fc88e05b4c63e47266416a89bf28",
+      "candidate_set_sha256": "604374134daeefdb39dc84c49cbdc99f09b28df5c21790eecbe1bd76114b93ba",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "pack": "anima-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "92d4983146195ce10117e93e2fc822fcbaad8782dda77120299e24d661e8968f",
-      "candidate_set_sha256": "2e495f62299a475022379559f828f10e713a60ae1e478b0fac9e4424f00295fd",
+      "pack_inventory_sha256": "9e012a5891f2b0eac2dc5a4f55177a113b8b153f5d63d823054f13899071a112",
+      "candidate_set_sha256": "b4c2c1d3177c84cec9a132f2c6b97cc0624b26136a893dbce418e39edc0fe9de",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "pack": "brightdata-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "70589c0b5570e629a034c197ebeecf4acd3daa29e38dc1ca169039a31d5a0df0",
-      "candidate_set_sha256": "390cb8a2b8a7fbb397de2d997c49752e4e106bee89f08d407f0c654f7b71316b",
+      "pack_inventory_sha256": "6d5f792c53ed0833f057b106b2f11e4321df8ea2c7c45ade038498106ff1931f",
+      "candidate_set_sha256": "8ba9c9caafff1f8c63a1d85929ab34faac0d75670ee273425ea300cf67c3aa95",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "pack": "castai-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "54833e141e0cc841ec8c76ee0b8888e4e63b65b18bcc3c43a9b5c69c835008d1",
-      "candidate_set_sha256": "f3e1986b76378d155c2e6929e886dae0049aeaf47700d4e5d6f543ec52c09651",
+      "pack_inventory_sha256": "299e30e0fd113efcc0873af9d88dcd1a8766f3570fd2f016128ab194dd40b246",
+      "candidate_set_sha256": "d89d3928b1294e1c3fa8e2bd20936f76a1d8656c43e6b2a7c736ec5a4837dfc1",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "pack": "quicknode-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 85,
-      "pack_inventory_sha256": "4413a3e4093052945a875a508888241fb28892c9947eee1af6c7001994f0273c",
-      "candidate_set_sha256": "76ee302b750df0d61ce21c5ec96a3b0a6c723caf88a1790eabf6fe5172dc957b",
+      "pack_inventory_sha256": "946837e098202d28af72f089ccafac4ad3569ad030a3c0dc9e7b264e14529af8",
+      "candidate_set_sha256": "f3cd54a286f8ab51e1d9fd0b153e99a642a94687576d68eef429b9e4facd853f",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "pack": "canva-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "9246df45bcd1b8d8372d93f23eff720b61d53005d35e606f958288008c7695c0",
-      "candidate_set_sha256": "bc4ba9256aee93750fea010acf7a80e132b62f11e34bf714deb27d8141eafa9e",
+      "pack_inventory_sha256": "278093d658d84a2dd144d33bf320371e630f8e8fe39387114a9dcf6dc0e399f8",
+      "candidate_set_sha256": "663bcded5b4ee975e3695e9e38b0ec0f0b0351a2949fbbed6859950418b5a34e",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "pack": "flexport-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "22e23732e1fb3bca5b41146b02026032fd842669095b06aba898551c656973d4",
-      "candidate_set_sha256": "04ba293fe68f9d1589ea0a0c1d439f14f2ab6bfd5cbb72290846aaefedb6b437",
+      "pack_inventory_sha256": "e89bf98352b92413c9c10e4f00d23fbf5b9b139ec1d02432035c6e9309332a06",
+      "candidate_set_sha256": "14f00a2df7efbd1334009c8a9c2d876ea6a55cff322f8d519f5d6f684af590e8",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "pack": "procore-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "afe70b43c0422c852d5aafad7b40b13d87436e1f2919d5b372f5189fb70d26d0",
-      "candidate_set_sha256": "3a0fe9f8e85db8e204420fd85cca3f39ecaad41d206cb9ed5494fd581aedd0d7",
+      "pack_inventory_sha256": "70cea136b380932f422deb9e5d4d1a01b9f1c59fa8d7e2e7f3ea4f03933b7b64",
+      "candidate_set_sha256": "fd2523f612618ac5628438d3da58cd9a6682c904245a9184fc8d26b59f510ca0",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "pack": "vastai-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "f16a2d8a57dadc84a730ead014e582759b76d9cafb2e451035937c553aa491e5",
-      "candidate_set_sha256": "e649a88d370a8e097e94a70f5b3bc76adcf07929e0a9a8e3a0a70658ad63db96",
+      "pack_inventory_sha256": "1c64373c5c7a52237143ff7678b838575a9446eb8a94dcf2a01e0e9eee02e0f0",
+      "candidate_set_sha256": "01ca327d248c64255ac9736f77a4321caadb2536a5b6d9d133b571823915f7f5",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "pack": "clari-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "e16dbc7ae11c693e011ecf53b30a935f7f2eb2153c216cde3dc5d2d7e51a4719",
-      "candidate_set_sha256": "47ae94a68ce3b6773ef3550eb95504ec4634937bba4fd656403db80c6c6a63b9",
+      "pack_inventory_sha256": "dac997e0ece8384467634f5d1f9d8119c7c3c15b07e58b1b8e12ca68653ef871",
+      "candidate_set_sha256": "40012152b4efbc2a327d347b09db20f30701a6c02fdd59cf8f95013afafaf612",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "pack": "flyio-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "476db5abc999bdacebd0569255826b38b9ba9f6077d7c3afd07d28a5b159b178",
-      "candidate_set_sha256": "0f77f5e8d6940eaa58a70be7f00887be54f9f35bcaf393246cb179ff9e920603",
+      "pack_inventory_sha256": "05403a4f7d08bd281c505fa0f75c83548c12719bdd90f976d3e2101a6cc8739a",
+      "candidate_set_sha256": "9df5b86403babbc613a2d3bf6727bbba4adf8a4ca1392a9bee0a664eb3e7faa5",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "pack": "persona-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "a4d887711af14194fe2a77b70a62bcbc5b4be39e9f5d2760a92a9b1e2e71b320",
-      "candidate_set_sha256": "242115f7c0a7903a62a8ecb94440ca0571db59418247ddc0ecb0679ed766a884",
+      "pack_inventory_sha256": "ad248ee04a65a50a377c8833cdf9c8ee626adbfa94e02c62f5fe6197a01381fa",
+      "candidate_set_sha256": "ef66c4c51891aa135aefc1c827631b39842d7a4b7ec45456e41894ac48d95956",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "pack": "runway-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 86,
-      "pack_inventory_sha256": "0d4e1fcc3a9efa3678e290f783d1b5874de8c7cb29180905d7a60566ec3c0d95",
-      "candidate_set_sha256": "1c96dab5aad2d3ce3ea143b8ec7b8273894d4230962b33b4e69f41b577493769",
+      "pack_inventory_sha256": "0dd91d7556b86530116875e3823d706781fac526364b7781aa0b201319b7d285",
+      "candidate_set_sha256": "7a57a92a10034fb0f477141420d0712adeb5bdeb4d75e28607e493cbae4f5d29",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "pack": "clay-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 87,
-      "pack_inventory_sha256": "486080895940ef3076974563b4d230b4d3e129ff6d2391b405b2d9b16af2ef7f",
-      "candidate_set_sha256": "d683db6b875ca7bd57fc36baa5d30676fcd89adfaa605aa25e1a071791bee7ef",
+      "pack_inventory_sha256": "2c0819ba92e2a2b3a32fc2af52f9aa96fb15e1b0d809d17ea6dd71fc0c62becc",
+      "candidate_set_sha256": "751f29587a59ea1a66351d05f0adb930f6a529d39dc82661114253967e84fbb0",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "pack": "apple-notes-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 87,
-      "pack_inventory_sha256": "ba24956bbedc5201dfa6db262f69ffa63f77f0ef76d223179e03db46565b562d",
-      "candidate_set_sha256": "6d5b3a9041a3b984a1001ac89002b71b4385347b03a19ee7d007dbfac46f57be",
+      "pack_inventory_sha256": "b2584ad70a0b9ca143fda951f8020fc34f789bf92e237db93af1c67b336c55d3",
+      "candidate_set_sha256": "b7c917ced1b46e14ca538fff26c39acb56dbdbd768f0568be69246a4a7417f03",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "pack": "gamma-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 87,
-      "pack_inventory_sha256": "336e44ec0b3b292c9953f73be66803d176f2e6b6e9951c27ae187f0991219e52",
-      "candidate_set_sha256": "5c79c9b8455a520510849a053ab83f420757419ca23392c01948be10971b8ed7",
+      "pack_inventory_sha256": "5fbc0f217ebf85a7e02aaf3eb91f823a01b71fb96374334612b992480b8df77e",
+      "candidate_set_sha256": "66f640f120ba700b502edd8fbb666b352adcca611829da68a3835a1ae80444c3",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "pack": "glean-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 87,
-      "pack_inventory_sha256": "ac49f3dc9fb934c0dab1d52d5f72b3a928098ddadf393c1114ea0752da82f6d9",
-      "candidate_set_sha256": "126c7b67116f203d4ba2dd5da57330d87cff4ad18132ece98a7f902b0cd69f57",
+      "pack_inventory_sha256": "c0bb1eea2cd77550da978f014ee911e5d325564b0f37a0ff3f5fb0c63c76a249",
+      "candidate_set_sha256": "3cf80baa3cfa075531e8147da521d1a3b13148c3630c54144aa82af6f666b19c",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "pack": "langfuse-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 87,
-      "pack_inventory_sha256": "6cec09ee2f32faabf6e247136345def021791c0eb7ac044719042ec4e562aed9",
-      "candidate_set_sha256": "4f180e4ef3dea385806229706f773e0db28f270a543fc62d58f16799254ad9a8",
+      "pack_inventory_sha256": "7f69006cdb3c0e1eb1133a4a79778b49c34ee3987edbcda0076b0bab31f5dd70",
+      "candidate_set_sha256": "6a9a0e44883ff6428683b13bbd395e84512e7b478f0d335ab41055e5756c7406",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "pack": "appfolio-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 87,
-      "pack_inventory_sha256": "28149ca142f2d7432638d72ad92d344fb4c3261a69508037f608e1f72f16e20b",
-      "candidate_set_sha256": "6ede3d020d92deb421285af708bed42182731614893c24f7f70fe2ee5e6960d9",
+      "pack_inventory_sha256": "10dd3f3bfa7cb802c23a2665479cb3c040142d5620dc2ece42d85df5805886b8",
+      "candidate_set_sha256": "fd1941b338a8b138654dbba631acaae4cbdf3ab306fc7b2cfe2adf8ebeb01fb8",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 24,
+      "rank": 23,
       "pack": "anthropic-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 88,
-      "pack_inventory_sha256": "f209957af3c38a22d1da9426feb7ec89b5b39c975f021d204a5a6e4c7b747e52",
-      "candidate_set_sha256": "23474730995afc8c0785656a87a7e2f2eb421040361a2213c693a6888331c44d",
+      "pack_inventory_sha256": "e7f9cfb5beae0f7c4a3d46b697fa5403a5f39e7eee8756ec1c8f1202f714afeb",
+      "candidate_set_sha256": "1972e45a030e328c0b8c3b5523fa0d1fdc1a565537c3e7912fed93c5316b3b27",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 25,
+      "rank": 24,
       "pack": "fondo-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 88,
-      "pack_inventory_sha256": "9236bb509540e4f3cca35c80cfc42c2a3a3a8b039686782c67811992a0af5f2e",
-      "candidate_set_sha256": "50d658d4f203ef76e7ceaa20dc3096e9c0f70728b87853276d9eae560c2a2959",
+      "pack_inventory_sha256": "86559bc9b12c5e4f5c6abeb4cd891c329838953482783f53b410ca5e0e176b49",
+      "candidate_set_sha256": "452ad4f41061c69a050c4e5bf74cd440413a331d8c2ede77e3d9181f5723e857",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 26,
+      "rank": 25,
       "pack": "framer-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 88,
-      "pack_inventory_sha256": "7608b54c1e0bcb049dc89703e5e112df3246f1edc6d85fdf349b44bc93a71036",
-      "candidate_set_sha256": "9146add240edbc0b504d2be534a6eed20d9bd756540a6a68c63bf4ed5c87d9c9",
+      "pack_inventory_sha256": "0c92fd8ce2f62bdf5c30ae01d8960de712d690583e3a4b7c0a07cd43101fb55a",
+      "candidate_set_sha256": "81be1f29490e7111b83618022ec9f23faa5b6d8f9f2ab7fce529bf559366c90c",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "pack": "deepgram-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 89,
-      "pack_inventory_sha256": "eee3e5af29006c461894fbfd9704fc77c44bc3a07d07ebe4c1d0376e6954a9c8",
-      "candidate_set_sha256": "9d7425e519e76cc19fea5fb1aea7033330648bd5f6cca4124250496bef200734",
+      "pack_inventory_sha256": "8a0917200a33d32688cac40d81ba8cadcbdf93055cca70226ea5df5518ee17ee",
+      "candidate_set_sha256": "945152ffbd23a2b842a3526c5464026c67d7b6108b6e27b2e95858030e444d66",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "pack": "lokalise-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 89,
-      "pack_inventory_sha256": "0aad8dec34467c4e9c9366f64c5a35eca5f795c691f4d3d016d11124558d30fd",
-      "candidate_set_sha256": "9fece310c08b3ede2bed4b3ff20d0159dc9e6a54bc44769ecffaeb6274b8a6ad",
+      "pack_inventory_sha256": "dc6d31b1cf245c4eebd251bcd1a3406ccb01b355fd53981670381db20e710dee",
+      "candidate_set_sha256": "00eda7acb0625a7f82d774eb067812672f1f6da6d4bf2b9c8866c29aad4b5870",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "pack": "obsidian-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 90,
-      "pack_inventory_sha256": "b24ad55ee31e68c32944e98759e845630532727cfa4aa2af499f88af42f21bb7",
-      "candidate_set_sha256": "3277fcc767c352c47eb248e22f83413e5917632ac5abcdc3e8276da300705bc7",
+      "pack_inventory_sha256": "33a54bd64fac36ed32f0f143c86dfe702e2ab8ac5144eabbed2140783b38dd28",
+      "candidate_set_sha256": "ab15a4fc244d564dfe1df14f0b4258378a4656ec3ac555aa726a3b64bec0e910",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "pack": "fathom-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 90,
-      "pack_inventory_sha256": "0cbb04cb98e0c61bf7135f60c161cac9c70ef0e522707dda745c5548bbbc4120",
-      "candidate_set_sha256": "41f0b0c7b241de8d8e09f73758bb646a6b983cf18ab7676098f1cce85cebf8a1",
+      "pack_inventory_sha256": "e751e6c3452d74450e269e6a7cbb7dc00c38b2064e643b2523830e775c38e0ce",
+      "candidate_set_sha256": "3d57cd2f08cc35359cb7c5fb351c111af60b4e3b55f17bcadb484095f0349037",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "pack": "hootsuite-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 90,
-      "pack_inventory_sha256": "ee423662bd7f0e4edfcf9a5423a9192cae7b9f90048e290fef272a89070877bb",
-      "candidate_set_sha256": "824d7fc31cf76b77a4cd85e0c29dd0b164ac1c348fb13c023d7a19de04fc394b",
+      "pack_inventory_sha256": "2072a931056763377657a4aacfafc1bf72fe731160a771833c432c5ddf901215",
+      "candidate_set_sha256": "135a20e7e5de929ce93548fd432c1c1f23d53812b1497440c35b1dab9bc87566",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 32,
+      "rank": 31,
       "pack": "granola-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "6b6ab4e53565648f36e4f450ba8fcced46d6e16f9f3f51f2672f3801999397b1",
-      "candidate_set_sha256": "275063850ec29ea637e86c3251ae945a983ea4c2ca75dfa63bcd0df4a4ca04bf",
+      "pack_inventory_sha256": "ba54181539946cdfea8c0cdb1df8a7aa242f2bc5daf272d63edd0dd9510bb8fc",
+      "candidate_set_sha256": "46b6d76422f1e34fdbe2ee5ed0c7ac10d66739cb1cb2ee6736af5b43f098cb49",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "pack": "maintainx-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "fed2535646c0e91caae0b4f0556b170965cf246191848b37e964fee88df975f5",
-      "candidate_set_sha256": "d4689549042e6ef2ba0eb2471b67bf9ae070d22d3221a9a9d51b6efe2ccc7fa3",
+      "pack_inventory_sha256": "3f83a0ad4c689d62ffb73ea0ca7c8896839e6582634a63dfe78534e0e16db162",
+      "candidate_set_sha256": "d1594c94a2ed89c71d4990cb2c07645191ed30407892707146841cd7fe0cced2",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 34,
+      "rank": 33,
       "pack": "twinmind-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "ec7596f696055463f397f2abdf4bd92de8dd124d3c466b1b8772d68119da5fab",
-      "candidate_set_sha256": "dae57400c527350e6ea2ffc021ecb9dda420ce77f74d087029abee1a1eb1d3e0",
+      "pack_inventory_sha256": "1917e1fc175be205da510f4d0469e5c62ccf8760fa10521ac2468b1655e76a77",
+      "candidate_set_sha256": "4120b57ec0128e16d4dab5f351947da5032359771cc2e460d832e7899549da35",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 35,
+      "rank": 34,
       "pack": "finta-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "7527583f5af06a8eb9a3e7ee8e2bc53c548ca6410be1e35b943aa04e72cbf5e1",
-      "candidate_set_sha256": "70f45a4955f02126291fa8c9fa273ab33741c2e6d3b567d7b2254b60d3263cc3",
+      "pack_inventory_sha256": "9f8468e6c597aac22c18c3b8953a3ba7eb65edd3aa93b06b086153b95963d719",
+      "candidate_set_sha256": "763fa5d1ceda87e9d1cdaa51e5cc959a04e3d0db93a8fa00d1d3429c4ef1837c",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 36,
+      "rank": 35,
       "pack": "hex-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "c134f5db1f856820be6d7a23a113ba60ebdcf45de46b2bd6c1cdb6c1e7788ce7",
-      "candidate_set_sha256": "48ebf62ad2f0c63b47c5e38724a67f012c8bb7cc13820e903a23dacdc75dcca0",
+      "pack_inventory_sha256": "e82c1a8334841507c95b3a3b7238f6237e5981545e83b406313c2c790a68dba0",
+      "candidate_set_sha256": "ea762eefe4d300cced0c76d1c0c63362a05145466e76061d74caeb28d3239f6c",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 37,
+      "rank": 36,
       "pack": "figma-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "c45d1f09242bef20ab4a87ed63029eb5e24a22030a4fadcf7c3bdb999aa1db1f",
-      "candidate_set_sha256": "596498928ef5b8df7feeed0a8fb1373bb9a801ee4ed60d2372fea692402bdf8d",
+      "pack_inventory_sha256": "ea44d72bb88f30b357714e40307d59c04966574d641562226b480f2d5a136f64",
+      "candidate_set_sha256": "ec7bc8287fb9cffa22a48ca92fd59c25cecf77afe95abf6ef9b08436f41f3f14",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 38,
+      "rank": 37,
       "pack": "retellai-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "5127e4e9655757b047533f4da195ed3c11bd9a3aced6953170da15d77e8437f0",
-      "candidate_set_sha256": "c967da4c38747f195eb7a77db10e6ae6d97d19267a82ce0ce0a46e8c4f40681b",
+      "pack_inventory_sha256": "99cd7bbf2ea4ecf35931ebe68dfe08ea94440f72afc30ffa324b481d8e4f8766",
+      "candidate_set_sha256": "d397de9458c846bac5e313c483c34d4a500cd7d0864478c60c2dd7e60244221c",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 39,
+      "rank": 38,
       "pack": "apollo-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "bb6d64099a831ee8d7298a96ca1f132186d141f234ac9449591e21eaa3690f97",
-      "candidate_set_sha256": "238516979b3b8227f54ee6d036524e459781a70e1abb800686c29bf9ddfb15a8",
+      "pack_inventory_sha256": "a1f1b334e2d3148ecafef47e4fb8aad6b7350823afcc03d8705958e12c8c3250",
+      "candidate_set_sha256": "8d0366821880857c92558f6f3493a3a018e5da01284e85e4c563e05e51b609d9",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 40,
+      "rank": 39,
       "pack": "juicebox-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "5b031b7b442efffd1fb8a4724f0ea5787a9f3a4d7878af2888c78d905e936d23",
-      "candidate_set_sha256": "8b2a22ec0d3a03194ba4ddd86f767747b7d9c1db60d0f9ad3447916ff6287dce",
+      "pack_inventory_sha256": "e0aaee9541102f5d78b87d99d469b7acda89c936f8591a84f276ace599338d99",
+      "candidate_set_sha256": "6f2d1602f46217584c37799db162d3bef479bf3c1d7aebb6dc32c42b40fbf15b",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 41,
+      "rank": 40,
       "pack": "clerk-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "13e84778396c9bde09ce61068849b8868dcd8ffe9631422a4689d507762c0dd6",
-      "candidate_set_sha256": "3aca0d2940adf438484d62821f54ef2187db4c8bd9122537d34471fe7d4242ca",
+      "pack_inventory_sha256": "f9e520ebcbf1fedf60ef2442e0cb9444159b266a64c71349d251751e3c9999e3",
+      "candidate_set_sha256": "b8ac7832bc9f456170e653025f2ad76b4e13e01aa59f69417987467c3d94d0ee",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 42,
+      "rank": 41,
       "pack": "posthog-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "95ef508bb9838275c488b1ba82a3ac5be350a9e094d665d4f8f1eb9293eb6035",
-      "candidate_set_sha256": "920247c587f8f44ce405ac42c85527c4218fa160fef9212dbe74ae7eb692f78b",
+      "pack_inventory_sha256": "14f4c0078c4c0d1779c1d4268fe96c2171ee7182a3d91b23a2a646044df59ae1",
+      "candidate_set_sha256": "ceef098007c15d8128c65ce1539eadcc4f7500f29ec4cac2e8b1b53ee6a14a8d",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 43,
+      "rank": 42,
       "pack": "workhuman-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "51bc7bc19c9c0f4f0df5a20b2757e3fe721efde3b6d1b5e260ff0e258d947737",
-      "candidate_set_sha256": "e0543aa92ea8802764d64a4b03cb6af28eebf0b7210addb903ca24e146d31dfd",
+      "pack_inventory_sha256": "f60f069f5f091bd1927073ccc17e98f2ed45e353e7cb6df6a9672d8133ac3ecc",
+      "candidate_set_sha256": "e6873981db2af227b7508070365af819a3cdc70c36d104d5cdcc8d9da9713516",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 44,
+      "rank": 43,
       "pack": "salesforce-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "4e7ef1c1bc0269d4dc5da9f3b2feb917ae4b049947c7f5c104fc9d841a951f8e",
-      "candidate_set_sha256": "6b2aa865cf626ffda27aef6471253f4b8e9ebaa98daf971fa81656ce200818de",
+      "pack_inventory_sha256": "96e6d8c643a6e0fdf36a9226a26cbfaaeb4f0234c7096dddd71101825b6b8d4e",
+      "candidate_set_sha256": "59e22967215be7fd4163d4d1de1509871e7a277cb016ee4c66ab810505c1dbb2",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 45,
+      "rank": 44,
       "pack": "documenso-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "581629d7032fbb5bb1ad95aedb0a7acb760fdbc65d3900158684b2c82e76e46e",
-      "candidate_set_sha256": "cf9774264d0923c98c46c0e31e54b70a856a674fcf6738b4b8f0de5b73a89730",
+      "pack_inventory_sha256": "99bdc48d80e39d983a1167fbaef6b58cdc3ada8a902c9954e0c99370485a5a1c",
+      "candidate_set_sha256": "716a6a41409064a4a5b09276a84efd7ad1b5b8834dd3855415b1260479461ba1",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 46,
+      "rank": 45,
       "pack": "speak-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "4aeca86069b9d4231ac340635664bd4ed9d0bcd438135c6157890273d274274f",
-      "candidate_set_sha256": "f9ee0769727d588f23670f6fb13b1cf819d4d9c6b3a256fe701ab9dfae9fe93f",
+      "pack_inventory_sha256": "9aeb870d9be6121ef3d065f86739c3116b908846f4beee0f751dbfab88247559",
+      "candidate_set_sha256": "051e9ee797c0fb077d8113e39711b0bc4ac98bce243a054c89e858ae959afd08",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 47,
+      "rank": 46,
       "pack": "assemblyai-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "3f0d1f49c343691fa766ba95f636ea4899938318fa70def82e797882555c087a",
-      "candidate_set_sha256": "4e464313d554c649280d13cbe8a63c6401b239d5145bb3b28a77062739c699f7",
+      "pack_inventory_sha256": "abc15701d2dc3036fb9df0c0563d82b273106f9609a9b123943eca3388b186c4",
+      "candidate_set_sha256": "f158cef1d191cd03096dfe3d7c61b40325974aca8addc6ad5fe16b977c581395",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 48,
+      "rank": 47,
       "pack": "mindtickle-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "710aae99b2c5a2efba9fad8f67393fb5ba49cdca66554d808085977b59d59599",
-      "candidate_set_sha256": "3290e5e0974f32540f1a91159bca6f7f520f5556a73e17d8642f8ea46dfddee7",
+      "pack_inventory_sha256": "c62e40215bf0a77a320555fc38bbe8ed8fc1d52e7979a7d432804bc998a56588",
+      "candidate_set_sha256": "d5a407c41229e8a0d0894ec1fe644bb0c0a89184b232ebcfa84585d5124d6fd6",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 49,
+      "rank": 48,
       "pack": "serpapi-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "348f3beb281564f73d065e07d20ec02ab6324f1a438d17468f48c9e6cd90d1bb",
-      "candidate_set_sha256": "e7cb1dd1f99e9e3eabd8e26c35ee775a0fce0181a0b1095766b0a37c6309f0d7",
+      "pack_inventory_sha256": "5f4e3941951c89a54eed981d9d50d1478eb353d0943e57def399a9ab45edb8c9",
+      "candidate_set_sha256": "26d7ac9e74551dff29e05bd9b3879d6deb5a1f83b37765714217927c02b5ba88",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 50,
+      "rank": 49,
       "pack": "exa-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 95,
-      "pack_inventory_sha256": "67004128f9d5a94677d77f850514b1f98cccef07e44c164322260acf45c13624",
-      "candidate_set_sha256": "e90b91824092e9f447ec173e16564df8d495adbf76c29186580bd44c19ce4a1f",
+      "pack_inventory_sha256": "ba0b73d0d5946ce9f3c23a7c540ddfaa05285d5f0667a4b4d87acac98b155f31",
+      "candidate_set_sha256": "d54be58bfb5f875ecc531d5743e8487ea212522ebd5ae49951c715f462e4f32f",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 51,
+      "rank": 50,
       "pack": "clickhouse-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 95,
-      "pack_inventory_sha256": "42f5ca4c5b2778d04553342a913d73ebeb21b26f29a778963ca22ffe5a196eeb",
-      "candidate_set_sha256": "7e662e66aca9aa1480bb1d4e9a63c46f027804a92b186d34bc27e6eeced7fde4",
+      "pack_inventory_sha256": "aeed52ad68cabc2f221bbaddf05d55082178ead3a4840a3bb50b5a5e796c1de6",
+      "candidate_set_sha256": "86a89bd03f9f35690ec1e3df8dfba0aea3d3744c730e33902997a95749378ffc",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 52,
+      "rank": 51,
       "pack": "evernote-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 95,
-      "pack_inventory_sha256": "adca786a178b0938576478998f8f0705f7a6bf882f4f5474e90f00d43254398a",
-      "candidate_set_sha256": "21f4a12c0e0aa443f3d0f4e279d693786fd8c2b4c76000548a1d6a0f316fae02",
+      "pack_inventory_sha256": "880e000a25046f3a46e733be8efc51505d3c2380dbcdbae3433d9e99815900b8",
+      "candidate_set_sha256": "324507545be6f019438e312284f7ff575afa101fac1620f43d004e9a4a5c391b",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 53,
+      "rank": 52,
       "pack": "apify-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 95,
-      "pack_inventory_sha256": "cfdd6ed52c1a69a5f1e5d9186b48a9c906ef0e0d4a58d4f6bb4837e9a8434df4",
-      "candidate_set_sha256": "122acd9745d5e9970a37c1e26f93b05d04f46e35543a0f6b06fdb51f4ae12a57",
+      "pack_inventory_sha256": "df16075a17f5051451894391ec3d231ecc61ae8a767510ed47c03f65dae87559",
+      "candidate_set_sha256": "ae6eb49cbabc3132c2d9ffddb9f099c216de6848cfafd95c60ad44abbf076136",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 54,
+      "rank": 53,
       "pack": "lucidchart-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 95,
-      "pack_inventory_sha256": "aeabe6536e10424985c52079acb03c10894bc95c1419a0a39dec2798ec224c00",
-      "candidate_set_sha256": "7f419f3b36c6a5c670d9a2ab262717bf220933b6910d5e3721e83a839f3d5c23",
+      "pack_inventory_sha256": "d017b1039a452d078ed802ae5869593f643cf98d76e4e76e287fb5fa06b77260",
+      "candidate_set_sha256": "0b69ec96ad98954f78eb49ddaaef42fc43f89f70cf21431c4303e95f6a6bdfc9",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 55,
+      "rank": 54,
       "pack": "intercom-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 96,
-      "pack_inventory_sha256": "3ad26cbea6c0afb63c68b98c31c14d907f849cdb9c4d9dbf46cbd091a1cd21d2",
-      "candidate_set_sha256": "40c9b37db6c98311bcccddd08d057a19cdcdbd061bab24021987e73f3f18ed17",
+      "pack_inventory_sha256": "a19dcea1b818f99f78c11f6a375e3b49e6be96211f7b44d9fd4d7804c2ee720b",
+      "candidate_set_sha256": "8e6de6df3aa4e9019b94b87c0bb66764bdb438484bea837ae3537ff41b70fb07",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 56,
+      "rank": 55,
       "pack": "klaviyo-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 96,
-      "pack_inventory_sha256": "027849dba664d9f8abccaed3816eeb72598dff9a32ac3e2a1d5088703170b0be",
-      "candidate_set_sha256": "b294ec5d4fd613febfc4c463479d020f7ee47cc525d70a083bc8de4fef0efa09",
+      "pack_inventory_sha256": "7710cc5a0f78145056f1109ed0d094f2572be45d48214874e5394e195ca4c41e",
+      "candidate_set_sha256": "2b7eaa957fb9bc6b58e0d1cadeab8c6b087c0191f8e9f47478f80f2d16e92e3d",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 57,
+      "rank": 56,
       "pack": "lindy-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 96,
-      "pack_inventory_sha256": "c8a05027807e552110bbd95d83c8a311564d79049bc383c229b329852e0ad85e",
-      "candidate_set_sha256": "5eae8a760d05d24a93e03f9ad8d276f004806799ccad36bb77cf5ef2cc0cb9db",
+      "pack_inventory_sha256": "a5715ac19e489673594d14e03a9f16c14b8f1984f8078c393237a056e7e1a320",
+      "candidate_set_sha256": "b7e1ee820bd6a9d956c02241d83be8ddcd35e1bb9fd18aba2d0fecad53cb1cf2",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 58,
+      "rank": 57,
       "pack": "elevenlabs-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 96,
-      "pack_inventory_sha256": "63b6b0c7c9319756b3ee093d8e680130b7ea768e537d404c35e8895307907801",
-      "candidate_set_sha256": "5509bfea8efae22baf669968e32e8903b20857556b520ba087d14a7b6836eefb",
+      "pack_inventory_sha256": "8f967015c200d3c871f162dda0cc0e05f8fce95768445cdea72be0931a6ea444",
+      "candidate_set_sha256": "4744bdd13e916346971b0ec6b7951014a230344c0596bbbf766ca5b617fbc7a6",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 59,
+      "rank": 58,
       "pack": "windsurf-pack",
       "candidate_skills": 30,
       "skill_count": 30,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "060105cc86b4fcb71c06c03ba4102333a50a9dd97b3ae166e1c34e800cd8df2c",
-      "candidate_set_sha256": "59da0719363628da49a1abe3137765a8664f509fc3cc44e018c46a1f7e92f1d4",
+      "pack_inventory_sha256": "1668b35d48e514f20bdf8ba6e0ef1f607afd1d14243abf0e192c75f09cfdc40e",
+      "candidate_set_sha256": "42a76dbcc83401f974e2aac3e831d84d7eeea1723bc673aa7a6eecc71665cd16",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 60,
+      "rank": 59,
       "pack": "groq-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "27fc6a5cd798fbabc260aa8957c686443c7a02de5b46cbc024ec74b551bc2af3",
-      "candidate_set_sha256": "46d082bc02b6af9333fb16e19eb7e3e8685845c226ad11b8c699686ce1dc3431",
+      "pack_inventory_sha256": "863622ca2f02547a2163f23b6b0dc0bef138a68d6fc1106480ddaaa5f758414d",
+      "candidate_set_sha256": "671730a7c1b732c096e2f2317aebf3a461a76ef7abf5964acc45f090447c5c7d",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 61,
+      "rank": 60,
       "pack": "mistral-pack",
       "candidate_skills": 24,
       "skill_count": 24,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "98148d9958939fc6422004cec3230b3a919f3f37e43640b0f0562ca565d1870d",
-      "candidate_set_sha256": "6fa28a16dd41090b3330d00a57e77069197dad85ed1dc3ba37b999c4658393be",
+      "pack_inventory_sha256": "dcd8b75159b3dd716bb4062dd90bb9aa8fbf70fecb3cba48f290f5c661be2197",
+      "candidate_set_sha256": "e1cbb0f01c323580ae796d0fa44518c6ddaa6dfee35769497dc0c2c7f02023a4",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 62,
+      "rank": 61,
       "pack": "linktree-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "7700edbdc8c5fb66989b267ec8cdd60bd3d8861cc7b9299c8766622623413860",
-      "candidate_set_sha256": "70bce158267456cb9bf7a15cc7faeb4c281fb7c0583b941929f2fbe32ac8e531",
+      "pack_inventory_sha256": "033095bd46ee6d92632deb7757429971a26c145213fe4a12f08a6dd586b872bf",
+      "candidate_set_sha256": "c958f566855672f5312294baa9ab8f10cfaf792950e284bb0ec762bd3210d026",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 63,
+      "rank": 62,
       "pack": "techsmith-pack",
       "candidate_skills": 18,
       "skill_count": 18,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "cfadf1445b6bdab683a867c6dd3087c0020794fbc5bc71ac9bb3fbb6fdbe9660",
-      "candidate_set_sha256": "6f4544e2f4146caf60a1c605e49039cab2e2cb7f46bdc4e19ad9b98736eee1e1",
+      "pack_inventory_sha256": "82ec690ad45608fc453ca3c0e518708ea7d11c68f4de96a8fd2d4497bbd190c1",
+      "candidate_set_sha256": "5851e9b8bbe65c4a80daa3ae7977aa510a6190b9fadbafd8ba7b4a09804bb36b",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
-      "rank": 64,
+      "rank": 63,
       "pack": "together-pack",
       "candidate_skills": 16,
       "skill_count": 16,
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "8c9592af50407f715b30470dec747ea606c5a48fc1803c8c694a7ebea5206912",
-      "candidate_set_sha256": "366a762c1ad979e4e297cedd01e9883eca655aba4faf1ccb20e3bcb98bacc8c8",
+      "pack_inventory_sha256": "999decfce3fe9e4850f4652ce3860a13f57e8475ef7e5be470f1eb35f22ae43a",
+      "candidate_set_sha256": "cf7c62b298e5b34d6466550f77d781140a70e6ce77affc7e798eac066006f02e",
+      "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
+    },
+    {
+      "rank": 64,
+      "pack": "remofirst-pack",
+      "candidate_skills": 12,
+      "skill_count": 12,
+      "candidate_basis_points": 10000,
+      "verification_grade": "A",
+      "verification_score": 97,
+      "pack_inventory_sha256": "6a853fa7cf36b3ffae83d95fb41b8fb7e9b6ae1516e3e18cc781e4ab9fbdd65d",
+      "candidate_set_sha256": "008a5c357935e80f94c3f93ff65d076b3cc5bff032cd6574f644a599b0ffdee0",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -906,8 +906,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "1f12bdaee3b01dca390f76adbfe6e4b9a1b06d950a076a3b0034d4d98ed3f847",
-      "candidate_set_sha256": "e03e70d2c824780eb3f1e30a67aa7d9e4535e37d1668c3244060937dfc97ed6a",
+      "pack_inventory_sha256": "3f5f4d16e8f976f5c160ec8dbca0dd28318307e172b4b5ec089233381b216543",
+      "candidate_set_sha256": "fce0902bacdf2519bb89836c04e9211ede730e74b52a24fd602d26eea0566543",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -918,8 +918,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "b17392b053975b241cec54e2065ef20464271b61a4a733e63ae07d68e0f1e5e6",
-      "candidate_set_sha256": "b99b169ea536ebad585e6bc1f02a7bfb601dca1de0da0f06987d64cd6e39c2d7",
+      "pack_inventory_sha256": "f1282b7869a2d4efba2018588b7002c09f6e44b167cf9a6e602a912433b54f54",
+      "candidate_set_sha256": "add5a3782ae41922f189c5495982b0d3c34ef3021b07ac7f9b241313d9f2ab50",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -930,8 +930,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "28916cccbd7cdd3f87c302fb38c893ecb68fb4984fc3bb5ef2606c490fa3e268",
-      "candidate_set_sha256": "2c6668bc546f714515bfa95b1a6e27e40bcd2c9ffc13530d84970a52499de128",
+      "pack_inventory_sha256": "1dd9533698ee6399408a8b7a0ddc20486f0e1b4fe12295505be900ebc587db3c",
+      "candidate_set_sha256": "d5c128a9787f40ed4be33c9b08a85ed950c85e6c122af589c9f3fd895f18b043",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -942,8 +942,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "378bb7c9b6aed60af75c2ecbd9a4c7fa5621d1b3649d5c18b82af261e97aefd9",
-      "candidate_set_sha256": "5ec5636306081185c9015771b23d18e8bff7014715c5eabe531a236443c9a527",
+      "pack_inventory_sha256": "d76a60b8f5b0ca29f350b63f1d3a22ecf3034ad1cdb2bde61cfd6a9a5dcde96f",
+      "candidate_set_sha256": "28aece099fbdd4226c1bad8ea277160c9b82a46222ffd851a65144a036d5c5b9",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -954,8 +954,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "3c9227da5314138518243ad762f15150a859a9a4c9e8afb5eb4c4f273d884823",
-      "candidate_set_sha256": "38a3ac52138b1aa85271b72f9647669674c350d22a9987a7f3b3c234dc551c0f",
+      "pack_inventory_sha256": "b0e4253c07eb3f6ea898fe96bb6092975bc5950e360f16ef7fe67d84e638cc80",
+      "candidate_set_sha256": "1a7dbd35c63dd828ac7e09a4e1681832be7e681ba9796418b4409cb229b9876a",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -966,8 +966,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "ea93562d5233f0919fcc9fe54981a8b61726f27cf6b82bddf460e4d7cfa7e436",
-      "candidate_set_sha256": "c51d4b75e404d61ab9cbc0d4c6ad139112338a3f2f84476d535a9f34470242d3",
+      "pack_inventory_sha256": "8c927e6028468e1e4d10c6776fcfca41b3c0f7209b3230bfb63cc0f609fa2f41",
+      "candidate_set_sha256": "1a72b39bf71f76f0b7afcccb1a3b1e117c74c7006193181823bc3179286ee174",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -978,8 +978,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "0859f6cacadb52f1715ca9aa899303d2fad97c3aafb0ed03c7d0788df7a06fb3",
-      "candidate_set_sha256": "bce1360b9384933709df58af4e11d7b16591a6b68c1c53e82c00084764e1c38e",
+      "pack_inventory_sha256": "d03c2d8484f66d9e61a3aece53ff487af95ad702bab0ffbb7cbb3766043f7774",
+      "candidate_set_sha256": "debdfb9077a97f0e3dc55b6a70e670e1e346959ee8d6d367d0bf9d4b8fbdfdc4",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -990,8 +990,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "62d2c6a0edb4887b770dcd80633c9ff89f54d26e5f43c5df306157b85bddec9e",
-      "candidate_set_sha256": "2ec284d8efb20ce781c2d26ab9c758b0e0d82301a27e666830d8da09a6069e06",
+      "pack_inventory_sha256": "6a403a8cc0d3f5bfe756f23d2b46a80ce63494fa79459fbc636500b0992a1cd4",
+      "candidate_set_sha256": "ce07505fb2bc41b37fcc8b00451a99ea63476a65b657b473a025552a698197ad",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1002,8 +1002,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "b90424f2f24471206b33c5197704292fc65143ef5ab09c8bc156c651d86d77a3",
-      "candidate_set_sha256": "85865c29d398acd44472f866f421f26e685385728167e4a17657cf7b0749cfba",
+      "pack_inventory_sha256": "5ec426765bd9d2657a2f0b13efaf74f3ad41bcd76f1c04ea51ac3e22653856ba",
+      "candidate_set_sha256": "76b5feee88bb7c8ecec89ee63ed1370e82063d81dd51ed1f5e415936d18c65bd",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1014,8 +1014,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "852913a71b7337ea037ef41a758421f08199c34546b37d4409871618326e7504",
-      "candidate_set_sha256": "6123c45027189ba9bfa2e3d4eaef5e958f7f8cb5c7bef4896b6d19059493693c",
+      "pack_inventory_sha256": "23aca077bbd9ecda603ad0f8b2a3bec648b66d68d1792f283405a4cf0db58553",
+      "candidate_set_sha256": "d3516392bb12220e1d18918a25f61bda05ba996632948b385da26c7afa33058d",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1026,8 +1026,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "41f8a93ed5e3be2eb57b754c8e8a69efffda85e095c5a2cbedffcf84bf84f0f7",
-      "candidate_set_sha256": "dc427a3f5d548c983f40f90ec1a98518f0ae0c181c3ff331bdb0a2eca42d42a4",
+      "pack_inventory_sha256": "410315c7985260f2b7304416a81d1c2bcf9f3536af2b62139540c68b51b7c261",
+      "candidate_set_sha256": "cf776e53a4bbbfab13bfaa144c901548f636d653cb9b9e120c8e926e340983b8",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1038,8 +1038,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "61d1f4003c3ba836b055fbc515621a27a7420e2e2eeeabea50590b5661514b57",
-      "candidate_set_sha256": "561fd2296104dd3654235a960c76a392ba83b407ac0d761af750c480376fc19e",
+      "pack_inventory_sha256": "5c286aa3db29f08b1a6326696ff37f388dff175473952a760dfb4c5fa99518de",
+      "candidate_set_sha256": "4a809c005aa7db10b14c1ae12d0223bdee4ed5d9683ff7ea2d89ffdff5e003ef",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1050,8 +1050,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "1a81ebb405f1f86123a94b6c9c92174d750f8fe60e0dbceb637cf2221a4d4de7",
-      "candidate_set_sha256": "e102bd2ba7f8ea937a79452a3007c261d102364b2d2c6ba8f74d4673eafc98ea",
+      "pack_inventory_sha256": "3dbbcd450c49008616ed2d944da9b935f753b5483f694d425c4f9b6d7f9048b4",
+      "candidate_set_sha256": "be02733d60e05ed93a2d06503052c17a058a748706dc1abcb1d7027ab4484dfe",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1062,8 +1062,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 99,
-      "pack_inventory_sha256": "fe75a91621f3c0f7fb0b282535a87e8ea71dd0d56f2f1b8a637f0ff2691a6c7f",
-      "candidate_set_sha256": "e980bc04fae004e58e73090d45a54201f3d0396c8540dd31b242473fa5dddd6f",
+      "pack_inventory_sha256": "42536200fa0cbb27ff960a299724244883a7f13d0d4abf96d1bc8d0cbbbc4b07",
+      "candidate_set_sha256": "cdb6f689ed38ec91dc6bcb9ef0c576b785968b6eb3737ff2cf21d5bcd614673b",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1074,8 +1074,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 99,
-      "pack_inventory_sha256": "0effb919d421ff41d0c3be468f9a5f4384562cd5dff151770769450a99d90dc5",
-      "candidate_set_sha256": "bf331edc88cb2565861a3ac287bb573f32c9bfe7e0e696b951a474b1c1b24fa2",
+      "pack_inventory_sha256": "edba0315cc0d8061f80367f07a9543733fd535f90f943913fca3941c338ca4f6",
+      "candidate_set_sha256": "3596ea8d69fa4c10800ee1177a0a90df464b990a178f2fd9e7af81952f9ffb38",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1086,8 +1086,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 99,
-      "pack_inventory_sha256": "6c50c90d964fe85f9cbdce6a358a5b07e28abab061a20267bc07fa22f511c49b",
-      "candidate_set_sha256": "4dc5156c14e838a732c8e79ebc8439283c558aa52bad49c56d3069cd33d2270d",
+      "pack_inventory_sha256": "c8923102976cd84214253da9bc0b9aca4e54c04dc5343fa5c52ac7f6d0269270",
+      "candidate_set_sha256": "71c0ba0352f5fb4e13b872d90fab072dc47fd2aa96bcff70c8081eca4ba9fad3",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1098,8 +1098,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 99,
-      "pack_inventory_sha256": "5f6d147c4cbd2e4af369a2fadd0118710892890b930aa772fa981686c7ea5b69",
-      "candidate_set_sha256": "86ada504fcc65c28a3b7cccd92399c42571cbd62c20af62d8f184d5a672de853",
+      "pack_inventory_sha256": "b426089bc13ef7b6f375f51c60044a233e3d324abf463961331d4638b82fec3f",
+      "candidate_set_sha256": "a24aa7a1e4a053fea9f22336fca8046ad9be2c709b42b3586d853759b625435c",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1110,8 +1110,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 99,
-      "pack_inventory_sha256": "ac223e626a15e5f637d193d4e2776dcc0fd504c555be1e9a0954de7e7c078dd8",
-      "candidate_set_sha256": "99560d733776fd116b8b63f2489e7058f783f0fad8955d1a4227a6a1708bb89d",
+      "pack_inventory_sha256": "ee525aaaeb74a6ec8f2f98bb757e93a7bd1cec92f09a395a15870be8d5483403",
+      "candidate_set_sha256": "573d120d28055e4d4e032601f77591d9b7ce151ce98c65bf668c1377ad6ff22f",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1122,8 +1122,8 @@
       "candidate_basis_points": 9375,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "188ef4d0ac1a0e150ff8c3a7b212dccd5dfe3d2297ba15f9d8b92c57eb1e2dcc",
-      "candidate_set_sha256": "aa690012f85910748936938fa20ed4a783b78db28bb58705d235626261881c53",
+      "pack_inventory_sha256": "35e323cfc89ff64c05fa2ebc50ef7a647f1d9a9e5a577acb3d761a4dab294b54",
+      "candidate_set_sha256": "b396aa0d80ff8e500b46fd19677e67cc2f6d661520b2eb3ef994a8f29afddf7d",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1134,8 +1134,8 @@
       "candidate_basis_points": 9375,
       "verification_grade": "A",
       "verification_score": 98,
-      "pack_inventory_sha256": "8ba8f5bd40afea64f7dfcc34bec4fda6c311ce02e6612ea17869e1d6ecf52b14",
-      "candidate_set_sha256": "874033e5a14b5449647ff31ef1efaf126b43bf91d9910975987512e32f56a30b",
+      "pack_inventory_sha256": "56932d271b2d5cdd7aba2770e4e95190a71abbc2c54738665930b48d506db212",
+      "candidate_set_sha256": "8f267bb52b1ffb1add3e2b681546155f0af7c46cc61b2e46fe1c29117f315a2f",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1146,8 +1146,8 @@
       "candidate_basis_points": 9333,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "aed33c722d5c46a3dfe762f7bb730796fa69ba9c384fcb5619165421b61e6f85",
-      "candidate_set_sha256": "1e3c26cd55c6ed274ed3daf6c8a3f1ab7b1a17c2771a665541549b19a8d9b0b6",
+      "pack_inventory_sha256": "004c2be1ae0d4e243ae03310db7ce70d94420af57cb3ae20d5e14c5cff5cda64",
+      "candidate_set_sha256": "d3305e43b83798187b326b064d58b2f6f6529ed4e50433aff24fd16733e1f384",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1158,8 +1158,8 @@
       "candidate_basis_points": 9333,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "73d7eeac87d4cef0f390aad181162e00db145ca2455c27cab15d6b9bdb07fbe3",
-      "candidate_set_sha256": "058f773619a73baae102fcc2b121697df325c4f89e1dc4b4a7660bab6f5687f4",
+      "pack_inventory_sha256": "70690d67d83d6c08e71aa2aa807a05a0fa971d59f7157ea61cd4e5eee7bd3dc2",
+      "candidate_set_sha256": "ef23cb4fd63613f374958068108efcbd571a3e66d874f66a9054cdb2cf8c7a99",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1170,8 +1170,8 @@
       "candidate_basis_points": 9231,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "59d55559e8ed3116df3e103edb24bb195bc55d760b03cc3cdbbec7aab09fd1b5",
-      "candidate_set_sha256": "04151f0323318e4cf6b4cb117c4a007f4ded0662f98dece0ee1f6d5ee4aa0813",
+      "pack_inventory_sha256": "b198d43dabac69a29316ae70b6b63787bbcc33d1eb55fbb8230820c1492bf309",
+      "candidate_set_sha256": "4b363e6e7853119e640f4f666d0beeca632dbed8ab816ff883fe6d37970a9d11",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1182,8 +1182,8 @@
       "candidate_basis_points": 9231,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "c02232d394e44466a8b9cf807de3511549345b847fdaac97a538bf5e8cafb4c1",
-      "candidate_set_sha256": "c040b506bcfa509758b7fab8a994343826b38e3b83feb0e87eae930fa4156fc4",
+      "pack_inventory_sha256": "e622e1bd3a903d46ed0ec3b046f57314190abe0669039267fffa34d7b5574043",
+      "candidate_set_sha256": "c899e72ce36ebd024cbbfda88657e723b3a840a64a1039afe8d1bd064fd281cc",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1194,8 +1194,8 @@
       "candidate_basis_points": 9000,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "ffdd43ec7f5224f91f7424e50be4496bc1fe0a0efd358dddb8c7fee12dba6ce5",
-      "candidate_set_sha256": "004336532b9e8e1a97b8b541769cebe82fff70494489f52f4ac80fe6db1c1b5d",
+      "pack_inventory_sha256": "7732fdcdf2823a7bc98e64300a5f82599951817463524f99f06b85b0fa601125",
+      "candidate_set_sha256": "6883df39d65e115dc0b569bf0f9c29f23d9c5fc67a85c7bb2c7baee9cc54d979",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1206,8 +1206,8 @@
       "candidate_basis_points": 8750,
       "verification_grade": "A",
       "verification_score": 90,
-      "pack_inventory_sha256": "cd553224994c22220db84262af662b94b5e1422f7d90a959647668f44f56c910",
-      "candidate_set_sha256": "476b99048af471823d414b21c22d12616b14ce5a79471e035a04d49363830c3d",
+      "pack_inventory_sha256": "4a60071260b5d30fcfafcc1c1bad418f56e4efe7a2774e3fd0c1074fbc29c021",
+      "candidate_set_sha256": "3c917d0a70fe26b53d10f2f9cfa793067b321d72af96d61e292fe7ec85d630a5",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1218,8 +1218,8 @@
       "candidate_basis_points": 8696,
       "verification_grade": "A",
       "verification_score": 91,
-      "pack_inventory_sha256": "401d8f74308dedb5b67229238b5b38e3dfdbc5524d6c8c8a0efbc2738f70ff0f",
-      "candidate_set_sha256": "ed5b97c65cf5d4f57d2967d0bf8748489fe91f19f13c1bbbb67e8f0ee12ba8ae",
+      "pack_inventory_sha256": "e4c2b0681d5dd58e3d40e69d20fb86d9f2d34cbc58e3c4f18686b29fb30c8211",
+      "candidate_set_sha256": "e26c9ced036e62fe371934e5735b38acf94b1f565cf2a057739cd5b9df2dcf53",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1230,8 +1230,8 @@
       "candidate_basis_points": 7895,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "98e0e327b3e2c8d44700c49c9a3c960ca518f039f5f43c1ab80b28ba18c1c34c",
-      "candidate_set_sha256": "0d502a42153894b69aab1fc45466c1114dea4486411b9ef3c050f519be3ea0b2",
+      "pack_inventory_sha256": "22dccd81fcba639d7a168f89b0fb58e00fd72166bc0f399d52ca7a2aa6616384",
+      "candidate_set_sha256": "e40c4bdbd7fd4ec12b8a0b8672791c9922e86188edce754118c7817b5db858e7",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1242,8 +1242,8 @@
       "candidate_basis_points": 5455,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "0cf83272c5f2ecd7f97e9e33ce19c6681b9d9fced55b2cd57efed527cbcfb628",
-      "candidate_set_sha256": "69a1ce4fecb102a5f1ba957a4e7c55733c68e031c51f3df1b475ba051fe77d7e",
+      "pack_inventory_sha256": "ef38a0dd71e22af0776fc0ae144fa23d6b23b6f1c020015acc31e1380ae9a975",
+      "candidate_set_sha256": "e2e4564a841364ddd234b09845826863abe895070a69e5c8406a8b86647fda51",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1254,8 +1254,8 @@
       "candidate_basis_points": 5000,
       "verification_grade": "A",
       "verification_score": 96,
-      "pack_inventory_sha256": "2c89ba99821361ebebbc2ecf98b8e8544381dcbfb56ae0dc189298158182bd43",
-      "candidate_set_sha256": "5d24d82924d7ba9aa9a197ce6422b98c56bc197b4101daf54bb7861dc1457d15",
+      "pack_inventory_sha256": "385beb3520758fd95c9d327d96e316672f93402d0a388f0954da7bb09d063fc3",
+      "candidate_set_sha256": "f02bd76df6f938f83d7a47d540a176eea1b56aade86c4b0392c9a81381f7a0f3",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1266,8 +1266,8 @@
       "candidate_basis_points": 4000,
       "verification_grade": "A",
       "verification_score": 97,
-      "pack_inventory_sha256": "4281c1a1c2dd803f1130702d121dc32b402a3506d4e87f931405b21f57e80d17",
-      "candidate_set_sha256": "083cc37e2aae3693d24a4c0928a13656937c87d83f25d783267d6daaeacf1d06",
+      "pack_inventory_sha256": "f5cff0dc8ace5ee9f6a30bec77a4df6c32140a8b5ee6366b1e3680d638d212c1",
+      "candidate_set_sha256": "60ea4b5df903273b39c1680df5c96313760e91324397bcbb7edc1f780291bb94",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1278,8 +1278,8 @@
       "candidate_basis_points": 3667,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "fdd85f08441783dff08c7196302e4710ed256e4aa2b3a6a94012bb5c894efe18",
-      "candidate_set_sha256": "0e07a992269f85a3b74f2a028b067d3a966042e0c8551f07290e584b739ba0d5",
+      "pack_inventory_sha256": "395af301f19a2a57e10bfbc3a1e465b672fc42edb8812edb2278b1c5bf92b313",
+      "candidate_set_sha256": "169e25a29d7b8458a402070969a453857ef16b97a54a5c336d84ff39dc93176f",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1290,8 +1290,8 @@
       "candidate_basis_points": 3333,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "1d028e30503ab3bcd9f79e0765fb0d506ef7143d9b949b15dedcbbd1b11793a7",
-      "candidate_set_sha256": "8a75d7bb3abb0d730d92ac7bf794990e4c09b244c01117f58e9c85998c086f2b",
+      "pack_inventory_sha256": "9e00e785f12d18473c2d51ce7086748183befe225e345ffe1677aa593474b379",
+      "candidate_set_sha256": "565b96e3189dec00953ae10d9ab0a4b7065ac4590598db90c5bc8dd7719be7e9",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     }
   ],
@@ -1315,8 +1315,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "62d2c6a0edb4887b770dcd80633c9ff89f54d26e5f43c5df306157b85bddec9e",
-      "candidate_set_sha256": "2ec284d8efb20ce781c2d26ab9c758b0e0d82301a27e666830d8da09a6069e06",
+      "pack_inventory_sha256": "6a403a8cc0d3f5bfe756f23d2b46a80ce63494fa79459fbc636500b0992a1cd4",
+      "candidate_set_sha256": "ce07505fb2bc41b37fcc8b00451a99ea63476a65b657b473a025552a698197ad",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -1625,8 +1625,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "1f12bdaee3b01dca390f76adbfe6e4b9a1b06d950a076a3b0034d4d98ed3f847",
-      "candidate_set_sha256": "e03e70d2c824780eb3f1e30a67aa7d9e4535e37d1668c3244060937dfc97ed6a",
+      "pack_inventory_sha256": "3f5f4d16e8f976f5c160ec8dbca0dd28318307e172b4b5ec089233381b216543",
+      "candidate_set_sha256": "fce0902bacdf2519bb89836c04e9211ede730e74b52a24fd602d26eea0566543",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -2115,8 +2115,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "b90424f2f24471206b33c5197704292fc65143ef5ab09c8bc156c651d86d77a3",
-      "candidate_set_sha256": "85865c29d398acd44472f866f421f26e685385728167e4a17657cf7b0749cfba",
+      "pack_inventory_sha256": "5ec426765bd9d2657a2f0b13efaf74f3ad41bcd76f1c04ea51ac3e22653856ba",
+      "candidate_set_sha256": "76b5feee88bb7c8ecec89ee63ed1370e82063d81dd51ed1f5e415936d18c65bd",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -2425,8 +2425,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "fe75a91621f3c0f7fb0b282535a87e8ea71dd0d56f2f1b8a637f0ff2691a6c7f",
-      "candidate_set_sha256": "e980bc04fae004e58e73090d45a54201f3d0396c8540dd31b242473fa5dddd6f",
+      "pack_inventory_sha256": "42536200fa0cbb27ff960a299724244883a7f13d0d4abf96d1bc8d0cbbbc4b07",
+      "candidate_set_sha256": "cdb6f689ed38ec91dc6bcb9ef0c576b785968b6eb3737ff2cf21d5bcd614673b",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -2825,8 +2825,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "92d4983146195ce10117e93e2fc822fcbaad8782dda77120299e24d661e8968f",
-      "candidate_set_sha256": "2e495f62299a475022379559f828f10e713a60ae1e478b0fac9e4424f00295fd",
+      "pack_inventory_sha256": "9e012a5891f2b0eac2dc5a4f55177a113b8b153f5d63d823054f13899071a112",
+      "candidate_set_sha256": "b4c2c1d3177c84cec9a132f2c6b97cc0624b26136a893dbce418e39edc0fe9de",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -3135,8 +3135,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "f209957af3c38a22d1da9426feb7ec89b5b39c975f021d204a5a6e4c7b747e52",
-      "candidate_set_sha256": "23474730995afc8c0785656a87a7e2f2eb421040361a2213c693a6888331c44d",
+      "pack_inventory_sha256": "e7f9cfb5beae0f7c4a3d46b697fa5403a5f39e7eee8756ec1c8f1202f714afeb",
+      "candidate_set_sha256": "1972e45a030e328c0b8c3b5523fa0d1fdc1a565537c3e7912fed93c5316b3b27",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -3625,8 +3625,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "cfdd6ed52c1a69a5f1e5d9186b48a9c906ef0e0d4a58d4f6bb4837e9a8434df4",
-      "candidate_set_sha256": "122acd9745d5e9970a37c1e26f93b05d04f46e35543a0f6b06fdb51f4ae12a57",
+      "pack_inventory_sha256": "df16075a17f5051451894391ec3d231ecc61ae8a767510ed47c03f65dae87559",
+      "candidate_set_sha256": "ae6eb49cbabc3132c2d9ffddb9f099c216de6848cfafd95c60ad44abbf076136",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -3935,8 +3935,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "bb6d64099a831ee8d7298a96ca1f132186d141f234ac9449591e21eaa3690f97",
-      "candidate_set_sha256": "238516979b3b8227f54ee6d036524e459781a70e1abb800686c29bf9ddfb15a8",
+      "pack_inventory_sha256": "a1f1b334e2d3148ecafef47e4fb8aad6b7350823afcc03d8705958e12c8c3250",
+      "candidate_set_sha256": "8d0366821880857c92558f6f3493a3a018e5da01284e85e4c563e05e51b609d9",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -4335,8 +4335,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "28149ca142f2d7432638d72ad92d344fb4c3261a69508037f608e1f72f16e20b",
-      "candidate_set_sha256": "6ede3d020d92deb421285af708bed42182731614893c24f7f70fe2ee5e6960d9",
+      "pack_inventory_sha256": "10dd3f3bfa7cb802c23a2665479cb3c040142d5620dc2ece42d85df5805886b8",
+      "candidate_set_sha256": "fd1941b338a8b138654dbba631acaae4cbdf3ab306fc7b2cfe2adf8ebeb01fb8",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -4645,8 +4645,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ba24956bbedc5201dfa6db262f69ffa63f77f0ef76d223179e03db46565b562d",
-      "candidate_set_sha256": "6d5b3a9041a3b984a1001ac89002b71b4385347b03a19ee7d007dbfac46f57be",
+      "pack_inventory_sha256": "b2584ad70a0b9ca143fda951f8020fc34f789bf92e237db93af1c67b336c55d3",
+      "candidate_set_sha256": "b7c917ced1b46e14ca538fff26c39acb56dbdbd768f0568be69246a4a7417f03",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -5045,8 +5045,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "3f0d1f49c343691fa766ba95f636ea4899938318fa70def82e797882555c087a",
-      "candidate_set_sha256": "4e464313d554c649280d13cbe8a63c6401b239d5145bb3b28a77062739c699f7",
+      "pack_inventory_sha256": "abc15701d2dc3036fb9df0c0563d82b273106f9609a9b123943eca3388b186c4",
+      "candidate_set_sha256": "f158cef1d191cd03096dfe3d7c61b40325974aca8addc6ad5fe16b977c581395",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -5355,8 +5355,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "852913a71b7337ea037ef41a758421f08199c34546b37d4409871618326e7504",
-      "candidate_set_sha256": "6123c45027189ba9bfa2e3d4eaef5e958f7f8cb5c7bef4896b6d19059493693c",
+      "pack_inventory_sha256": "23aca077bbd9ecda603ad0f8b2a3bec648b66d68d1792f283405a4cf0db58553",
+      "candidate_set_sha256": "d3516392bb12220e1d18918a25f61bda05ba996632948b385da26c7afa33058d",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -5665,8 +5665,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "a18958ce5db12ebe38b909d7364b50b7082e1ceea747fe3ca6bbb6128a8927cf",
-      "candidate_set_sha256": "f67db7aea452ea37d694b6d7f7da4552fbe17718cd3d9bf86b1391558a7e8047",
+      "pack_inventory_sha256": "e407c09c341a41f0e0c339893c8c7e1a0d620d01d8fe2ce4271707338d316cb7",
+      "candidate_set_sha256": "e4343beb93706eb7d2932791a87637fb18ebf22e2841a0cdb9924f5fbebf9b40",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -5975,8 +5975,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "70589c0b5570e629a034c197ebeecf4acd3daa29e38dc1ca169039a31d5a0df0",
-      "candidate_set_sha256": "390cb8a2b8a7fbb397de2d997c49752e4e106bee89f08d407f0c654f7b71316b",
+      "pack_inventory_sha256": "6d5f792c53ed0833f057b106b2f11e4321df8ea2c7c45ade038498106ff1931f",
+      "candidate_set_sha256": "8ba9c9caafff1f8c63a1d85929ab34faac0d75670ee273425ea300cf67c3aa95",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -6285,8 +6285,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "9246df45bcd1b8d8372d93f23eff720b61d53005d35e606f958288008c7695c0",
-      "candidate_set_sha256": "bc4ba9256aee93750fea010acf7a80e132b62f11e34bf714deb27d8141eafa9e",
+      "pack_inventory_sha256": "278093d658d84a2dd144d33bf320371e630f8e8fe39387114a9dcf6dc0e399f8",
+      "candidate_set_sha256": "663bcded5b4ee975e3695e9e38b0ec0f0b0351a2949fbbed6859950418b5a34e",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -6775,8 +6775,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "54833e141e0cc841ec8c76ee0b8888e4e63b65b18bcc3c43a9b5c69c835008d1",
-      "candidate_set_sha256": "f3e1986b76378d155c2e6929e886dae0049aeaf47700d4e5d6f543ec52c09651",
+      "pack_inventory_sha256": "299e30e0fd113efcc0873af9d88dcd1a8766f3570fd2f016128ab194dd40b246",
+      "candidate_set_sha256": "d89d3928b1294e1c3fa8e2bd20936f76a1d8656c43e6b2a7c736ec5a4837dfc1",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -7085,8 +7085,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "e16dbc7ae11c693e011ecf53b30a935f7f2eb2153c216cde3dc5d2d7e51a4719",
-      "candidate_set_sha256": "47ae94a68ce3b6773ef3550eb95504ec4634937bba4fd656403db80c6c6a63b9",
+      "pack_inventory_sha256": "dac997e0ece8384467634f5d1f9d8119c7c3c15b07e58b1b8e12ca68653ef871",
+      "candidate_set_sha256": "40012152b4efbc2a327d347b09db20f30701a6c02fdd59cf8f95013afafaf612",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -7395,8 +7395,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "188ef4d0ac1a0e150ff8c3a7b212dccd5dfe3d2297ba15f9d8b92c57eb1e2dcc",
-      "candidate_set_sha256": "aa690012f85910748936938fa20ed4a783b78db28bb58705d235626261881c53",
+      "pack_inventory_sha256": "35e323cfc89ff64c05fa2ebc50ef7a647f1d9a9e5a577acb3d761a4dab294b54",
+      "candidate_set_sha256": "b396aa0d80ff8e500b46fd19677e67cc2f6d661520b2eb3ef994a8f29afddf7d",
       "skill_count": 32,
       "catalog_declared_skill_count": 32,
       "tutorial_lattice_count": 30,
@@ -7888,8 +7888,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "486080895940ef3076974563b4d230b4d3e129ff6d2391b405b2d9b16af2ef7f",
-      "candidate_set_sha256": "d683db6b875ca7bd57fc36baa5d30676fcd89adfaa605aa25e1a071791bee7ef",
+      "pack_inventory_sha256": "2c0819ba92e2a2b3a32fc2af52f9aa96fb15e1b0d809d17ea6dd71fc0c62becc",
+      "candidate_set_sha256": "751f29587a59ea1a66351d05f0adb930f6a529d39dc82661114253967e84fbb0",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -8378,8 +8378,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "13e84778396c9bde09ce61068849b8868dcd8ffe9631422a4689d507762c0dd6",
-      "candidate_set_sha256": "3aca0d2940adf438484d62821f54ef2187db4c8bd9122537d34471fe7d4242ca",
+      "pack_inventory_sha256": "f9e520ebcbf1fedf60ef2442e0cb9444159b266a64c71349d251751e3c9999e3",
+      "candidate_set_sha256": "b8ac7832bc9f456170e653025f2ad76b4e13e01aa59f69417987467c3d94d0ee",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -8778,8 +8778,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "42f5ca4c5b2778d04553342a913d73ebeb21b26f29a778963ca22ffe5a196eeb",
-      "candidate_set_sha256": "7e662e66aca9aa1480bb1d4e9a63c46f027804a92b186d34bc27e6eeced7fde4",
+      "pack_inventory_sha256": "aeed52ad68cabc2f221bbaddf05d55082178ead3a4840a3bb50b5a5e796c1de6",
+      "candidate_set_sha256": "86a89bd03f9f35690ec1e3df8dfba0aea3d3744c730e33902997a95749378ffc",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -9178,8 +9178,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "0effb919d421ff41d0c3be468f9a5f4384562cd5dff151770769450a99d90dc5",
-      "candidate_set_sha256": "bf331edc88cb2565861a3ac287bb573f32c9bfe7e0e696b951a474b1c1b24fa2",
+      "pack_inventory_sha256": "edba0315cc0d8061f80367f07a9543733fd535f90f943913fca3941c338ca4f6",
+      "candidate_set_sha256": "3596ea8d69fa4c10800ee1177a0a90df464b990a178f2fd9e7af81952f9ffb38",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -9578,8 +9578,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "e65423dae53b69857c7ceaa732a10148be160d712e7d5964f287ef3fc2db2803",
-      "candidate_set_sha256": "d1535b73434c1e23b1c03a556525fcbe2ee3157b79cb4a99a2ab4bb4032a4062",
+      "pack_inventory_sha256": "ab033b2283bd2792a016ba4b07f22f874970f0202738cc76cf2b7b2723c13106",
+      "candidate_set_sha256": "deca65c11aa6b4af4147c5116ba9037d12b60e58fa45f757f5a11859fff69ce2",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -9978,8 +9978,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "28916cccbd7cdd3f87c302fb38c893ecb68fb4984fc3bb5ef2606c490fa3e268",
-      "candidate_set_sha256": "2c6668bc546f714515bfa95b1a6e27e40bcd2c9ffc13530d84970a52499de128",
+      "pack_inventory_sha256": "1dd9533698ee6399408a8b7a0ddc20486f0e1b4fe12295505be900ebc587db3c",
+      "candidate_set_sha256": "d5c128a9787f40ed4be33c9b08a85ed950c85e6c122af589c9f3fd895f18b043",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -10378,8 +10378,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "401d8f74308dedb5b67229238b5b38e3dfdbc5524d6c8c8a0efbc2738f70ff0f",
-      "candidate_set_sha256": "ed5b97c65cf5d4f57d2967d0bf8748489fe91f19f13c1bbbb67e8f0ee12ba8ae",
+      "pack_inventory_sha256": "e4c2b0681d5dd58e3d40e69d20fb86d9f2d34cbc58e3c4f18686b29fb30c8211",
+      "candidate_set_sha256": "e26c9ced036e62fe371934e5735b38acf94b1f565cf2a057739cd5b9df2dcf53",
       "skill_count": 23,
       "catalog_declared_skill_count": 23,
       "tutorial_lattice_count": 20,
@@ -10722,8 +10722,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "1d028e30503ab3bcd9f79e0765fb0d506ef7143d9b949b15dedcbbd1b11793a7",
-      "candidate_set_sha256": "8a75d7bb3abb0d730d92ac7bf794990e4c09b244c01117f58e9c85998c086f2b",
+      "pack_inventory_sha256": "9e00e785f12d18473c2d51ce7086748183befe225e345ffe1677aa593474b379",
+      "candidate_set_sha256": "565b96e3189dec00953ae10d9ab0a4b7065ac4590598db90c5bc8dd7719be7e9",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 10,
@@ -10933,8 +10933,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "cd553224994c22220db84262af662b94b5e1422f7d90a959647668f44f56c910",
-      "candidate_set_sha256": "476b99048af471823d414b21c22d12616b14ce5a79471e035a04d49363830c3d",
+      "pack_inventory_sha256": "4a60071260b5d30fcfafcc1c1bad418f56e4efe7a2774e3fd0c1074fbc29c021",
+      "candidate_set_sha256": "3c917d0a70fe26b53d10f2f9cfa793067b321d72af96d61e292fe7ec85d630a5",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 21,
@@ -11292,7 +11292,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "d4c15b76e94736d48ad6c0f2dda85dc7c9b24460b71b1254323bf4d685fce690",
+      "pack_inventory_sha256": "a7bd03aada7c57b43db37e7628edd6f5dda5e41609c80334728fb79be2a62340",
       "candidate_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "skill_count": 5,
       "catalog_declared_skill_count": 5,
@@ -11337,8 +11337,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "eee3e5af29006c461894fbfd9704fc77c44bc3a07d07ebe4c1d0376e6954a9c8",
-      "candidate_set_sha256": "9d7425e519e76cc19fea5fb1aea7033330648bd5f6cca4124250496bef200734",
+      "pack_inventory_sha256": "8a0917200a33d32688cac40d81ba8cadcbdf93055cca70226ea5df5518ee17ee",
+      "candidate_set_sha256": "945152ffbd23a2b842a3526c5464026c67d7b6108b6e27b2e95858030e444d66",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -11737,8 +11737,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "581629d7032fbb5bb1ad95aedb0a7acb760fdbc65d3900158684b2c82e76e46e",
-      "candidate_set_sha256": "cf9774264d0923c98c46c0e31e54b70a856a674fcf6738b4b8f0de5b73a89730",
+      "pack_inventory_sha256": "99bdc48d80e39d983a1167fbaef6b58cdc3ada8a902c9954e0c99370485a5a1c",
+      "candidate_set_sha256": "716a6a41409064a4a5b09276a84efd7ad1b5b8834dd3855415b1260479461ba1",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -12137,8 +12137,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "63b6b0c7c9319756b3ee093d8e680130b7ea768e537d404c35e8895307907801",
-      "candidate_set_sha256": "5509bfea8efae22baf669968e32e8903b20857556b520ba087d14a7b6836eefb",
+      "pack_inventory_sha256": "8f967015c200d3c871f162dda0cc0e05f8fce95768445cdea72be0931a6ea444",
+      "candidate_set_sha256": "4744bdd13e916346971b0ec6b7951014a230344c0596bbbf766ca5b617fbc7a6",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -12447,8 +12447,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "adca786a178b0938576478998f8f0705f7a6bf882f4f5474e90f00d43254398a",
-      "candidate_set_sha256": "21f4a12c0e0aa443f3d0f4e279d693786fd8c2b4c76000548a1d6a0f316fae02",
+      "pack_inventory_sha256": "880e000a25046f3a46e733be8efc51505d3c2380dbcdbae3433d9e99815900b8",
+      "candidate_set_sha256": "324507545be6f019438e312284f7ff575afa101fac1620f43d004e9a4a5c391b",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -12847,8 +12847,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "67004128f9d5a94677d77f850514b1f98cccef07e44c164322260acf45c13624",
-      "candidate_set_sha256": "e90b91824092e9f447ec173e16564df8d495adbf76c29186580bd44c19ce4a1f",
+      "pack_inventory_sha256": "ba0b73d0d5946ce9f3c23a7c540ddfaa05285d5f0667a4b4d87acac98b155f31",
+      "candidate_set_sha256": "d54be58bfb5f875ecc531d5743e8487ea212522ebd5ae49951c715f462e4f32f",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -13337,8 +13337,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "0cbb04cb98e0c61bf7135f60c161cac9c70ef0e522707dda745c5548bbbc4120",
-      "candidate_set_sha256": "41f0b0c7b241de8d8e09f73758bb646a6b983cf18ab7676098f1cce85cebf8a1",
+      "pack_inventory_sha256": "e751e6c3452d74450e269e6a7cbb7dc00c38b2064e643b2523830e775c38e0ce",
+      "candidate_set_sha256": "3d57cd2f08cc35359cb7c5fb351c111af60b4e3b55f17bcadb484095f0349037",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -13647,8 +13647,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "c45d1f09242bef20ab4a87ed63029eb5e24a22030a4fadcf7c3bdb999aa1db1f",
-      "candidate_set_sha256": "596498928ef5b8df7feeed0a8fb1373bb9a801ee4ed60d2372fea692402bdf8d",
+      "pack_inventory_sha256": "ea44d72bb88f30b357714e40307d59c04966574d641562226b480f2d5a136f64",
+      "candidate_set_sha256": "ec7bc8287fb9cffa22a48ca92fd59c25cecf77afe95abf6ef9b08436f41f3f14",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -14137,8 +14137,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "7527583f5af06a8eb9a3e7ee8e2bc53c548ca6410be1e35b943aa04e72cbf5e1",
-      "candidate_set_sha256": "70f45a4955f02126291fa8c9fa273ab33741c2e6d3b567d7b2254b60d3263cc3",
+      "pack_inventory_sha256": "9f8468e6c597aac22c18c3b8953a3ba7eb65edd3aa93b06b086153b95963d719",
+      "candidate_set_sha256": "763fa5d1ceda87e9d1cdaa51e5cc959a04e3d0db93a8fa00d1d3429c4ef1837c",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -14447,8 +14447,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "b17392b053975b241cec54e2065ef20464271b61a4a733e63ae07d68e0f1e5e6",
-      "candidate_set_sha256": "b99b169ea536ebad585e6bc1f02a7bfb601dca1de0da0f06987d64cd6e39c2d7",
+      "pack_inventory_sha256": "f1282b7869a2d4efba2018588b7002c09f6e44b167cf9a6e602a912433b54f54",
+      "candidate_set_sha256": "add5a3782ae41922f189c5495982b0d3c34ef3021b07ac7f9b241313d9f2ab50",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -14937,8 +14937,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "378bb7c9b6aed60af75c2ecbd9a4c7fa5621d1b3649d5c18b82af261e97aefd9",
-      "candidate_set_sha256": "5ec5636306081185c9015771b23d18e8bff7014715c5eabe531a236443c9a527",
+      "pack_inventory_sha256": "d76a60b8f5b0ca29f350b63f1d3a22ecf3034ad1cdb2bde61cfd6a9a5dcde96f",
+      "candidate_set_sha256": "28aece099fbdd4226c1bad8ea277160c9b82a46222ffd851a65144a036d5c5b9",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -15337,8 +15337,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "22e23732e1fb3bca5b41146b02026032fd842669095b06aba898551c656973d4",
-      "candidate_set_sha256": "04ba293fe68f9d1589ea0a0c1d439f14f2ab6bfd5cbb72290846aaefedb6b437",
+      "pack_inventory_sha256": "e89bf98352b92413c9c10e4f00d23fbf5b9b139ec1d02432035c6e9309332a06",
+      "candidate_set_sha256": "14f00a2df7efbd1334009c8a9c2d876ea6a55cff322f8d519f5d6f684af590e8",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -15737,8 +15737,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "476db5abc999bdacebd0569255826b38b9ba9f6077d7c3afd07d28a5b159b178",
-      "candidate_set_sha256": "0f77f5e8d6940eaa58a70be7f00887be54f9f35bcaf393246cb179ff9e920603",
+      "pack_inventory_sha256": "05403a4f7d08bd281c505fa0f75c83548c12719bdd90f976d3e2101a6cc8739a",
+      "candidate_set_sha256": "9df5b86403babbc613a2d3bf6727bbba4adf8a4ca1392a9bee0a664eb3e7faa5",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -16047,8 +16047,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "9236bb509540e4f3cca35c80cfc42c2a3a3a8b039686782c67811992a0af5f2e",
-      "candidate_set_sha256": "50d658d4f203ef76e7ceaa20dc3096e9c0f70728b87853276d9eae560c2a2959",
+      "pack_inventory_sha256": "86559bc9b12c5e4f5c6abeb4cd891c329838953482783f53b410ca5e0e176b49",
+      "candidate_set_sha256": "452ad4f41061c69a050c4e5bf74cd440413a331d8c2ede77e3d9181f5723e857",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -16357,8 +16357,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "7608b54c1e0bcb049dc89703e5e112df3246f1edc6d85fdf349b44bc93a71036",
-      "candidate_set_sha256": "9146add240edbc0b504d2be534a6eed20d9bd756540a6a68c63bf4ed5c87d9c9",
+      "pack_inventory_sha256": "0c92fd8ce2f62bdf5c30ae01d8960de712d690583e3a4b7c0a07cd43101fb55a",
+      "candidate_set_sha256": "81be1f29490e7111b83618022ec9f23faa5b6d8f9f2ab7fce529bf559366c90c",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -16667,7 +16667,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "a847c00925ebb7652ab7a8f7465282162be91de19c03dde8ce19d97354c92c29",
+      "pack_inventory_sha256": "205e97ba4b882f3dc0be18ae861f10d8e3e3b5b008432bbfc5e6b8e8fe16e488",
       "candidate_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "skill_count": 5,
       "catalog_declared_skill_count": 5,
@@ -16712,8 +16712,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "336e44ec0b3b292c9953f73be66803d176f2e6b6e9951c27ae187f0991219e52",
-      "candidate_set_sha256": "5c79c9b8455a520510849a053ab83f420757419ca23392c01948be10971b8ed7",
+      "pack_inventory_sha256": "5fbc0f217ebf85a7e02aaf3eb91f823a01b71fb96374334612b992480b8df77e",
+      "candidate_set_sha256": "66f640f120ba700b502edd8fbb666b352adcca611829da68a3835a1ae80444c3",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -17112,8 +17112,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ac49f3dc9fb934c0dab1d52d5f72b3a928098ddadf393c1114ea0752da82f6d9",
-      "candidate_set_sha256": "126c7b67116f203d4ba2dd5da57330d87cff4ad18132ece98a7f902b0cd69f57",
+      "pack_inventory_sha256": "c0bb1eea2cd77550da978f014ee911e5d325564b0f37a0ff3f5fb0c63c76a249",
+      "candidate_set_sha256": "3cf80baa3cfa075531e8147da521d1a3b13148c3630c54144aa82af6f666b19c",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -17512,7 +17512,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "4165f2308a254f5765859499a4f40315a8d96205f10ab2114618fb559ff4e7f0",
+      "pack_inventory_sha256": "96e463541024c329e2d8a3edce4e3c148013145c1ba93c6ff49725937c3bcb61",
       "candidate_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "skill_count": 5,
       "catalog_declared_skill_count": 5,
@@ -17557,8 +17557,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "6b6ab4e53565648f36e4f450ba8fcced46d6e16f9f3f51f2672f3801999397b1",
-      "candidate_set_sha256": "275063850ec29ea637e86c3251ae945a983ea4c2ca75dfa63bcd0df4a4ca04bf",
+      "pack_inventory_sha256": "ba54181539946cdfea8c0cdb1df8a7aa242f2bc5daf272d63edd0dd9510bb8fc",
+      "candidate_set_sha256": "46b6d76422f1e34fdbe2ee5ed0c7ac10d66739cb1cb2ee6736af5b43f098cb49",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -17957,8 +17957,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "27fc6a5cd798fbabc260aa8957c686443c7a02de5b46cbc024ec74b551bc2af3",
-      "candidate_set_sha256": "46d082bc02b6af9333fb16e19eb7e3e8685845c226ad11b8c699686ce1dc3431",
+      "pack_inventory_sha256": "863622ca2f02547a2163f23b6b0dc0bef138a68d6fc1106480ddaaa5f758414d",
+      "candidate_set_sha256": "671730a7c1b732c096e2f2317aebf3a461a76ef7abf5964acc45f090447c5c7d",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -18357,8 +18357,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "2c89ba99821361ebebbc2ecf98b8e8544381dcbfb56ae0dc189298158182bd43",
-      "candidate_set_sha256": "5d24d82924d7ba9aa9a197ce6422b98c56bc197b4101daf54bb7861dc1457d15",
+      "pack_inventory_sha256": "385beb3520758fd95c9d327d96e316672f93402d0a388f0954da7bb09d063fc3",
+      "candidate_set_sha256": "f02bd76df6f938f83d7a47d540a176eea1b56aade86c4b0392c9a81381f7a0f3",
       "skill_count": 10,
       "catalog_declared_skill_count": 10,
       "tutorial_lattice_count": 5,
@@ -18478,8 +18478,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "c134f5db1f856820be6d7a23a113ba60ebdcf45de46b2bd6c1cdb6c1e7788ce7",
-      "candidate_set_sha256": "48ebf62ad2f0c63b47c5e38724a67f012c8bb7cc13820e903a23dacdc75dcca0",
+      "pack_inventory_sha256": "e82c1a8334841507c95b3a3b7238f6237e5981545e83b406313c2c790a68dba0",
+      "candidate_set_sha256": "ea762eefe4d300cced0c76d1c0c63362a05145466e76061d74caeb28d3239f6c",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -18788,8 +18788,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ee423662bd7f0e4edfcf9a5423a9192cae7b9f90048e290fef272a89070877bb",
-      "candidate_set_sha256": "824d7fc31cf76b77a4cd85e0c29dd0b164ac1c348fb13c023d7a19de04fc394b",
+      "pack_inventory_sha256": "2072a931056763377657a4aacfafc1bf72fe731160a771833c432c5ddf901215",
+      "candidate_set_sha256": "135a20e7e5de929ce93548fd432c1c1f23d53812b1497440c35b1dab9bc87566",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -19098,7 +19098,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "11bc6fd6d5fd5a5cfd09384510590381bad942d382c6bbec607bde4af7e51288",
+      "pack_inventory_sha256": "bb0ce7f73d058da108d0627e5c5893ef43280a598e032db4424c1724a0ced671",
       "candidate_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "skill_count": 10,
       "catalog_declared_skill_count": 10,
@@ -19148,8 +19148,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "3c9227da5314138518243ad762f15150a859a9a4c9e8afb5eb4c4f273d884823",
-      "candidate_set_sha256": "38a3ac52138b1aa85271b72f9647669674c350d22a9987a7f3b3c234dc551c0f",
+      "pack_inventory_sha256": "b0e4253c07eb3f6ea898fe96bb6092975bc5950e360f16ef7fe67d84e638cc80",
+      "candidate_set_sha256": "1a7dbd35c63dd828ac7e09a4e1681832be7e681ba9796418b4409cb229b9876a",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -19548,8 +19548,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ea93562d5233f0919fcc9fe54981a8b61726f27cf6b82bddf460e4d7cfa7e436",
-      "candidate_set_sha256": "c51d4b75e404d61ab9cbc0d4c6ad139112338a3f2f84476d535a9f34470242d3",
+      "pack_inventory_sha256": "8c927e6028468e1e4d10c6776fcfca41b3c0f7209b3230bfb63cc0f609fa2f41",
+      "candidate_set_sha256": "1a72b39bf71f76f0b7afcccb1a3b1e117c74c7006193181823bc3179286ee174",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -19948,8 +19948,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "3ad26cbea6c0afb63c68b98c31c14d907f849cdb9c4d9dbf46cbd091a1cd21d2",
-      "candidate_set_sha256": "40c9b37db6c98311bcccddd08d057a19cdcdbd061bab24021987e73f3f18ed17",
+      "pack_inventory_sha256": "a19dcea1b818f99f78c11f6a375e3b49e6be96211f7b44d9fd4d7804c2ee720b",
+      "candidate_set_sha256": "8e6de6df3aa4e9019b94b87c0bb66764bdb438484bea837ae3537ff41b70fb07",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -20348,8 +20348,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "5b031b7b442efffd1fb8a4724f0ea5787a9f3a4d7878af2888c78d905e936d23",
-      "candidate_set_sha256": "8b2a22ec0d3a03194ba4ddd86f767747b7d9c1db60d0f9ad3447916ff6287dce",
+      "pack_inventory_sha256": "e0aaee9541102f5d78b87d99d469b7acda89c936f8591a84f276ace599338d99",
+      "candidate_set_sha256": "6f2d1602f46217584c37799db162d3bef479bf3c1d7aebb6dc32c42b40fbf15b",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -20748,8 +20748,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "027849dba664d9f8abccaed3816eeb72598dff9a32ac3e2a1d5088703170b0be",
-      "candidate_set_sha256": "b294ec5d4fd613febfc4c463479d020f7ee47cc525d70a083bc8de4fef0efa09",
+      "pack_inventory_sha256": "7710cc5a0f78145056f1109ed0d094f2572be45d48214874e5394e195ca4c41e",
+      "candidate_set_sha256": "2b7eaa957fb9bc6b58e0d1cadeab8c6b087c0191f8e9f47478f80f2d16e92e3d",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -21148,8 +21148,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "4281c1a1c2dd803f1130702d121dc32b402a3506d4e87f931405b21f57e80d17",
-      "candidate_set_sha256": "083cc37e2aae3693d24a4c0928a13656937c87d83f25d783267d6daaeacf1d06",
+      "pack_inventory_sha256": "f5cff0dc8ace5ee9f6a30bec77a4df6c32140a8b5ee6366b1e3680d638d212c1",
+      "candidate_set_sha256": "60ea4b5df903273b39c1680df5c96313760e91324397bcbb7edc1f780291bb94",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 12,
@@ -21387,8 +21387,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "0cf83272c5f2ecd7f97e9e33ce19c6681b9d9fced55b2cd57efed527cbcfb628",
-      "candidate_set_sha256": "69a1ce4fecb102a5f1ba957a4e7c55733c68e031c51f3df1b475ba051fe77d7e",
+      "pack_inventory_sha256": "ef38a0dd71e22af0776fc0ae144fa23d6b23b6f1c020015acc31e1380ae9a975",
+      "candidate_set_sha256": "e2e4564a841364ddd234b09845826863abe895070a69e5c8406a8b86647fda51",
       "skill_count": 33,
       "catalog_declared_skill_count": 33,
       "tutorial_lattice_count": 18,
@@ -21720,8 +21720,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "6cec09ee2f32faabf6e247136345def021791c0eb7ac044719042ec4e562aed9",
-      "candidate_set_sha256": "4f180e4ef3dea385806229706f773e0db28f270a543fc62d58f16799254ad9a8",
+      "pack_inventory_sha256": "7f69006cdb3c0e1eb1133a4a79778b49c34ee3987edbcda0076b0bab31f5dd70",
+      "candidate_set_sha256": "6a9a0e44883ff6428683b13bbd395e84512e7b478f0d335ab41055e5756c7406",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -22120,8 +22120,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "c8a05027807e552110bbd95d83c8a311564d79049bc383c229b329852e0ad85e",
-      "candidate_set_sha256": "5eae8a760d05d24a93e03f9ad8d276f004806799ccad36bb77cf5ef2cc0cb9db",
+      "pack_inventory_sha256": "a5715ac19e489673594d14e03a9f16c14b8f1984f8078c393237a056e7e1a320",
+      "candidate_set_sha256": "b7e1ee820bd6a9d956c02241d83be8ddcd35e1bb9fd18aba2d0fecad53cb1cf2",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -22520,8 +22520,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "6c50c90d964fe85f9cbdce6a358a5b07e28abab061a20267bc07fa22f511c49b",
-      "candidate_set_sha256": "4dc5156c14e838a732c8e79ebc8439283c558aa52bad49c56d3069cd33d2270d",
+      "pack_inventory_sha256": "c8923102976cd84214253da9bc0b9aca4e54c04dc5343fa5c52ac7f6d0269270",
+      "candidate_set_sha256": "71c0ba0352f5fb4e13b872d90fab072dc47fd2aa96bcff70c8081eca4ba9fad3",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -22920,8 +22920,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "7700edbdc8c5fb66989b267ec8cdd60bd3d8861cc7b9299c8766622623413860",
-      "candidate_set_sha256": "70bce158267456cb9bf7a15cc7faeb4c281fb7c0583b941929f2fbe32ac8e531",
+      "pack_inventory_sha256": "033095bd46ee6d92632deb7757429971a26c145213fe4a12f08a6dd586b872bf",
+      "candidate_set_sha256": "c958f566855672f5312294baa9ab8f10cfaf792950e284bb0ec762bd3210d026",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -23230,8 +23230,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "0aad8dec34467c4e9c9366f64c5a35eca5f795c691f4d3d016d11124558d30fd",
-      "candidate_set_sha256": "9fece310c08b3ede2bed4b3ff20d0159dc9e6a54bc44769ecffaeb6274b8a6ad",
+      "pack_inventory_sha256": "dc6d31b1cf245c4eebd251bcd1a3406ccb01b355fd53981670381db20e710dee",
+      "candidate_set_sha256": "00eda7acb0625a7f82d774eb067812672f1f6da6d4bf2b9c8866c29aad4b5870",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -23630,8 +23630,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "aeabe6536e10424985c52079acb03c10894bc95c1419a0a39dec2798ec224c00",
-      "candidate_set_sha256": "7f419f3b36c6a5c670d9a2ab262717bf220933b6910d5e3721e83a839f3d5c23",
+      "pack_inventory_sha256": "d017b1039a452d078ed802ae5869593f643cf98d76e4e76e287fb5fa06b77260",
+      "candidate_set_sha256": "0b69ec96ad98954f78eb49ddaaef42fc43f89f70cf21431c4303e95f6a6bdfc9",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -23940,8 +23940,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "fed2535646c0e91caae0b4f0556b170965cf246191848b37e964fee88df975f5",
-      "candidate_set_sha256": "d4689549042e6ef2ba0eb2471b67bf9ae070d22d3221a9a9d51b6efe2ccc7fa3",
+      "pack_inventory_sha256": "3f83a0ad4c689d62ffb73ea0ca7c8896839e6582634a63dfe78534e0e16db162",
+      "candidate_set_sha256": "d1594c94a2ed89c71d4990cb2c07645191ed30407892707146841cd7fe0cced2",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -24340,8 +24340,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "710aae99b2c5a2efba9fad8f67393fb5ba49cdca66554d808085977b59d59599",
-      "candidate_set_sha256": "3290e5e0974f32540f1a91159bca6f7f520f5556a73e17d8642f8ea46dfddee7",
+      "pack_inventory_sha256": "c62e40215bf0a77a320555fc38bbe8ed8fc1d52e7979a7d432804bc998a56588",
+      "candidate_set_sha256": "d5a407c41229e8a0d0894ec1fe644bb0c0a89184b232ebcfa84585d5124d6fd6",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -24650,8 +24650,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "5f6d147c4cbd2e4af369a2fadd0118710892890b930aa772fa981686c7ea5b69",
-      "candidate_set_sha256": "86ada504fcc65c28a3b7cccd92399c42571cbd62c20af62d8f184d5a672de853",
+      "pack_inventory_sha256": "b426089bc13ef7b6f375f51c60044a233e3d324abf463961331d4638b82fec3f",
+      "candidate_set_sha256": "a24aa7a1e4a053fea9f22336fca8046ad9be2c709b42b3586d853759b625435c",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -25050,8 +25050,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "98148d9958939fc6422004cec3230b3a919f3f37e43640b0f0562ca565d1870d",
-      "candidate_set_sha256": "6fa28a16dd41090b3330d00a57e77069197dad85ed1dc3ba37b999c4658393be",
+      "pack_inventory_sha256": "dcd8b75159b3dd716bb4062dd90bb9aa8fbf70fecb3cba48f290f5c661be2197",
+      "candidate_set_sha256": "e1cbb0f01c323580ae796d0fa44518c6ddaa6dfee35769497dc0c2c7f02023a4",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -25450,8 +25450,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "c02232d394e44466a8b9cf807de3511549345b847fdaac97a538bf5e8cafb4c1",
-      "candidate_set_sha256": "c040b506bcfa509758b7fab8a994343826b38e3b83feb0e87eae930fa4156fc4",
+      "pack_inventory_sha256": "e622e1bd3a903d46ed0ec3b046f57314190abe0669039267fffa34d7b5574043",
+      "candidate_set_sha256": "c899e72ce36ebd024cbbfda88657e723b3a840a64a1039afe8d1bd064fd281cc",
       "skill_count": 26,
       "catalog_declared_skill_count": 26,
       "tutorial_lattice_count": 24,
@@ -25853,8 +25853,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "8ba8f5bd40afea64f7dfcc34bec4fda6c311ce02e6612ea17869e1d6ecf52b14",
-      "candidate_set_sha256": "874033e5a14b5449647ff31ef1efaf126b43bf91d9910975987512e32f56a30b",
+      "pack_inventory_sha256": "56932d271b2d5cdd7aba2770e4e95190a71abbc2c54738665930b48d506db212",
+      "candidate_set_sha256": "8f267bb52b1ffb1add3e2b681546155f0af7c46cc61b2e46fe1c29117f315a2f",
       "skill_count": 32,
       "catalog_declared_skill_count": 32,
       "tutorial_lattice_count": 30,
@@ -26346,8 +26346,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "b24ad55ee31e68c32944e98759e845630532727cfa4aa2af499f88af42f21bb7",
-      "candidate_set_sha256": "3277fcc767c352c47eb248e22f83413e5917632ac5abcdc3e8276da300705bc7",
+      "pack_inventory_sha256": "33a54bd64fac36ed32f0f143c86dfe702e2ab8ac5144eabbed2140783b38dd28",
+      "candidate_set_sha256": "ab15a4fc244d564dfe1df14f0b4258378a4656ec3ac555aa726a3b64bec0e910",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -26746,8 +26746,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "41f8a93ed5e3be2eb57b754c8e8a69efffda85e095c5a2cbedffcf84bf84f0f7",
-      "candidate_set_sha256": "dc427a3f5d548c983f40f90ec1a98518f0ae0c181c3ff331bdb0a2eca42d42a4",
+      "pack_inventory_sha256": "410315c7985260f2b7304416a81d1c2bcf9f3536af2b62139540c68b51b7c261",
+      "candidate_set_sha256": "cf776e53a4bbbfab13bfaa144c901548f636d653cb9b9e120c8e926e340983b8",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -27056,8 +27056,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "0859f6cacadb52f1715ca9aa899303d2fad97c3aafb0ed03c7d0788df7a06fb3",
-      "candidate_set_sha256": "bce1360b9384933709df58af4e11d7b16591a6b68c1c53e82c00084764e1c38e",
+      "pack_inventory_sha256": "d03c2d8484f66d9e61a3aece53ff487af95ad702bab0ffbb7cbb3766043f7774",
+      "candidate_set_sha256": "debdfb9077a97f0e3dc55b6a70e670e1e346959ee8d6d367d0bf9d4b8fbdfdc4",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -27456,8 +27456,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "fdd85f08441783dff08c7196302e4710ed256e4aa2b3a6a94012bb5c894efe18",
-      "candidate_set_sha256": "0e07a992269f85a3b74f2a028b067d3a966042e0c8551f07290e584b739ba0d5",
+      "pack_inventory_sha256": "395af301f19a2a57e10bfbc3a1e465b672fc42edb8812edb2278b1c5bf92b313",
+      "candidate_set_sha256": "169e25a29d7b8458a402070969a453857ef16b97a54a5c336d84ff39dc93176f",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 11,
@@ -27681,8 +27681,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "59d55559e8ed3116df3e103edb24bb195bc55d760b03cc3cdbbec7aab09fd1b5",
-      "candidate_set_sha256": "04151f0323318e4cf6b4cb117c4a007f4ded0662f98dece0ee1f6d5ee4aa0813",
+      "pack_inventory_sha256": "b198d43dabac69a29316ae70b6b63787bbcc33d1eb55fbb8230820c1492bf309",
+      "candidate_set_sha256": "4b363e6e7853119e640f4f666d0beeca632dbed8ab816ff883fe6d37970a9d11",
       "skill_count": 26,
       "catalog_declared_skill_count": 26,
       "tutorial_lattice_count": 24,
@@ -28084,8 +28084,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "6d6f7d1ab73efcf559d1243c3f2fc0ca7ee9085033dae07500fd55a4d6005369",
-      "candidate_set_sha256": "f2f23cb0d9440070d2ea2d859579fc4d85ca0e86156ec03754c64b65361140b9",
+      "pack_inventory_sha256": "d222b940a2757f432b572779e6357f763481a7751b861355adf9c0978725d959",
+      "candidate_set_sha256": "a9cc7ac448d8c1aa6c8d137e2664f979b3b48550970d45d96935e229412b7cbd",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -28484,8 +28484,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "a4d887711af14194fe2a77b70a62bcbc5b4be39e9f5d2760a92a9b1e2e71b320",
-      "candidate_set_sha256": "242115f7c0a7903a62a8ecb94440ca0571db59418247ddc0ecb0679ed766a884",
+      "pack_inventory_sha256": "ad248ee04a65a50a377c8833cdf9c8ee626adbfa94e02c62f5fe6197a01381fa",
+      "candidate_set_sha256": "ef66c4c51891aa135aefc1c827631b39842d7a4b7ec45456e41894ac48d95956",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -28794,7 +28794,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "d6595b297ec53322762c3cf8c0ae0c179eef3fa196180fd836bcf2517c886fcb",
+      "pack_inventory_sha256": "93c7d669c7759ce153cb42eff8d979552cc5566d40a2c69e97236f19d06c9c29",
       "candidate_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "skill_count": 10,
       "catalog_declared_skill_count": 10,
@@ -28844,8 +28844,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "95ef508bb9838275c488b1ba82a3ac5be350a9e094d665d4f8f1eb9293eb6035",
-      "candidate_set_sha256": "920247c587f8f44ce405ac42c85527c4218fa160fef9212dbe74ae7eb692f78b",
+      "pack_inventory_sha256": "14f4c0078c4c0d1779c1d4268fe96c2171ee7182a3d91b23a2a646044df59ae1",
+      "candidate_set_sha256": "ceef098007c15d8128c65ce1539eadcc4f7500f29ec4cac2e8b1b53ee6a14a8d",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -29244,8 +29244,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "afe70b43c0422c852d5aafad7b40b13d87436e1f2919d5b372f5189fb70d26d0",
-      "candidate_set_sha256": "3a0fe9f8e85db8e204420fd85cca3f39ecaad41d206cb9ed5494fd581aedd0d7",
+      "pack_inventory_sha256": "70cea136b380932f422deb9e5d4d1a01b9f1c59fa8d7e2e7f3ea4f03933b7b64",
+      "candidate_set_sha256": "fd2523f612618ac5628438d3da58cd9a6682c904245a9184fc8d26b59f510ca0",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -29644,8 +29644,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "4413a3e4093052945a875a508888241fb28892c9947eee1af6c7001994f0273c",
-      "candidate_set_sha256": "76ee302b750df0d61ce21c5ec96a3b0a6c723caf88a1790eabf6fe5172dc957b",
+      "pack_inventory_sha256": "946837e098202d28af72f089ccafac4ad3569ad030a3c0dc9e7b264e14529af8",
+      "candidate_set_sha256": "f3cd54a286f8ab51e1d9fd0b153e99a642a94687576d68eef429b9e4facd853f",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -29954,8 +29954,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "67bdef9d6c6b09de7531238f8706e951f1a0229d8c65b02c6971448e725711af",
-      "candidate_set_sha256": "a0343c2686c68cdf0b32023ea3116663aea2d3b45152278c0a68390ee85ed710",
+      "pack_inventory_sha256": "5f2a80a63fc5f10b5fed49ba1293d10aa4b5fc88e05b4c63e47266416a89bf28",
+      "candidate_set_sha256": "604374134daeefdb39dc84c49cbdc99f09b28df5c21790eecbe1bd76114b93ba",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -30338,14 +30338,14 @@
     {
       "name": "remofirst-pack",
       "source": "plugins/saas-packs/remofirst-pack",
-      "version": "1.4.0",
+      "version": "2.0.0",
       "verification": {
-        "grade": "B",
-        "score": 84
+        "grade": "A",
+        "score": 97
       },
       "npm_candidate": {
         "name": "@intentsolutionsio/remofirst-pack",
-        "version": "1.0.1",
+        "version": "2.0.0",
         "private": false,
         "files_include_skills": true,
         "live_registry_check": "REQUIRED_BEFORE_MUTATION"
@@ -30354,8 +30354,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "5e761f307ef75400222b14c3d2362f147e93527d7627d24c823776a53d19f287",
-      "candidate_set_sha256": "2f24dd2a91a3779bd3ec325369716e32c8dfe5686de47c56b01b28e95f199c51",
+      "pack_inventory_sha256": "6a853fa7cf36b3ffae83d95fb41b8fb7e9b6ae1516e3e18cc781e4ab9fbdd65d",
+      "candidate_set_sha256": "008a5c357935e80f94c3f93ff65d076b3cc5bff032cd6574f644a599b0ffdee0",
       "skill_count": 12,
       "catalog_declared_skill_count": 12,
       "tutorial_lattice_count": 12,
@@ -30574,8 +30574,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "5127e4e9655757b047533f4da195ed3c11bd9a3aced6953170da15d77e8437f0",
-      "candidate_set_sha256": "c967da4c38747f195eb7a77db10e6ae6d97d19267a82ce0ce0a46e8c4f40681b",
+      "pack_inventory_sha256": "99cd7bbf2ea4ecf35931ebe68dfe08ea94440f72afc30ffa324b481d8e4f8766",
+      "candidate_set_sha256": "d397de9458c846bac5e313c483c34d4a500cd7d0864478c60c2dd7e60244221c",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -31064,8 +31064,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "0d4e1fcc3a9efa3678e290f783d1b5874de8c7cb29180905d7a60566ec3c0d95",
-      "candidate_set_sha256": "1c96dab5aad2d3ce3ea143b8ec7b8273894d4230962b33b4e69f41b577493769",
+      "pack_inventory_sha256": "0dd91d7556b86530116875e3823d706781fac526364b7781aa0b201319b7d285",
+      "candidate_set_sha256": "7a57a92a10034fb0f477141420d0712adeb5bdeb4d75e28607e493cbae4f5d29",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -31374,8 +31374,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "4e7ef1c1bc0269d4dc5da9f3b2feb917ae4b049947c7f5c104fc9d841a951f8e",
-      "candidate_set_sha256": "6b2aa865cf626ffda27aef6471253f4b8e9ebaa98daf971fa81656ce200818de",
+      "pack_inventory_sha256": "96e6d8c643a6e0fdf36a9226a26cbfaaeb4f0234c7096dddd71101825b6b8d4e",
+      "candidate_set_sha256": "59e22967215be7fd4163d4d1de1509871e7a277cb016ee4c66ab810505c1dbb2",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -31864,8 +31864,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "61d1f4003c3ba836b055fbc515621a27a7420e2e2eeeabea50590b5661514b57",
-      "candidate_set_sha256": "561fd2296104dd3654235a960c76a392ba83b407ac0d761af750c480376fc19e",
+      "pack_inventory_sha256": "5c286aa3db29f08b1a6326696ff37f388dff175473952a760dfb4c5fa99518de",
+      "candidate_set_sha256": "4a809c005aa7db10b14c1ae12d0223bdee4ed5d9683ff7ea2d89ffdff5e003ef",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -32174,8 +32174,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ffdd43ec7f5224f91f7424e50be4496bc1fe0a0efd358dddb8c7fee12dba6ce5",
-      "candidate_set_sha256": "004336532b9e8e1a97b8b541769cebe82fff70494489f52f4ac80fe6db1c1b5d",
+      "pack_inventory_sha256": "7732fdcdf2823a7bc98e64300a5f82599951817463524f99f06b85b0fa601125",
+      "candidate_set_sha256": "6883df39d65e115dc0b569bf0f9c29f23d9c5fc67a85c7bb2c7baee9cc54d979",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 27,
@@ -32623,8 +32623,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "348f3beb281564f73d065e07d20ec02ab6324f1a438d17468f48c9e6cd90d1bb",
-      "candidate_set_sha256": "e7cb1dd1f99e9e3eabd8e26c35ee775a0fce0181a0b1095766b0a37c6309f0d7",
+      "pack_inventory_sha256": "5f4e3941951c89a54eed981d9d50d1478eb353d0943e57def399a9ab45edb8c9",
+      "candidate_set_sha256": "26d7ac9e74551dff29e05bd9b3879d6deb5a1f83b37765714217927c02b5ba88",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -32933,8 +32933,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "98e0e327b3e2c8d44700c49c9a3c960ca518f039f5f43c1ab80b28ba18c1c34c",
-      "candidate_set_sha256": "0d502a42153894b69aab1fc45466c1114dea4486411b9ef3c050f519be3ea0b2",
+      "pack_inventory_sha256": "22dccd81fcba639d7a168f89b0fb58e00fd72166bc0f399d52ca7a2aa6616384",
+      "candidate_set_sha256": "e40c4bdbd7fd4ec12b8a0b8672791c9922e86188edce754118c7817b5db858e7",
       "skill_count": 38,
       "catalog_declared_skill_count": 38,
       "tutorial_lattice_count": 30,
@@ -33432,7 +33432,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "aa3e27c6dd95aa2273ee8f275e5f582a70768afa4712a739449d4ac9a2f0ac1f",
+      "pack_inventory_sha256": "3679248dbf940e11d8430fb8ddc436cd02ed1d45cc9bc0667296de1e4896d8aa",
       "candidate_set_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "skill_count": 10,
       "catalog_declared_skill_count": 10,
@@ -33482,8 +33482,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "4aeca86069b9d4231ac340635664bd4ed9d0bcd438135c6157890273d274274f",
-      "candidate_set_sha256": "f9ee0769727d588f23670f6fb13b1cf819d4d9c6b3a256fe701ab9dfae9fe93f",
+      "pack_inventory_sha256": "9aeb870d9be6121ef3d065f86739c3116b908846f4beee0f751dbfab88247559",
+      "candidate_set_sha256": "051e9ee797c0fb077d8113e39711b0bc4ac98bce243a054c89e858ae959afd08",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -33882,8 +33882,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "1a81ebb405f1f86123a94b6c9c92174d750f8fe60e0dbceb637cf2221a4d4de7",
-      "candidate_set_sha256": "e102bd2ba7f8ea937a79452a3007c261d102364b2d2c6ba8f74d4673eafc98ea",
+      "pack_inventory_sha256": "3dbbcd450c49008616ed2d944da9b935f753b5483f694d425c4f9b6d7f9048b4",
+      "candidate_set_sha256": "be02733d60e05ed93a2d06503052c17a058a748706dc1abcb1d7027ab4484dfe",
       "skill_count": 10,
       "catalog_declared_skill_count": 10,
       "tutorial_lattice_count": 10,
@@ -34072,8 +34072,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "73d7eeac87d4cef0f390aad181162e00db145ca2455c27cab15d6b9bdb07fbe3",
-      "candidate_set_sha256": "058f773619a73baae102fcc2b121697df325c4f89e1dc4b4a7660bab6f5687f4",
+      "pack_inventory_sha256": "70690d67d83d6c08e71aa2aa807a05a0fa971d59f7157ea61cd4e5eee7bd3dc2",
+      "candidate_set_sha256": "ef23cb4fd63613f374958068108efcbd571a3e66d874f66a9054cdb2cf8c7a99",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 28,
@@ -34535,8 +34535,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "cfadf1445b6bdab683a867c6dd3087c0020794fbc5bc71ac9bb3fbb6fdbe9660",
-      "candidate_set_sha256": "6f4544e2f4146caf60a1c605e49039cab2e2cb7f46bdc4e19ad9b98736eee1e1",
+      "pack_inventory_sha256": "82ec690ad45608fc453ca3c0e518708ea7d11c68f4de96a8fd2d4497bbd190c1",
+      "candidate_set_sha256": "5851e9b8bbe65c4a80daa3ae7977aa510a6190b9fadbafd8ba7b4a09804bb36b",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,
@@ -34845,8 +34845,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "8c9592af50407f715b30470dec747ea606c5a48fc1803c8c694a7ebea5206912",
-      "candidate_set_sha256": "366a762c1ad979e4e297cedd01e9883eca655aba4faf1ccb20e3bcb98bacc8c8",
+      "pack_inventory_sha256": "999decfce3fe9e4850f4652ce3860a13f57e8475ef7e5be470f1eb35f22ae43a",
+      "candidate_set_sha256": "cf7c62b298e5b34d6466550f77d781140a70e6ce77affc7e798eac066006f02e",
       "skill_count": 16,
       "catalog_declared_skill_count": 16,
       "tutorial_lattice_count": 16,
@@ -35125,8 +35125,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ec7596f696055463f397f2abdf4bd92de8dd124d3c466b1b8772d68119da5fab",
-      "candidate_set_sha256": "dae57400c527350e6ea2ffc021ecb9dda420ce77f74d087029abee1a1eb1d3e0",
+      "pack_inventory_sha256": "1917e1fc175be205da510f4d0469e5c62ccf8760fa10521ac2468b1655e76a77",
+      "candidate_set_sha256": "4120b57ec0128e16d4dab5f351947da5032359771cc2e460d832e7899549da35",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -35525,8 +35525,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "f16a2d8a57dadc84a730ead014e582759b76d9cafb2e451035937c553aa491e5",
-      "candidate_set_sha256": "e649a88d370a8e097e94a70f5b3bc76adcf07929e0a9a8e3a0a70658ad63db96",
+      "pack_inventory_sha256": "1c64373c5c7a52237143ff7678b838575a9446eb8a94dcf2a01e0e9eee02e0f0",
+      "candidate_set_sha256": "01ca327d248c64255ac9736f77a4321caadb2536a5b6d9d133b571823915f7f5",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -35925,8 +35925,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "aed33c722d5c46a3dfe762f7bb730796fa69ba9c384fcb5619165421b61e6f85",
-      "candidate_set_sha256": "1e3c26cd55c6ed274ed3daf6c8a3f1ab7b1a17c2771a665541549b19a8d9b0b6",
+      "pack_inventory_sha256": "004c2be1ae0d4e243ae03310db7ce70d94420af57cb3ae20d5e14c5cff5cda64",
+      "candidate_set_sha256": "d3305e43b83798187b326b064d58b2f6f6529ed4e50433aff24fd16733e1f384",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 28,
@@ -36388,8 +36388,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "ac223e626a15e5f637d193d4e2776dcc0fd504c555be1e9a0954de7e7c078dd8",
-      "candidate_set_sha256": "99560d733776fd116b8b63f2489e7058f783f0fad8955d1a4227a6a1708bb89d",
+      "pack_inventory_sha256": "ee525aaaeb74a6ec8f2f98bb757e93a7bd1cec92f09a395a15870be8d5483403",
+      "candidate_set_sha256": "573d120d28055e4d4e032601f77591d9b7ce151ce98c65bf668c1377ad6ff22f",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -36788,8 +36788,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "060105cc86b4fcb71c06c03ba4102333a50a9dd97b3ae166e1c34e800cd8df2c",
-      "candidate_set_sha256": "59da0719363628da49a1abe3137765a8664f509fc3cc44e018c46a1f7e92f1d4",
+      "pack_inventory_sha256": "1668b35d48e514f20bdf8ba6e0ef1f607afd1d14243abf0e192c75f09cfdc40e",
+      "candidate_set_sha256": "42a76dbcc83401f974e2aac3e831d84d7eeea1723bc673aa7a6eecc71665cd16",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -37278,8 +37278,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "51bc7bc19c9c0f4f0df5a20b2757e3fe721efde3b6d1b5e260ff0e258d947737",
-      "candidate_set_sha256": "e0543aa92ea8802764d64a4b03cb6af28eebf0b7210addb903ca24e146d31dfd",
+      "pack_inventory_sha256": "f60f069f5f091bd1927073ccc17e98f2ed45e353e7cb6df6a9672d8133ac3ecc",
+      "candidate_set_sha256": "e6873981db2af227b7508070365af819a3cdc70c36d104d5cdcc8d9da9713516",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
       "tutorial_lattice_count": 18,

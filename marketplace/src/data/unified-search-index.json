@@ -391,6 +391,7 @@
       "adk-samples",
       "adobe",
       "adobe-io-events",
+      "adp",
       "advisor",
       "aec",
       "agencies",
@@ -796,6 +797,7 @@
       "enterprise",
       "enterprise-integration",
       "environment",
+      "eor",
       "equity-research",
       "erd",
       "error-handling",
@@ -1214,6 +1216,7 @@
       "partition",
       "passwords",
       "pathfinder",
+      "payroll",
       "pdf-services",
       "pending-transactions",
       "penetration-testing",
@@ -1677,6 +1680,7 @@
       "wif",
       "windsurf",
       "work-orders",
+      "workday",
       "workflow",
       "workflows",
       "workhuman",
@@ -13185,13 +13189,15 @@
       "slug": "remofirst-pack",
       "name": "remofirst-pack",
       "displayName": "remofirst pack",
-      "description": "Claude Code skill pack for RemoFirst (12 skills)",
+      "description": "Evidence-backed RemoFirst operator workflows for EOR, contractors, payroll, security, and supported HRIS connectors (12 skills)",
       "category": "saas-packs",
       "keywords": [
         "remofirst",
         "saas",
-        "sdk",
-        "integration"
+        "eor",
+        "payroll",
+        "workday",
+        "adp"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -13199,15 +13205,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.4.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 12,
-      "verificationScore": 84,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "remofirst pack claude code skill pack for remofirst (12 skills) saas-packs remofirst saas sdk integration"
+      "verificationScore": 97,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "remofirst pack evidence-backed remofirst operator workflows for eor, contractors, payroll, security, and supported hris connectors (12 skills) saas-packs remofirst saas eor payroll workday adp"
     },
     {
       "type": "plugin",
@@ -66357,276 +66363,264 @@
       "id": "remofirst-common-errors",
       "slug": "remofirst-common-errors",
       "name": "remofirst-common-errors",
-      "description": "RemoFirst common errors — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst common errors\", \"remofirst-common-errors\", \"global HR API\".",
+      "description": "Debug RemoFirst contractor payment, invoice, timesheet, and access failures with evidence-safe decision paths. Use when a payment is late, mismatched, returned, unreconciled, or blocked. Trigger with \"RemoFirst payment issue\", \"RemoFirst PRID\", \"contractor not paid\", or \"RemoFirst invoice error\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-common-errors remofirst common errors — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst common errors\", \"remofirst-common-errors\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-common-errors debug remofirst contractor payment, invoice, timesheet, and access failures with evidence-safe decision paths. use when a payment is late, mismatched, returned, unreconciled, or blocked. trigger with \"remofirst payment issue\", \"remofirst prid\", \"contractor not paid\", or \"remofirst invoice error\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-core-workflow-a",
       "slug": "remofirst-core-workflow-a",
       "name": "remofirst-core-workflow-a",
-      "description": "RemoFirst core workflow a — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst core workflow a\", \"remofirst-core-workflow-a\", \"global HR API\".",
+      "description": "Manage and control a RemoFirst Employer-of-Record employee onboarding with country, contract, compensation, leave, benefit, and document checkpoints. Use when hiring a full-time worker through RemoFirst. Trigger with \"onboard RemoFirst employee\", \"RemoFirst EOR hire\", or \"global employee checklist\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-core-workflow-a remofirst core workflow a — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst core workflow a\", \"remofirst-core-workflow-a\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-core-workflow-a manage and control a remofirst employer-of-record employee onboarding with country, contract, compensation, leave, benefit, and document checkpoints. use when hiring a full-time worker through remofirst. trigger with \"onboard remofirst employee\", \"remofirst eor hire\", or \"global employee checklist\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-core-workflow-b",
       "slug": "remofirst-core-workflow-b",
       "name": "remofirst-core-workflow-b",
-      "description": "RemoFirst core workflow b — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst core workflow b\", \"remofirst-core-workflow-b\", \"global HR API\".",
+      "description": "Manage RemoFirst contractor onboarding from engagement choice through agreement, identity, tax, bank, timesheet, invoice, and first-payout readiness. Use when engaging or paying an international contractor. Trigger with \"onboard RemoFirst contractor\", \"contractor payout readiness\", or \"RemoFirst contractor payment\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-core-workflow-b remofirst core workflow b — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst core workflow b\", \"remofirst-core-workflow-b\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-core-workflow-b manage remofirst contractor onboarding from engagement choice through agreement, identity, tax, bank, timesheet, invoice, and first-payout readiness. use when engaging or paying an international contractor. trigger with \"onboard remofirst contractor\", \"contractor payout readiness\", or \"remofirst contractor payment\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-debug-bundle",
       "slug": "remofirst-debug-bundle",
       "name": "remofirst-debug-bundle",
-      "description": "RemoFirst debug bundle — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst debug bundle\", \"remofirst-debug-bundle\", \"global HR API\".",
+      "description": "Assemble a privacy-safe RemoFirst support escalation bundle with a redacted timeline, record keys, screenshots index, and reproduction boundary. Use when support needs evidence for a platform or connector incident. Trigger with \"RemoFirst debug bundle\", \"escalate RemoFirst\", or \"RemoFirst support ticket\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-debug-bundle remofirst debug bundle — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst debug bundle\", \"remofirst-debug-bundle\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-debug-bundle assemble a privacy-safe remofirst support escalation bundle with a redacted timeline, record keys, screenshots index, and reproduction boundary. use when support needs evidence for a platform or connector incident. trigger with \"remofirst debug bundle\", \"escalate remofirst\", or \"remofirst support ticket\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-hello-world",
       "slug": "remofirst-hello-world",
       "name": "remofirst-hello-world",
-      "description": "RemoFirst hello world — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst hello world\", \"remofirst-hello-world\", \"global HR API\".",
+      "description": "Run a safe first RemoFirst client session and produce a redacted readiness receipt without opening worker records. Use when validating a newly activated account or orienting a new operator. Trigger with \"RemoFirst first login\", \"RemoFirst readiness check\", or \"start RemoFirst\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-hello-world remofirst hello world — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst hello world\", \"remofirst-hello-world\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-hello-world run a safe first remofirst client session and produce a redacted readiness receipt without opening worker records. use when validating a newly activated account or orienting a new operator. trigger with \"remofirst first login\", \"remofirst readiness check\", or \"start remofirst\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-install-auth",
       "slug": "remofirst-install-auth",
       "name": "remofirst-install-auth",
-      "description": "RemoFirst install auth — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst install auth\", \"remofirst-install-auth\", \"global HR API\".",
+      "description": "Prepare secure RemoFirst client access with account activation, 2FA, billing contacts, and least-privilege manager groups. Use when onboarding an operator or repairing access without inventing API credentials. Trigger with \"RemoFirst access\", \"RemoFirst 2FA\", \"RemoFirst roles\", or \"activate RemoFirst account\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-install-auth remofirst install auth — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst install auth\", \"remofirst-install-auth\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-install-auth prepare secure remofirst client access with account activation, 2fa, billing contacts, and least-privilege manager groups. use when onboarding an operator or repairing access without inventing api credentials. trigger with \"remofirst access\", \"remofirst 2fa\", \"remofirst roles\", or \"activate remofirst account\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-local-dev-loop",
       "slug": "remofirst-local-dev-loop",
       "name": "remofirst-local-dev-loop",
-      "description": "RemoFirst local dev loop — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst local dev loop\", \"remofirst-local-dev-loop\", \"global HR API\".",
+      "description": "Rehearse RemoFirst imports, report reconciliation, and operator controls offline with synthetic fixtures before touching a client account. Use when testing CSV mappings, payroll controls, or connector cutovers. Trigger with \"RemoFirst local rehearsal\", \"test RemoFirst import\", or \"RemoFirst dry run\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-local-dev-loop remofirst local dev loop — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst local dev loop\", \"remofirst-local-dev-loop\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-local-dev-loop rehearse remofirst imports, report reconciliation, and operator controls offline with synthetic fixtures before touching a client account. use when testing csv mappings, payroll controls, or connector cutovers. trigger with \"remofirst local rehearsal\", \"test remofirst import\", or \"remofirst dry run\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-prod-checklist",
       "slug": "remofirst-prod-checklist",
       "name": "remofirst-prod-checklist",
-      "description": "RemoFirst prod checklist — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst prod checklist\", \"remofirst-prod-checklist\", \"global HR API\".",
+      "description": "Review and gate a RemoFirst payroll and invoice cycle with deadline, amount, approval, payment-method, and escalation checks. Use when preparing final payroll approval or invoice funding. Trigger with \"approve RemoFirst payroll\", \"RemoFirst payroll checklist\", or \"RemoFirst invoice readiness\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-prod-checklist remofirst prod checklist — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst prod checklist\", \"remofirst-prod-checklist\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-prod-checklist review and gate a remofirst payroll and invoice cycle with deadline, amount, approval, payment-method, and escalation checks. use when preparing final payroll approval or invoice funding. trigger with \"approve remofirst payroll\", \"remofirst payroll checklist\", or \"remofirst invoice readiness\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-rate-limits",
       "slug": "remofirst-rate-limits",
       "name": "remofirst-rate-limits",
-      "description": "RemoFirst rate limits — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst rate limits\", \"remofirst-rate-limits\", \"global HR API\".",
+      "description": "Build RemoFirst operational deadlines and supported connector sync cadence without inventing API quotas. Use when payroll, timesheet, invoice, Workday, or ADP timing affects a workflow. Trigger with \"RemoFirst cutoff\", \"RemoFirst sync timing\", or \"RemoFirst rate limits\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-rate-limits remofirst rate limits — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst rate limits\", \"remofirst-rate-limits\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-rate-limits build remofirst operational deadlines and supported connector sync cadence without inventing api quotas. use when payroll, timesheet, invoice, workday, or adp timing affects a workflow. trigger with \"remofirst cutoff\", \"remofirst sync timing\", or \"remofirst rate limits\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-sdk-patterns",
       "slug": "remofirst-sdk-patterns",
       "name": "remofirst-sdk-patterns",
-      "description": "RemoFirst sdk patterns — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst sdk patterns\", \"remofirst-sdk-patterns\", \"global HR API\".",
+      "description": "Build a supported RemoFirst integration boundary across Workday, ADP, reports, CSV, and provider-approved private contracts. Use when designing data exchange with RemoFirst. Trigger with \"RemoFirst integration\", \"RemoFirst SDK\", or \"connect HRIS to RemoFirst\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-sdk-patterns remofirst sdk patterns — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst sdk patterns\", \"remofirst-sdk-patterns\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-sdk-patterns build a supported remofirst integration boundary across workday, adp, reports, csv, and provider-approved private contracts. use when designing data exchange with remofirst. trigger with \"remofirst integration\", \"remofirst sdk\", or \"connect hris to remofirst\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-security-basics",
       "slug": "remofirst-security-basics",
       "name": "remofirst-security-basics",
-      "description": "RemoFirst security basics — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst security basics\", \"remofirst-security-basics\", \"global HR API\".",
+      "description": "Review RemoFirst account, group, report, connector, and worker-data controls. Use when onboarding an operator, auditing access, or preparing a sensitive workflow. Trigger with \"RemoFirst security\", \"review RemoFirst access\", or \"RemoFirst least privilege\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-security-basics remofirst security basics — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst security basics\", \"remofirst-security-basics\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-security-basics review remofirst account, group, report, connector, and worker-data controls. use when onboarding an operator, auditing access, or preparing a sensitive workflow. trigger with \"remofirst security\", \"review remofirst access\", or \"remofirst least privilege\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "remofirst-upgrade-migration",
       "slug": "remofirst-upgrade-migration",
       "name": "remofirst-upgrade-migration",
-      "description": "RemoFirst upgrade migration — global HR, EOR, and payroll platform integration. Use when working with RemoFirst for global employment, payroll, or compliance. Trigger with phrases like \"remofirst upgrade migration\", \"remofirst-upgrade-migration\", \"global HR API\".",
+      "description": "Control a RemoFirst workflow cutover to supported Workday, ADP, report, or CSV exchange with reconciliation and rollback. Use when replacing a manual data handoff or changing a connector. Trigger with \"migrate to RemoFirst\", \"RemoFirst cutover\", or \"change RemoFirst integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "remofirst-pack",
         "category": "saas-packs"
       },
-      "searchText": "remofirst-upgrade-migration remofirst upgrade migration — global hr, eor, and payroll platform integration. use when working with remofirst for global employment, payroll, or compliance. trigger with phrases like \"remofirst upgrade migration\", \"remofirst-upgrade-migration\", \"global hr api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "remofirst-upgrade-migration control a remofirst workflow cutover to supported workday, adp, report, or csv exchange with reconciliation and rollback. use when replacing a manual data handoff or changing a connector. trigger with \"migrate to remofirst\", \"remofirst cutover\", or \"change remofirst integration\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
