@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "ecae8ddc233aa4d37ae3ae500485840bfa585d477b298cd8a5e998102da56551",
+    "sha256": "bf074eeb6b770772467019e03ea2c6160a3f03848f812f289d931a1430fc3319",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -9992,8 +9992,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-ci-integration/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10004,7 +10004,7 @@
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-common-errors/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 98,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10014,8 +10014,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-core-workflow-a/SKILL.md",
-      "grade": "C",
-      "score": 78,
+      "grade": "A",
+      "score": 98,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10025,8 +10025,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 98,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10036,8 +10036,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 98,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10047,8 +10047,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10058,8 +10058,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 99,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10069,8 +10069,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10080,8 +10080,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-install-auth/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 99,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10091,8 +10091,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10102,8 +10102,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10113,8 +10113,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-prod-checklist/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 100,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10124,8 +10124,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 99,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10136,7 +10136,7 @@
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-reference-architecture/SKILL.md",
       "grade": "A",
-      "score": 91,
+      "score": 97,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10146,8 +10146,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 99,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10157,8 +10157,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-security-basics/SKILL.md",
-      "grade": "B",
-      "score": 81,
+      "grade": "A",
+      "score": 99,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10168,8 +10168,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 98,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -10179,8 +10179,8 @@
     },
     {
       "path": "plugins/saas-packs/alchemy-pack/skills/alchemy-webhooks-events/SKILL.md",
-      "grade": "C",
-      "score": 79,
+      "grade": "A",
+      "score": 99,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
