@@ -856,6 +856,7 @@
       "fine-tuning",
       "finops",
       "finta",
+      "fintech",
       "firebase",
       "firebase-alternative",
       "firecrawl",
@@ -13162,13 +13163,15 @@
       "slug": "ramp-pack",
       "name": "ramp-pack",
       "displayName": "ramp pack",
-      "description": "Claude Code skill pack for Ramp (24 skills)",
+      "description": "Evidence-backed Ramp operator workflows for OAuth, cards, accounting, webhooks, security, reliability, and migration (24 skills)",
       "category": "saas-packs",
       "keywords": [
         "ramp",
-        "saas",
-        "sdk",
-        "integration"
+        "fintech",
+        "accounting",
+        "webhooks",
+        "security",
+        "reliability"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -13176,15 +13179,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.4.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 24,
-      "verificationScore": 85,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "ramp pack claude code skill pack for ramp (24 skills) saas-packs ramp saas sdk integration"
+      "verificationScore": 98,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "ramp pack evidence-backed ramp operator workflows for oauth, cards, accounting, webhooks, security, reliability, and migration (24 skills) saas-packs ramp fintech accounting webhooks security reliability"
     },
     {
       "type": "plugin",
@@ -65592,552 +65595,528 @@
       "id": "ramp-ci-integration",
       "slug": "ramp-ci-integration",
       "name": "ramp-ci-integration",
-      "description": "Ramp ci integration — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp ci integration\", \"ramp-ci-integration\", \"corporate card API\".",
+      "description": "Build deterministic CI gates for a Ramp integration using the official OpenAPI contract, local fixtures, and explicitly approved sandbox probes. Use when adding pull-request checks, schema drift detection, or release evidence. Trigger with \"Ramp CI\" or \"test Ramp integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-ci-integration ramp ci integration — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp ci integration\", \"ramp-ci-integration\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-ci-integration build deterministic ci gates for a ramp integration using the official openapi contract, local fixtures, and explicitly approved sandbox probes. use when adding pull-request checks, schema drift detection, or release evidence. trigger with \"ramp ci\" or \"test ramp integration\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-common-errors",
       "slug": "ramp-common-errors",
       "name": "ramp-common-errors",
-      "description": "Ramp common errors — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp common errors\", \"ramp-common-errors\", \"corporate card API\".",
+      "description": "Analyze and resolve Ramp API failures using status, error_v2, x-trace-id, OAuth scope, and retry safety. Use when an integration returns 400, 401, 403, 404, 422, 429, 5xx, or 504. Trigger with \"Ramp API error\" or \"Ramp forbidden\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-common-errors ramp common errors — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp common errors\", \"ramp-common-errors\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-common-errors analyze and resolve ramp api failures using status, error_v2, x-trace-id, oauth scope, and retry safety. use when an integration returns 400, 401, 403, 404, 422, 429, 5xx, or 504. trigger with \"ramp api error\" or \"ramp forbidden\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-core-workflow-a",
       "slug": "ramp-core-workflow-a",
       "name": "ramp-core-workflow-a",
-      "description": "Ramp core workflow a — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp core workflow a\", \"ramp-core-workflow-a\", \"corporate card API\".",
+      "description": "Build and verify a fund-backed Ramp virtual-card workflow with least-privilege scopes, idempotency, controlled card-detail delivery, and lifecycle evidence. Use when issuing virtual cards or embedding card details. Trigger with \"issue Ramp virtual card\" or \"Ramp embedded card\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-core-workflow-a ramp core workflow a — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp core workflow a\", \"ramp-core-workflow-a\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-core-workflow-a build and verify a fund-backed ramp virtual-card workflow with least-privilege scopes, idempotency, controlled card-detail delivery, and lifecycle evidence. use when issuing virtual cards or embedding card details. trigger with \"issue ramp virtual card\" or \"ramp embedded card\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-core-workflow-b",
       "slug": "ramp-core-workflow-b",
       "name": "ramp-core-workflow-b",
-      "description": "Ramp core workflow b — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp core workflow b\", \"ramp-core-workflow-b\", \"corporate card API\".",
+      "description": "Implement a reconciled two-way Ramp accounting integration for chart-of-accounts data and sync-ready spend objects. Use when exporting transactions, bills, reimbursements, transfers, or cashbacks to an ERP. Trigger with \"Ramp accounting sync\" or \"Ramp ERP integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-core-workflow-b ramp core workflow b — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp core workflow b\", \"ramp-core-workflow-b\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-core-workflow-b implement a reconciled two-way ramp accounting integration for chart-of-accounts data and sync-ready spend objects. use when exporting transactions, bills, reimbursements, transfers, or cashbacks to an erp. trigger with \"ramp accounting sync\" or \"ramp erp integration\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-cost-tuning",
       "slug": "ramp-cost-tuning",
       "name": "ramp-cost-tuning",
-      "description": "Ramp cost tuning — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp cost tuning\", \"ramp-cost-tuning\", \"corporate card API\".",
+      "description": "Reduce Ramp integration workload and operating cost without losing financial completeness. Use when polling, storage, retries, or accounting synchronization consumes excessive capacity. Trigger with \"optimize Ramp sync cost\" or \"reduce Ramp API calls\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-cost-tuning ramp cost tuning — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp cost tuning\", \"ramp-cost-tuning\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-cost-tuning reduce ramp integration workload and operating cost without losing financial completeness. use when polling, storage, retries, or accounting synchronization consumes excessive capacity. trigger with \"optimize ramp sync cost\" or \"reduce ramp api calls\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-data-handling",
       "slug": "ramp-data-handling",
       "name": "ramp-data-handling",
-      "description": "Ramp data handling — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp data handling\", \"ramp-data-handling\", \"corporate card API\".",
+      "description": "Define collection, redaction, retention, access, and deletion controls for Ramp financial, identity, receipt, and card data. Use when designing storage, logs, support bundles, analytics, or card-detail delivery. Trigger with \"Ramp data handling\" or \"Ramp PCI boundary\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-data-handling ramp data handling — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp data handling\", \"ramp-data-handling\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-data-handling define collection, redaction, retention, access, and deletion controls for ramp financial, identity, receipt, and card data. use when designing storage, logs, support bundles, analytics, or card-detail delivery. trigger with \"ramp data handling\" or \"ramp pci boundary\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-debug-bundle",
       "slug": "ramp-debug-bundle",
       "name": "ramp-debug-bundle",
-      "description": "Ramp debug bundle — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp debug bundle\", \"ramp-debug-bundle\", \"corporate card API\".",
+      "description": "Collect a minimal, safe Ramp API diagnostic bundle centered on trace IDs and reproducible contract evidence. Use when escalating a persistent API, webhook, deferred-task, or accounting failure. Trigger with \"Ramp debug bundle\" or \"Ramp support evidence\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-debug-bundle ramp debug bundle — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp debug bundle\", \"ramp-debug-bundle\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-debug-bundle collect a minimal, safe ramp api diagnostic bundle centered on trace ids and reproducible contract evidence. use when escalating a persistent api, webhook, deferred-task, or accounting failure. trigger with \"ramp debug bundle\" or \"ramp support evidence\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-deploy-integration",
       "slug": "ramp-deploy-integration",
       "name": "ramp-deploy-integration",
-      "description": "Ramp deploy integration — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp deploy integration\", \"ramp-deploy-integration\", \"corporate card API\".",
+      "description": "Deploy a Ramp API integration with environment isolation, secret controls, schema gates, reconciliation, and a reversible production rollout. Use when promoting a service, worker, webhook receiver, or accounting connector. Trigger with \"deploy Ramp integration\" or \"Ramp rollout\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-deploy-integration ramp deploy integration — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp deploy integration\", \"ramp-deploy-integration\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-deploy-integration deploy a ramp api integration with environment isolation, secret controls, schema gates, reconciliation, and a reversible production rollout. use when promoting a service, worker, webhook receiver, or accounting connector. trigger with \"deploy ramp integration\" or \"ramp rollout\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-enterprise-rbac",
       "slug": "ramp-enterprise-rbac",
       "name": "ramp-enterprise-rbac",
-      "description": "Ramp enterprise rbac — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp enterprise rbac\", \"ramp-enterprise-rbac\", \"corporate card API\".",
+      "description": "Audit effective Ramp integration authority across OAuth grants, scopes, user roles, business entities, app restrictions, and spend approvals. Use when onboarding an enterprise tenant or investigating excess access. Trigger with \"Ramp RBAC audit\" or \"Ramp least privilege\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-enterprise-rbac ramp enterprise rbac — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp enterprise rbac\", \"ramp-enterprise-rbac\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-enterprise-rbac audit effective ramp integration authority across oauth grants, scopes, user roles, business entities, app restrictions, and spend approvals. use when onboarding an enterprise tenant or investigating excess access. trigger with \"ramp rbac audit\" or \"ramp least privilege\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-hello-world",
       "slug": "ramp-hello-world",
       "name": "ramp-hello-world",
-      "description": "Ramp hello world — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp hello world\", \"ramp-hello-world\", \"corporate card API\".",
+      "description": "Verify Ramp OAuth, environment, pagination, and monetary parsing with a bounded read-only transaction call. Use when checking credentials or preparing to enable a new integration. Trigger with \"test Ramp connection\" or \"first Ramp API call\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-hello-world ramp hello world — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp hello world\", \"ramp-hello-world\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-hello-world verify ramp oauth, environment, pagination, and monetary parsing with a bounded read-only transaction call. use when checking credentials or preparing to enable a new integration. trigger with \"test ramp connection\" or \"first ramp api call\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-incident-runbook",
       "slug": "ramp-incident-runbook",
       "name": "ramp-incident-runbook",
-      "description": "Ramp incident runbook — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp incident runbook\", \"ramp-incident-runbook\", \"corporate card API\".",
+      "description": "Analyze, contain, reconcile, and recover a Ramp integration incident involving authentication, webhooks, sync workers, financial writes, or card workflows. Use when responding to an active production degradation. Trigger with \"Ramp incident\" or \"Ramp sync outage\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-incident-runbook ramp incident runbook — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp incident runbook\", \"ramp-incident-runbook\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-incident-runbook analyze, contain, reconcile, and recover a ramp integration incident involving authentication, webhooks, sync workers, financial writes, or card workflows. use when responding to an active production degradation. trigger with \"ramp incident\" or \"ramp sync outage\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-install-auth",
       "slug": "ramp-install-auth",
       "name": "ramp-install-auth",
-      "description": "Ramp install auth — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp install auth\", \"ramp-install-auth\", \"corporate card API\".",
+      "description": "Select and configure the correct Ramp OAuth grant, scopes, environments, and secret lifecycle. Use when bootstrapping an internal server integration or a third-party multi-tenant application. Trigger with \"set up Ramp OAuth\" or \"Ramp client credentials\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-install-auth ramp install auth — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp install auth\", \"ramp-install-auth\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-install-auth select and configure the correct ramp oauth grant, scopes, environments, and secret lifecycle. use when bootstrapping an internal server integration or a third-party multi-tenant application. trigger with \"set up ramp oauth\" or \"ramp client credentials\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-local-dev-loop",
       "slug": "ramp-local-dev-loop",
       "name": "ramp-local-dev-loop",
-      "description": "Ramp local dev loop — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp local dev loop\", \"ramp-local-dev-loop\", \"corporate card API\".",
+      "description": "Build a safe local Ramp integration loop with schema fixtures, sandbox data, simulated lifecycle events, and explicit production blocking. Use when developing or reproducing API behavior locally. Trigger with \"Ramp local development\" or \"Ramp sandbox test\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-local-dev-loop ramp local dev loop — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp local dev loop\", \"ramp-local-dev-loop\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-local-dev-loop build a safe local ramp integration loop with schema fixtures, sandbox data, simulated lifecycle events, and explicit production blocking. use when developing or reproducing api behavior locally. trigger with \"ramp local development\" or \"ramp sandbox test\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-migration-deep-dive",
       "slug": "ramp-migration-deep-dive",
       "name": "ramp-migration-deep-dive",
-      "description": "Ramp migration deep dive — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp migration deep dive\", \"ramp-migration-deep-dive\", \"corporate card API\".",
+      "description": "Plan and execute a controlled migration from a legacy expense or card platform to Ramp with identity, spend-control, open-item, and accounting reconciliation. Use when an enterprise cutover requires parallel run and rollback. Trigger with \"migrate to Ramp\" or \"Ramp cutover plan\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-migration-deep-dive ramp migration deep dive — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp migration deep dive\", \"ramp-migration-deep-dive\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-migration-deep-dive plan and execute a controlled migration from a legacy expense or card platform to ramp with identity, spend-control, open-item, and accounting reconciliation. use when an enterprise cutover requires parallel run and rollback. trigger with \"migrate to ramp\" or \"ramp cutover plan\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-multi-env-setup",
       "slug": "ramp-multi-env-setup",
       "name": "ramp-multi-env-setup",
-      "description": "Ramp multi env setup — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp multi env setup\", \"ramp-multi-env-setup\", \"corporate card API\".",
+      "description": "Configure isolated Ramp sandbox, staging, and production environments with separate applications, credentials, hosts, data, webhooks, and evidence. Use when preventing cross-environment access or promoting an integration. Trigger with \"Ramp environments\" or \"separate Ramp sandbox and prod\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-multi-env-setup ramp multi env setup — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp multi env setup\", \"ramp-multi-env-setup\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-multi-env-setup configure isolated ramp sandbox, staging, and production environments with separate applications, credentials, hosts, data, webhooks, and evidence. use when preventing cross-environment access or promoting an integration. trigger with \"ramp environments\" or \"separate ramp sandbox and prod\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-observability",
       "slug": "ramp-observability",
       "name": "ramp-observability",
-      "description": "Ramp observability — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp observability\", \"ramp-observability\", \"corporate card API\".",
+      "description": "Instrument Ramp API clients, webhook consumers, deferred tasks, and accounting syncs with safe service and financial-correctness signals. Use when defining dashboards, alerts, traces, or reconciliation health. Trigger with \"monitor Ramp integration\" or \"Ramp observability\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-observability ramp observability — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp observability\", \"ramp-observability\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-observability instrument ramp api clients, webhook consumers, deferred tasks, and accounting syncs with safe service and financial-correctness signals. use when defining dashboards, alerts, traces, or reconciliation health. trigger with \"monitor ramp integration\" or \"ramp observability\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-performance-tuning",
       "slug": "ramp-performance-tuning",
       "name": "ramp-performance-tuning",
-      "description": "Ramp performance tuning — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp performance tuning\", \"ramp-performance-tuning\", \"corporate card API\".",
+      "description": "Analyze and tune Ramp pagination, concurrency, batching, webhooks, deferred tasks, and local persistence while preserving complete ordered reconciliation. Use when seeds are slow, syncs lag, or workloads encounter 504 responses. Trigger with \"speed up Ramp sync\" or \"Ramp performance\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-performance-tuning ramp performance tuning — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp performance tuning\", \"ramp-performance-tuning\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-performance-tuning analyze and tune ramp pagination, concurrency, batching, webhooks, deferred tasks, and local persistence while preserving complete ordered reconciliation. use when seeds are slow, syncs lag, or workloads encounter 504 responses. trigger with \"speed up ramp sync\" or \"ramp performance\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-prod-checklist",
       "slug": "ramp-prod-checklist",
       "name": "ramp-prod-checklist",
-      "description": "Ramp prod checklist — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp prod checklist\", \"ramp-prod-checklist\", \"corporate card API\".",
+      "description": "Run a fail-closed readiness review for a Ramp integration before enabling production traffic or financial writes. Use when launching, expanding scopes, or changing architecture materially. Trigger with \"Ramp production checklist\" or \"launch Ramp integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-prod-checklist ramp prod checklist — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp prod checklist\", \"ramp-prod-checklist\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-prod-checklist run a fail-closed readiness review for a ramp integration before enabling production traffic or financial writes. use when launching, expanding scopes, or changing architecture materially. trigger with \"ramp production checklist\" or \"launch ramp integration\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-rate-limits",
       "slug": "ramp-rate-limits",
       "name": "ramp-rate-limits",
-      "description": "Ramp rate limits — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp rate limits\", \"ramp-rate-limits\", \"corporate card API\".",
+      "description": "Implement a shared Ramp request budget with rolling-window throttling, bounded retries, pagination, and 504 recovery. Use when clients receive 429 or 504 responses or share one outbound IP. Trigger with \"Ramp rate limit\" or \"Ramp 429\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-rate-limits ramp rate limits — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp rate limits\", \"ramp-rate-limits\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-rate-limits implement a shared ramp request budget with rolling-window throttling, bounded retries, pagination, and 504 recovery. use when clients receive 429 or 504 responses or share one outbound ip. trigger with \"ramp rate limit\" or \"ramp 429\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-reference-architecture",
       "slug": "ramp-reference-architecture",
       "name": "ramp-reference-architecture",
-      "description": "Ramp reference architecture — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp reference architecture\", \"ramp-reference-architecture\", \"corporate card API\".",
+      "description": "Design a production Ramp integration with isolated OAuth clients, typed API adapters, durable webhook ingestion, reconciliation workers, and audited financial writes. Use when reviewing architecture or building a new platform. Trigger with \"Ramp architecture\" or \"design Ramp integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-reference-architecture ramp reference architecture — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp reference architecture\", \"ramp-reference-architecture\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-reference-architecture design a production ramp integration with isolated oauth clients, typed api adapters, durable webhook ingestion, reconciliation workers, and audited financial writes. use when reviewing architecture or building a new platform. trigger with \"ramp architecture\" or \"design ramp integration\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-sdk-patterns",
       "slug": "ramp-sdk-patterns",
       "name": "ramp-sdk-patterns",
-      "description": "Ramp sdk patterns — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp sdk patterns\", \"ramp-sdk-patterns\", \"corporate card API\".",
+      "description": "Build a small typed Ramp Developer API adapter with secure token management, pagination, structured errors, rate control, idempotency, and schema drift checks. Use when replacing scattered raw requests in application code. Trigger with \"Ramp API client\" or \"Ramp SDK patterns\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-sdk-patterns ramp sdk patterns — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp sdk patterns\", \"ramp-sdk-patterns\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-sdk-patterns build a small typed ramp developer api adapter with secure token management, pagination, structured errors, rate control, idempotency, and schema drift checks. use when replacing scattered raw requests in application code. trigger with \"ramp api client\" or \"ramp sdk patterns\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-security-basics",
       "slug": "ramp-security-basics",
       "name": "ramp-security-basics",
-      "description": "Ramp security basics — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp security basics\", \"ramp-security-basics\", \"corporate card API\".",
+      "description": "Establish least-privilege OAuth, secret, webhook, data, card, and financial-write controls for a Ramp integration. Use when threat modeling, reviewing a launch, or remediating controls. Trigger with \"secure Ramp integration\" or \"Ramp security review\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-security-basics ramp security basics — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp security basics\", \"ramp-security-basics\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-security-basics establish least-privilege oauth, secret, webhook, data, card, and financial-write controls for a ramp integration. use when threat modeling, reviewing a launch, or remediating controls. trigger with \"secure ramp integration\" or \"ramp security review\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-upgrade-migration",
       "slug": "ramp-upgrade-migration",
       "name": "ramp-upgrade-migration",
-      "description": "Ramp upgrade migration — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp upgrade migration\", \"ramp-upgrade-migration\", \"corporate card API\".",
+      "description": "Upgrade a Ramp integration across API, schema, scope, endpoint, or behavior changes using impact analysis, dual verification, and reversible rollout. Use when addressing changelog items, deprecated endpoints, or regenerated clients. Trigger with \"upgrade Ramp API\" or \"Ramp breaking change\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-upgrade-migration ramp upgrade migration — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp upgrade migration\", \"ramp-upgrade-migration\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-upgrade-migration upgrade a ramp integration across api, schema, scope, endpoint, or behavior changes using impact analysis, dual verification, and reversible rollout. use when addressing changelog items, deprecated endpoints, or regenerated clients. trigger with \"upgrade ramp api\" or \"ramp breaking change\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
       "id": "ramp-webhooks-events",
       "slug": "ramp-webhooks-events",
       "name": "ramp-webhooks-events",
-      "description": "Ramp webhooks events — corporate card and expense management API integration. Use when working with Ramp for card management, expenses, or accounting sync. Trigger with phrases like \"ramp webhooks events\", \"ramp-webhooks-events\", \"corporate card API\".",
+      "description": "Build a verified, idempotent Ramp webhook receiver with raw-body HMAC validation, fast acknowledgement, durable processing, and reconciliation. Use when handling transaction, bill, reimbursement, spend-request, or other Ramp events. Trigger with \"Ramp webhooks\" or \"verify Ramp signature\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Glob",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "ramp-pack",
         "category": "saas-packs"
       },
-      "searchText": "ramp-webhooks-events ramp webhooks events — corporate card and expense management api integration. use when working with ramp for card management, expenses, or accounting sync. trigger with phrases like \"ramp webhooks events\", \"ramp-webhooks-events\", \"corporate card api\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "ramp-webhooks-events build a verified, idempotent ramp webhook receiver with raw-body hmac validation, fast acknowledgement, durable processing, and reconciliation. use when handling transaction, bill, reimbursement, spend-request, or other ramp events. trigger with \"ramp webhooks\" or \"verify ramp signature\". saas-packs read glob grep write edit "
     },
     {
       "type": "skill",
