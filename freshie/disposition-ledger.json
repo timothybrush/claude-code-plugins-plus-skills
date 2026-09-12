@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "bf074eeb6b770772467019e03ea2c6160a3f03848f812f289d931a1430fc3319",
+    "sha256": "9c8a35782db1815335b8a0d703ba6194cd81a509b5e98f80f621b2d0887db1b9",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -19,9 +19,9 @@
     "G9"
   ],
   "counts": {
-    "AUTO-MIGRATE": 133,
+    "AUTO-MIGRATE": 121,
     "CERTIFY": 0,
-    "CERTIFY-PENDING-EVIDENCE": 3012,
+    "CERTIFY-PENDING-EVIDENCE": 3024,
     "CERTIFY-UPSTREAM": 0,
     "DEEP-REMEDIATE": 1,
     "QUARANTINE": 345
@@ -29813,158 +29813,134 @@
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-common-errors/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-core-workflow-a/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 99,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 87,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 84,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 98,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-install-auth/SKILL.md",
       "grade": "A",
-      "score": 90,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 99,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-prod-checklist/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 97,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-security-basics/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 99,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/remofirst-pack/skills/remofirst-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
