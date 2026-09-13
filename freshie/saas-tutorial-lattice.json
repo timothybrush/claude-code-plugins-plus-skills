@@ -4,10 +4,10 @@
   "semantics": "Family-name matches are review candidates, not automatic quality or retirement verdicts.",
   "sources": {
     "catalog": ".claude-plugin/marketplace.extended.json",
-    "catalog_sha256": "3cfa43b37d8284110f628411febe15436d695bd5f683c5e88711302dcaee6fe2",
+    "catalog_sha256": "2d22a4e56b1d556a512c6acde36b63aad4053986f4aa5ff6a4f9d71c063ed533",
     "curated_manifest": "skills/.curated/MANIFEST.json",
     "curated_manifest_sha256": "275c5e6691183d95d16ddb7eb6c2a92bb88d8fa5ffe031e6d8c7c54ef797928b",
-    "tracked_inventory_sha256": "9d0e1e9af6fa991c8565f571056726543ed79c43ad029dc831a945b3fca68af5"
+    "tracked_inventory_sha256": "5ec0e3d19a1453b31b6f0e09cc95f80435dd4899c32725fa86fc5eabf8867e7e"
   },
   "family_definition": [
     "advanced-troubleshooting",
@@ -702,7 +702,7 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 95,
-      "pack_inventory_sha256": "a5f97ccd53127667c9e0bab0d1c0e1e16b132fad7c22520f60f40c3b5753b575",
+      "pack_inventory_sha256": "60c6f364fdd356d462ac96821017500580765611c4c3f30f5d782beb34f9aefa",
       "candidate_set_sha256": "9b259d0c9c2c100a7758801ec59b6e59355662f3a6885e3b9185d904e2f8ee1e",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
@@ -2825,7 +2825,7 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "a5f97ccd53127667c9e0bab0d1c0e1e16b132fad7c22520f60f40c3b5753b575",
+      "pack_inventory_sha256": "60c6f364fdd356d462ac96821017500580765611c4c3f30f5d782beb34f9aefa",
       "candidate_set_sha256": "9b259d0c9c2c100a7758801ec59b6e59355662f3a6885e3b9185d904e2f8ee1e",
       "skill_count": 18,
       "catalog_declared_skill_count": 18,
