@@ -8744,15 +8744,17 @@
     {
       "name": "brightdata-pack",
       "source": "./plugins/saas-packs/brightdata-pack",
-      "description": "Claude Code skill pack for Bright Data (18 skills)",
-      "version": "1.6.0",
+      "description": "18 Grade-A skills for governed Bright Data proxy, Browser API, and snapshot operations",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
-        "brightdata",
-        "bright data",
+        "bright-data",
+        "web-data",
+        "proxy-network",
+        "browser-api",
+        "snapshots",
         "saas",
-        "sdk",
-        "integration"
+        "sdk"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -8763,10 +8765,10 @@
         "skills": 18
       },
       "verification": {
-        "score": 85,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 93,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-13T00:00:00.000Z"
       }
     },
     {
