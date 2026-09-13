@@ -9109,15 +9109,17 @@
       "slug": "brightdata-pack",
       "name": "brightdata-pack",
       "displayName": "brightdata pack",
-      "description": "Claude Code skill pack for Bright Data (18 skills)",
-      "version": "1.6.0",
+      "description": "18 Grade-A skills for governed Bright Data proxy, Browser API, and snapshot operations",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
-        "brightdata",
-        "bright data",
+        "bright-data",
+        "web-data",
+        "proxy-network",
+        "browser-api",
+        "snapshots",
         "saas",
-        "sdk",
-        "integration"
+        "sdk"
       ],
       "hasSkills": true,
       "skillCount": 18,

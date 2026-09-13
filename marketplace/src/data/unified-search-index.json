@@ -541,8 +541,8 @@
       "brand-voice",
       "branding",
       "bridge",
-      "bright data",
-      "brightdata",
+      "bright-data",
+      "browser-api",
       "browser-testing",
       "browserstack",
       "budget",
@@ -1312,6 +1312,7 @@
       "protobuf",
       "provenance",
       "proxy",
+      "proxy-network",
       "pub-sub",
       "publishing",
       "pull-request",
@@ -1474,6 +1475,7 @@
       "sms",
       "snagit",
       "snapshot",
+      "snapshots",
       "snowflake",
       "soc2",
       "social",
@@ -1666,6 +1668,7 @@
       "wcag",
       "weather",
       "web-crawling",
+      "web-data",
       "web-design",
       "web-scraping",
       "web-search",
@@ -12056,14 +12059,16 @@
       "slug": "brightdata-pack",
       "name": "brightdata-pack",
       "displayName": "brightdata pack",
-      "description": "Claude Code skill pack for Bright Data (18 skills)",
+      "description": "18 Grade-A skills for governed Bright Data proxy, Browser API, and snapshot operations",
       "category": "saas-packs",
       "keywords": [
-        "brightdata",
-        "bright data",
+        "bright-data",
+        "web-data",
+        "proxy-network",
+        "browser-api",
+        "snapshots",
         "saas",
-        "sdk",
-        "integration"
+        "sdk"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -12071,15 +12076,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.6.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 85,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "brightdata pack claude code skill pack for bright data (18 skills) saas-packs brightdata bright data saas sdk integration"
+      "verificationScore": 93,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "brightdata pack 18 grade-a skills for governed bright data proxy, browser api, and snapshot operations saas-packs bright-data web-data proxy-network browser-api snapshots saas sdk"
     },
     {
       "type": "plugin",
@@ -22968,28 +22973,29 @@
       "id": "brightdata-ci-integration",
       "slug": "brightdata-ci-integration",
       "name": "brightdata-ci-integration",
-      "description": "Configure Bright Data CI/CD integration with GitHub Actions and testing. Use when setting up automated testing, configuring CI pipelines, or integrating Bright Data tests into your build process. Trigger with phrases like \"brightdata CI\", \"brightdata GitHub Actions\", \"brightdata automated tests\", \"CI brightdata\".",
+      "description": "Build an offline-default CI contract lane for Bright Data and isolate any authorized live probe behind protected controls. Use when adding provider checks to pull requests or release workflows. Trigger with: \"test Bright Data in CI\", \"add a Bright Data contract job\", \"secure the live CI probe\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(gh:*)"
+        "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-ci-integration configure bright data ci/cd integration with github actions and testing. use when setting up automated testing, configuring ci pipelines, or integrating bright data tests into your build process. trigger with phrases like \"brightdata ci\", \"brightdata github actions\", \"brightdata automated tests\", \"ci brightdata\". saas-packs read write edit bash(gh:*) "
+      "searchText": "brightdata-ci-integration build an offline-default ci contract lane for bright data and isolate any authorized live probe behind protected controls. use when adding provider checks to pull requests or release workflows. trigger with: \"test bright data in ci\", \"add a bright data contract job\", \"secure the live ci probe\". saas-packs read grep write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-common-errors",
       "slug": "brightdata-common-errors",
       "name": "brightdata-common-errors",
-      "description": "Diagnose and fix Bright Data common errors and exceptions. Use when encountering Bright Data errors, debugging failed requests, or troubleshooting integration issues. Trigger with phrases like \"brightdata error\", \"fix brightdata\", \"brightdata not working\", \"debug brightdata\".",
+      "description": "Analyze Bright Data proxy and dataset failures using current provider codes without bypassing policy controls. Use when diagnosing 407, 403, 429, 502, snapshot, or delivery failures. Trigger with: \"diagnose a Bright Data error\", \"what does this x-brd code mean\", \"triage a failed snapshot\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
@@ -22997,354 +23003,354 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-common-errors diagnose and fix bright data common errors and exceptions. use when encountering bright data errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like \"brightdata error\", \"fix brightdata\", \"brightdata not working\", \"debug brightdata\". saas-packs read grep bash(curl:*) "
+      "searchText": "brightdata-common-errors analyze bright data proxy and dataset failures using current provider codes without bypassing policy controls. use when diagnosing 407, 403, 429, 502, snapshot, or delivery failures. trigger with: \"diagnose a bright data error\", \"what does this x-brd code mean\", \"triage a failed snapshot\". saas-packs read grep bash(curl:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-core-workflow-a",
       "slug": "brightdata-core-workflow-a",
       "name": "brightdata-core-workflow-a",
-      "description": "Scrape structured data with Bright Data Scraping Browser using Playwright/Puppeteer. Use when scraping JavaScript-rendered pages, SPAs, or sites requiring browser interaction. Trigger with phrases like \"brightdata scraping browser\", \"brightdata playwright\", \"brightdata puppeteer\", \"scrape SPA with brightdata\", \"browser scraping\".",
+      "description": "Analyze an approved JavaScript-rendered task through Bright Data Browser API with bounded interaction and evidence. Use when a static request cannot satisfy an authorized public-data workflow and browser rendering is required. Trigger with: \"use Bright Data Browser API\", \"connect Playwright to Bright Data\", \"collect a rendered public page\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(npx:*)",
-        "Grep"
+        "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-core-workflow-a scrape structured data with bright data scraping browser using playwright/puppeteer. use when scraping javascript-rendered pages, spas, or sites requiring browser interaction. trigger with phrases like \"brightdata scraping browser\", \"brightdata playwright\", \"brightdata puppeteer\", \"scrape spa with brightdata\", \"browser scraping\". saas-packs read write edit bash(npm:*) bash(npx:*) grep "
+      "searchText": "brightdata-core-workflow-a analyze an approved javascript-rendered task through bright data browser api with bounded interaction and evidence. use when a static request cannot satisfy an authorized public-data workflow and browser rendering is required. trigger with: \"use bright data browser api\", \"connect playwright to bright data\", \"collect a rendered public page\". saas-packs read grep write edit bash(python:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-core-workflow-b",
       "slug": "brightdata-core-workflow-b",
       "name": "brightdata-core-workflow-b",
-      "description": "Execute Bright Data secondary workflow: Core Workflow B. Use when implementing secondary use case, or complementing primary workflow. Trigger with phrases like \"brightdata secondary workflow\", \"secondary task with brightdata\".",
+      "description": "Analyze and operate the Bright Data Web Scraper API async snapshot lifecycle with terminal-state and delivery controls. Use when collecting an approved batch, polling a snapshot, or downloading large structured results. Trigger with: \"run a Bright Data dataset job\", \"poll a Bright Data snapshot\", \"download Web Scraper API results\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-core-workflow-b execute bright data secondary workflow: core workflow b. use when implementing secondary use case, or complementing primary workflow. trigger with phrases like \"brightdata secondary workflow\", \"secondary task with brightdata\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "brightdata-core-workflow-b analyze and operate the bright data web scraper api async snapshot lifecycle with terminal-state and delivery controls. use when collecting an approved batch, polling a snapshot, or downloading large structured results. trigger with: \"run a bright data dataset job\", \"poll a bright data snapshot\", \"download web scraper api results\". saas-packs read grep write edit bash(curl:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-cost-tuning",
       "slug": "brightdata-cost-tuning",
       "name": "brightdata-cost-tuning",
-      "description": "Optimize Bright Data costs through tier selection, sampling, and usage monitoring. Use when analyzing Bright Data billing, reducing API costs, or implementing usage monitoring and budget alerts. Trigger with phrases like \"brightdata cost\", \"brightdata billing\", \"reduce brightdata costs\", \"brightdata pricing\", \"brightdata expensive\", \"brightdata budget\".",
+      "description": "Govern Bright Data usage with product-aware units, workload attribution, budgets, and abort thresholds without hard-coded prices. Use when forecasting or reducing collection spend. Trigger with: \"estimate Bright Data cost\", \"add a Bright Data budget\", \"reduce Bright Data usage\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-cost-tuning optimize bright data costs through tier selection, sampling, and usage monitoring. use when analyzing bright data billing, reducing api costs, or implementing usage monitoring and budget alerts. trigger with phrases like \"brightdata cost\", \"brightdata billing\", \"reduce brightdata costs\", \"brightdata pricing\", \"brightdata expensive\", \"brightdata budget\". saas-packs read grep "
+      "searchText": "brightdata-cost-tuning govern bright data usage with product-aware units, workload attribution, budgets, and abort thresholds without hard-coded prices. use when forecasting or reducing collection spend. trigger with: \"estimate bright data cost\", \"add a bright data budget\", \"reduce bright data usage\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-debug-bundle",
       "slug": "brightdata-debug-bundle",
       "name": "brightdata-debug-bundle",
-      "description": "Collect Bright Data debug evidence for support tickets and troubleshooting. Use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for Bright Data problems. Trigger with phrases like \"brightdata debug\", \"brightdata support bundle\", \"collect brightdata logs\", \"brightdata diagnostic\".",
+      "description": "Assemble a Bright Data support bundle that preserves diagnostic value while excluding credentials, target data, and secret-bearing URLs. Use when escalating a persistent proxy, Browser API, snapshot, or delivery incident. Trigger with: \"build a Bright Data debug bundle\", \"prepare evidence for Bright Data support\", \"redact a Bright Data incident\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(grep:*)",
-        "Bash(curl:*)",
-        "Bash(tar:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit",
+        "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-debug-bundle collect bright data debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for bright data problems. trigger with phrases like \"brightdata debug\", \"brightdata support bundle\", \"collect brightdata logs\", \"brightdata diagnostic\". saas-packs read bash(grep:*) bash(curl:*) bash(tar:*) grep "
+      "searchText": "brightdata-debug-bundle assemble a bright data support bundle that preserves diagnostic value while excluding credentials, target data, and secret-bearing urls. use when escalating a persistent proxy, browser api, snapshot, or delivery incident. trigger with: \"build a bright data debug bundle\", \"prepare evidence for bright data support\", \"redact a bright data incident\". saas-packs read grep write edit bash(python:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-deploy-integration",
       "slug": "brightdata-deploy-integration",
       "name": "brightdata-deploy-integration",
-      "description": "Deploy Bright Data integrations to Vercel, Fly.io, and Cloud Run platforms. Use when deploying Bright Data-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. Trigger with phrases like \"deploy brightdata\", \"brightdata Vercel\", \"brightdata production deploy\", \"brightdata Cloud Run\", \"brightdata Fly.io\".",
+      "description": "Design and review a bounded Bright Data worker deployment with separate proxy, Browser API, scraper, snapshot, and delivery responsibilities. Use when preparing a runtime topology or deployment manifest. Trigger with: \"deploy this Bright Data worker\", \"design Bright Data queues\", \"review the Bright Data deployment\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vercel:*)",
-        "Bash(fly:*)",
-        "Bash(gcloud:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-deploy-integration deploy bright data integrations to vercel, fly.io, and cloud run platforms. use when deploying bright data-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. trigger with phrases like \"deploy brightdata\", \"brightdata vercel\", \"brightdata production deploy\", \"brightdata cloud run\", \"brightdata fly.io\". saas-packs read write edit bash(vercel:*) bash(fly:*) bash(gcloud:*) "
+      "searchText": "brightdata-deploy-integration design and review a bounded bright data worker deployment with separate proxy, browser api, scraper, snapshot, and delivery responsibilities. use when preparing a runtime topology or deployment manifest. trigger with: \"deploy this bright data worker\", \"design bright data queues\", \"review the bright data deployment\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-hello-world",
       "slug": "brightdata-hello-world",
       "name": "brightdata-hello-world",
-      "description": "Create a minimal working Bright Data example. Use when starting a new Bright Data integration, testing your setup, or learning basic Bright Data API patterns. Trigger with phrases like \"brightdata hello world\", \"brightdata example\", \"brightdata quick start\", \"simple brightdata code\".",
+      "description": "Prove one authorized Bright Data proxy request and capture a redacted connectivity receipt. Use when validating a new zone, testing egress, or separating proxy failures from target failures. Trigger with: \"test my Bright Data proxy\", \"verify this zone\", \"run a safe Bright Data smoke test\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(node:*)"
+        "Grep",
+        "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-hello-world create a minimal working bright data example. use when starting a new bright data integration, testing your setup, or learning basic bright data api patterns. trigger with phrases like \"brightdata hello world\", \"brightdata example\", \"brightdata quick start\", \"simple brightdata code\". saas-packs read write edit bash(npm:*) bash(node:*) "
+      "searchText": "brightdata-hello-world prove one authorized bright data proxy request and capture a redacted connectivity receipt. use when validating a new zone, testing egress, or separating proxy failures from target failures. trigger with: \"test my bright data proxy\", \"verify this zone\", \"run a safe bright data smoke test\". saas-packs read grep bash(curl:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-install-auth",
       "slug": "brightdata-install-auth",
       "name": "brightdata-install-auth",
-      "description": "Install and configure Bright Data SDK/CLI authentication. Use when setting up a new Bright Data integration, configuring API keys, or initializing Bright Data in your project. Trigger with phrases like \"install brightdata\", \"setup brightdata\", \"brightdata auth\", \"configure brightdata API key\".",
+      "description": "Bootstrap Bright Data access without mixing proxy-zone credentials and REST API keys. Use when onboarding an integration, changing credential ownership, or proving least-privilege access. Trigger with: \"set up Bright Data access\", \"configure a Bright Data zone\", \"separate proxy and API credentials\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(pip:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-install-auth install and configure bright data sdk/cli authentication. use when setting up a new bright data integration, configuring api keys, or initializing bright data in your project. trigger with phrases like \"install brightdata\", \"setup brightdata\", \"brightdata auth\", \"configure brightdata api key\". saas-packs read write edit bash(npm:*) bash(pip:*) bash(curl:*) grep "
+      "searchText": "brightdata-install-auth bootstrap bright data access without mixing proxy-zone credentials and rest api keys. use when onboarding an integration, changing credential ownership, or proving least-privilege access. trigger with: \"set up bright data access\", \"configure a bright data zone\", \"separate proxy and api credentials\". saas-packs read grep write edit bash(python:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-local-dev-loop",
       "slug": "brightdata-local-dev-loop",
       "name": "brightdata-local-dev-loop",
-      "description": "Configure Bright Data local development with hot reload and testing. Use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with Bright Data. Trigger with phrases like \"brightdata dev setup\", \"brightdata local development\", \"brightdata dev environment\", \"develop with brightdata\".",
+      "description": "Build a local Bright Data development loop that defaults to synthetic fixtures and makes live traffic explicit. Use when implementing parsers, retry classification, or snapshot handling without spending credits or collecting data. Trigger with: \"mock Bright Data locally\", \"test a Bright Data adapter offline\", \"add a safe live-test switch\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(pnpm:*)",
-        "Grep"
+        "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-local-dev-loop configure bright data local development with hot reload and testing. use when setting up a development environment, configuring test workflows, or establishing a fast iteration cycle with bright data. trigger with phrases like \"brightdata dev setup\", \"brightdata local development\", \"brightdata dev environment\", \"develop with brightdata\". saas-packs read write edit bash(npm:*) bash(pnpm:*) grep "
+      "searchText": "brightdata-local-dev-loop build a local bright data development loop that defaults to synthetic fixtures and makes live traffic explicit. use when implementing parsers, retry classification, or snapshot handling without spending credits or collecting data. trigger with: \"mock bright data locally\", \"test a bright data adapter offline\", \"add a safe live-test switch\". saas-packs read grep write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-performance-tuning",
       "slug": "brightdata-performance-tuning",
       "name": "brightdata-performance-tuning",
-      "description": "Optimize Bright Data API performance with caching, batching, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Bright Data integrations. Trigger with phrases like \"brightdata performance\", \"optimize brightdata\", \"brightdata latency\", \"brightdata caching\", \"brightdata slow\", \"brightdata batch\".",
+      "description": "Analyze and tune a Bright Data workload from measured phase latency, failure classes, and bounded experiments instead of undocumented provider assumptions. Use when improving throughput or tail latency. Trigger with: \"speed up Bright Data\", \"tune Browser API performance\", \"reduce snapshot latency\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-performance-tuning optimize bright data api performance with caching, batching, and connection pooling. use when experiencing slow api responses, implementing caching strategies, or optimizing request throughput for bright data integrations. trigger with phrases like \"brightdata performance\", \"optimize brightdata\", \"brightdata latency\", \"brightdata caching\", \"brightdata slow\", \"brightdata batch\". saas-packs read write edit "
+      "searchText": "brightdata-performance-tuning analyze and tune a bright data workload from measured phase latency, failure classes, and bounded experiments instead of undocumented provider assumptions. use when improving throughput or tail latency. trigger with: \"speed up bright data\", \"tune browser api performance\", \"reduce snapshot latency\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-prod-checklist",
       "slug": "brightdata-prod-checklist",
       "name": "brightdata-prod-checklist",
-      "description": "Execute Bright Data production deployment checklist and rollback procedures. Use when deploying Bright Data integrations to production, preparing for launch, or implementing go-live procedures. Trigger with phrases like \"brightdata production\", \"deploy brightdata\", \"brightdata go-live\", \"brightdata launch checklist\".",
+      "description": "Gate a Bright Data integration for production with authorization, reliability, cost, data, and rollback evidence. Use when promoting a proxy, Browser API, scraper, snapshot, or delivery workload. Trigger with: \"production checklist for Bright Data\", \"approve this Bright Data rollout\", \"review a Bright Data release\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(kubectl:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-prod-checklist execute bright data production deployment checklist and rollback procedures. use when deploying bright data integrations to production, preparing for launch, or implementing go-live procedures. trigger with phrases like \"brightdata production\", \"deploy brightdata\", \"brightdata go-live\", \"brightdata launch checklist\". saas-packs read bash(kubectl:*) bash(curl:*) grep "
+      "searchText": "brightdata-prod-checklist gate a bright data integration for production with authorization, reliability, cost, data, and rollback evidence. use when promoting a proxy, browser api, scraper, snapshot, or delivery workload. trigger with: \"production checklist for bright data\", \"approve this bright data rollout\", \"review a bright data release\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-rate-limits",
       "slug": "brightdata-rate-limits",
       "name": "brightdata-rate-limits",
-      "description": "Implement Bright Data rate limiting, backoff, and idempotency patterns. Use when handling rate limit errors, implementing retry logic, or optimizing API request throughput for Bright Data. Trigger with phrases like \"brightdata rate limit\", \"brightdata throttling\", \"brightdata 429\", \"brightdata retry\", \"brightdata backoff\".",
+      "description": "Analyze and design Bright Data concurrency and backoff controls from observed provider signals and owned budgets instead of invented global limits. Use when handling 429 responses, dataset job ceilings, or uneven proxy pressure. Trigger with: \"tune Bright Data concurrency\", \"handle Bright Data 429\", \"set a dataset job budget\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-rate-limits implement bright data rate limiting, backoff, and idempotency patterns. use when handling rate limit errors, implementing retry logic, or optimizing api request throughput for bright data. trigger with phrases like \"brightdata rate limit\", \"brightdata throttling\", \"brightdata 429\", \"brightdata retry\", \"brightdata backoff\". saas-packs read write edit "
+      "searchText": "brightdata-rate-limits analyze and design bright data concurrency and backoff controls from observed provider signals and owned budgets instead of invented global limits. use when handling 429 responses, dataset job ceilings, or uneven proxy pressure. trigger with: \"tune bright data concurrency\", \"handle bright data 429\", \"set a dataset job budget\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-reference-architecture",
       "slug": "brightdata-reference-architecture",
       "name": "brightdata-reference-architecture",
-      "description": "Implement Bright Data reference architecture with best-practice project layout. Use when designing new Bright Data integrations, reviewing project structure, or establishing architecture standards for Bright Data applications. Trigger with phrases like \"brightdata architecture\", \"brightdata best practices\", \"brightdata project structure\", \"how to organize brightdata\", \"brightdata layout\".",
+      "description": "Create a governed Bright Data collection architecture with separate control, collection, quarantine, validation, and delivery trust zones. Use when designing or reviewing a production topology. Trigger with: \"architect a Bright Data system\", \"draw Bright Data trust boundaries\", \"review collection architecture\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-reference-architecture implement bright data reference architecture with best-practice project layout. use when designing new bright data integrations, reviewing project structure, or establishing architecture standards for bright data applications. trigger with phrases like \"brightdata architecture\", \"brightdata best practices\", \"brightdata project structure\", \"how to organize brightdata\", \"brightdata layout\". saas-packs read grep "
+      "searchText": "brightdata-reference-architecture create a governed bright data collection architecture with separate control, collection, quarantine, validation, and delivery trust zones. use when designing or reviewing a production topology. trigger with: \"architect a bright data system\", \"draw bright data trust boundaries\", \"review collection architecture\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-sdk-patterns",
       "slug": "brightdata-sdk-patterns",
       "name": "brightdata-sdk-patterns",
-      "description": "Apply production-ready Bright Data SDK patterns for TypeScript and Python. Use when implementing Bright Data integrations, refactoring SDK usage, or establishing team coding standards for Bright Data. Trigger with phrases like \"brightdata SDK patterns\", \"brightdata best practices\", \"brightdata code patterns\", \"idiomatic brightdata\".",
+      "description": "Wrap the official Bright Data Python SDK and REST contracts behind a typed, testable client boundary. Use when adding SDK calls, isolating provider upgrades, or normalizing scraper and Browser API results. Trigger with: \"wrap the Bright Data SDK\", \"design a Bright Data client\", \"pin Bright Data Python dependencies\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit"
+        "Edit",
+        "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-sdk-patterns apply production-ready bright data sdk patterns for typescript and python. use when implementing bright data integrations, refactoring sdk usage, or establishing team coding standards for bright data. trigger with phrases like \"brightdata sdk patterns\", \"brightdata best practices\", \"brightdata code patterns\", \"idiomatic brightdata\". saas-packs read write edit "
+      "searchText": "brightdata-sdk-patterns wrap the official bright data python sdk and rest contracts behind a typed, testable client boundary. use when adding sdk calls, isolating provider upgrades, or normalizing scraper and browser api results. trigger with: \"wrap the bright data sdk\", \"design a bright data client\", \"pin bright data python dependencies\". saas-packs read grep write edit bash(python:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-security-basics",
       "slug": "brightdata-security-basics",
       "name": "brightdata-security-basics",
-      "description": "Apply Bright Data security best practices for secrets and access control. Use when securing API keys, implementing least privilege access, or auditing Bright Data security configuration. Trigger with phrases like \"brightdata security\", \"brightdata secrets\", \"secure brightdata\", \"brightdata API key security\".",
+      "description": "Review a Bright Data integration for least privilege, public-data authorization, secret containment, and controlled use. Use when approving a target, adding a zone, rotating access, or preparing a security review. Trigger with: \"security review Bright Data\", \"approve a Bright Data target\", \"audit Bright Data credentials\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-security-basics apply bright data security best practices for secrets and access control. use when securing api keys, implementing least privilege access, or auditing bright data security configuration. trigger with phrases like \"brightdata security\", \"brightdata secrets\", \"secure brightdata\", \"brightdata api key security\". saas-packs read write grep "
+      "searchText": "brightdata-security-basics review a bright data integration for least privilege, public-data authorization, secret containment, and controlled use. use when approving a target, adding a zone, rotating access, or preparing a security review. trigger with: \"security review bright data\", \"approve a bright data target\", \"audit bright data credentials\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "brightdata-upgrade-migration",
       "slug": "brightdata-upgrade-migration",
       "name": "brightdata-upgrade-migration",
-      "description": "Analyze, plan, and execute Bright Data SDK upgrades with breaking change detection. Use when upgrading Bright Data SDK versions, detecting deprecations, or migrating to new API versions. Trigger with phrases like \"upgrade brightdata\", \"brightdata migration\", \"brightdata breaking changes\", \"update brightdata SDK\", \"analyze brightdata version\".",
+      "description": "Migrate Bright Data SDK, API, product, or response-header contracts with fixture evidence and a reversible canary. Use when upgrading the Python SDK, moving dataset endpoints, renaming Scraping Browser to Browser API, or removing legacy headers. Trigger with: \"upgrade Bright Data\", \"migrate x-luminati headers\", \"change a Bright Data API contract\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(git:*)"
+        "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-upgrade-migration analyze, plan, and execute bright data sdk upgrades with breaking change detection. use when upgrading bright data sdk versions, detecting deprecations, or migrating to new api versions. trigger with phrases like \"upgrade brightdata\", \"brightdata migration\", \"brightdata breaking changes\", \"update brightdata sdk\", \"analyze brightdata version\". saas-packs read write edit bash(npm:*) bash(git:*) "
+      "searchText": "brightdata-upgrade-migration migrate bright data sdk, api, product, or response-header contracts with fixture evidence and a reversible canary. use when upgrading the python sdk, moving dataset endpoints, renaming scraping browser to browser api, or removing legacy headers. trigger with: \"upgrade bright data\", \"migrate x-luminati headers\", \"change a bright data api contract\". saas-packs read grep write edit bash(python:*) "
     },
     {
       "type": "skill",
       "id": "brightdata-webhooks-events",
       "slug": "brightdata-webhooks-events",
       "name": "brightdata-webhooks-events",
-      "description": "Implement Bright Data webhook signature validation and event handling. Use when setting up webhook endpoints, implementing signature verification, or handling Bright Data event notifications securely. Trigger with phrases like \"brightdata webhook\", \"brightdata events\", \"brightdata webhook signature\", \"handle brightdata events\", \"brightdata notifications\".",
+      "description": "Build a secure receiver and replay contract for Bright Data snapshot delivery without assuming provider IPs, payload size, or retry timing. Use when accepting webhook-style dataset delivery. Trigger with: \"receive a Bright Data snapshot\", \"secure Bright Data delivery\", \"design Bright Data webhook handling\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "brightdata-pack",
         "category": "saas-packs"
       },
-      "searchText": "brightdata-webhooks-events implement bright data webhook signature validation and event handling. use when setting up webhook endpoints, implementing signature verification, or handling bright data event notifications securely. trigger with phrases like \"brightdata webhook\", \"brightdata events\", \"brightdata webhook signature\", \"handle brightdata events\", \"brightdata notifications\". saas-packs read write edit bash(curl:*) "
+      "searchText": "brightdata-webhooks-events build a secure receiver and replay contract for bright data snapshot delivery without assuming provider ips, payload size, or retry timing. use when accepting webhook-style dataset delivery. trigger with: \"receive a bright data snapshot\", \"secure bright data delivery\", \"design bright data webhook handling\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
