@@ -1,6 +1,6 @@
 # Anima Skill Pack
 
-> Production-grade Anima workflows for authorized Figma, website, and prompt-to-code operations (18 skills)
+> Validated Anima workflows for authorized Figma, website, and prompt-to-code operations (18 skills)
 
 These skills use `@animaapp/anima-sdk` 0.27.0 and its current backend contract.
 They cover Figma generation, public website conversion, early-preview prompt
