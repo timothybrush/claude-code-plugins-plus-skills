@@ -9164,15 +9164,15 @@
       "slug": "castai-pack",
       "name": "castai-pack",
       "displayName": "castai pack",
-      "description": "Claude Code skill pack for Cast AI (18 skills)",
-      "version": "1.4.0",
+      "description": "18 governed CAST AI operator workflows for Kubernetes cost monitoring and autoscaling",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "castai",
         "cast ai",
         "saas",
-        "sdk",
-        "integration"
+        "autoscaling",
+        "operations"
       ],
       "hasSkills": true,
       "skillCount": 18,
