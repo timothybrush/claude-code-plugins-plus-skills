@@ -10048,14 +10048,15 @@
       "slug": "quicknode-pack",
       "name": "quicknode-pack",
       "displayName": "quicknode pack",
-      "description": "Claude Code skill pack for QuickNode (18 skills)",
-      "version": "1.5.0",
+      "description": "18 governed QuickNode operator workflows for blockchain RPC and data infrastructure",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "quicknode",
-        "saas",
-        "sdk",
-        "integration"
+        "blockchain",
+        "rpc",
+        "operations",
+        "streams"
       ],
       "hasSkills": true,
       "skillCount": 18,
