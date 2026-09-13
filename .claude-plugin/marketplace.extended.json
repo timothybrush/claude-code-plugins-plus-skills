@@ -8801,15 +8801,15 @@
     {
       "name": "castai-pack",
       "source": "./plugins/saas-packs/castai-pack",
-      "description": "Claude Code skill pack for Cast AI (18 skills)",
-      "version": "1.4.0",
+      "description": "18 governed CAST AI operator workflows for Kubernetes cost monitoring and autoscaling",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "castai",
         "cast ai",
         "saas",
-        "sdk",
-        "integration"
+        "autoscaling",
+        "operations"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -8820,10 +8820,10 @@
         "skills": 18
       },
       "verification": {
-        "score": 85,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 92,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-13T00:00:00.000Z"
       }
     },
     {
