@@ -22,9 +22,9 @@
       "error_files": 357,
       "error_total": 2878,
       "grade_distribution": {
-        "A": 2682,
-        "B": 517,
-        "C": 134,
+        "A": 2699,
+        "B": 501,
+        "C": 133,
         "D": 154,
         "F": 4
       },
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25473
+        "tracked_files": 25512
       }
     },
     "2": {
@@ -91,7 +91,7 @@
         },
         "marketplace_terminal": {
           "error_total_all_validated_surfaces": 3115,
-          "fully_compliant_surfaces": 1854,
+          "fully_compliant_surfaces": 1872,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,7 +101,7 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 38.5
+          "validator_reported_mixed_denominator_percent": 38.9
         },
         "skill_rows": {
           "a_error_total": 28,
@@ -112,9 +112,9 @@
           "error_files": 357,
           "error_total": 2878,
           "grade_distribution": {
-            "A": 2682,
-            "B": 517,
-            "C": 134,
+            "A": 2699,
+            "B": 501,
+            "C": 133,
             "D": 154,
             "F": 4
           },
@@ -131,15 +131,15 @@
       "values": {
         "average_score": 91.3,
         "grade_distribution": {
-          "A": 2682,
-          "B": 517,
-          "C": 134,
+          "A": 2699,
+          "B": 501,
+          "C": 133,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 76.8,
-          "B": 14.8,
+          "A": 77.3,
+          "B": 14.4,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 265,
+        "distinct_values": 283,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -364,10 +364,14 @@
           },
           {
             "count": 1,
+            "value": "Covers documented CAST AI connection and umbrella-chart modes; exact components and permissions depend on selected features and provider"
+          },
+          {
+            "count": 1,
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2441,
+            "count": 2423,
             "value": "Designed for Claude Code"
           },
           {
@@ -1260,6 +1264,18 @@
           },
           {
             "count": 1,
+            "value": "Requires CAST AI Cost Monitoring data and access to the organization pricing and workload context needed to interpret it"
+          },
+          {
+            "count": 1,
+            "value": "Requires CAST AI console access to create scoped keys; regional endpoints are US, EU, or India as documented"
+          },
+          {
+            "count": 1,
+            "value": "Requires CAST AI organization notification access and an HTTPS receiver governed by the target incident-management system"
+          },
+          {
+            "count": 1,
             "value": "Requires Claude Code >= v2.1.80 with a claude.ai login (Channels research preview rejects API-key-only auth), Bun >= 1.0 (Node.js fallback supported), and a Slack workspace where you can create apps. Doctor mode additionally shells out to curl and jq."
           },
           {
@@ -1284,7 +1300,23 @@
           },
           {
             "count": 1,
+            "value": "Requires a connected cluster, representative baseline, and approved ownership of node and workload scaling controls"
+          },
+          {
+            "count": 1,
             "value": "Requires a managed HTTPS destination, an approved Bright Data snapshot, and durable streaming storage"
+          },
+          {
+            "count": 1,
+            "value": "Requires a repository with CAST AI infrastructure definitions; any live probe requires a protected environment and a dedicated read-only identity"
+          },
+          {
+            "count": 1,
+            "value": "Requires a supported Kubernetes cluster, castctl, reviewed cloud permissions, and an approved CAST AI organization"
+          },
+          {
+            "count": 1,
+            "value": "Requires access to the target cluster, declared infrastructure source, application SLOs, and change-management evidence"
           },
           {
             "count": 12,
@@ -1301,6 +1333,10 @@
           {
             "count": 1,
             "value": "Requires an approved workload, phase-level telemetry, representative fixtures, and a bounded canary environment"
+          },
+          {
+            "count": 1,
+            "value": "Requires an existing infrastructure delivery system and cloud-specific CAST AI permissions reviewed for each target cluster"
           },
           {
             "count": 24,
@@ -1320,11 +1356,35 @@
           },
           {
             "count": 1,
+            "value": "Requires declared CAST AI feature mode and read access to rendered Kubernetes and cloud permission definitions"
+          },
+          {
+            "count": 1,
             "value": "Requires internet access to call the first-party Xquik REST API."
           },
           {
             "count": 1,
+            "value": "Requires locally pinned infrastructure tools; optional sandbox checks require an explicitly selected non-production kube context"
+          },
+          {
+            "count": 1,
             "value": "Requires offline Bright Data fixtures; an optional live lane requires protected CI secrets and an explicitly approved target"
+          },
+          {
+            "count": 1,
+            "value": "Requires read access to the target kube context; console or API evidence may require an appropriately scoped CAST AI identity"
+          },
+          {
+            "count": 1,
+            "value": "Requires read-only access to the selected cluster; collection must follow local data-handling and support-sharing policy"
+          },
+          {
+            "count": 1,
+            "value": "Requires the current CAST AI API specification and observability for the client; limits vary by endpoint and upstream edge controls"
+          },
+          {
+            "count": 1,
+            "value": "Requires the current CAST AI API specification; declarative infrastructure should use the supported Terraform provider where appropriate"
           },
           {
             "count": 4,
@@ -1336,7 +1396,19 @@
           },
           {
             "count": 1,
+            "value": "Requires workload telemetry, SLOs, and read access to effective CAST AI and Kubernetes scaling configuration"
+          },
+          {
+            "count": 1,
             "value": "Runs on any MCP-aware host, including hosts with no local filesystem — this is the plugin's only pure-MCP skill, needing no local file, binary, or shell. Uses the Kobiton MCP tools createTestRun, getTestCase/getTestSuite, listDevices, and getOrgSettings; requires an authenticated Kobiton MCP connection. Delegates monitoring to the monitor-test-run skill (same plugin), which does need a local poller — so on a filesystem-less host, create the run and report its id rather than offering to watch it."
+          },
+          {
+            "count": 1,
+            "value": "Supports CAST AI documented connection paths; cloud permissions and available features vary by provider and subscription"
+          },
+          {
+            "count": 1,
+            "value": "Umbrella-chart upgrades using reset-then-reuse-values require Helm 3.14 or newer; standalone migration requires current castctl support"
           },
           {
             "count": 1,
@@ -2032,7 +2104,7 @@
         "answers": [
           {
             "cohort": "curated-mirror",
-            "value": 2626
+            "value": 2627
           },
           {
             "cohort": "curriculum",
@@ -2772,7 +2844,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25473
+        "tracked_files": 25512
       }
     },
     "47": {
@@ -2857,15 +2929,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-122.json",
+        "freshie/reports/run-delta-123.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "jrqou2eckh7kaobuqabk6t3nlti87m5l",
+        "dolt_commit": "eenir1ifu293j3ntnkf7m2jp5c433p0o",
         "header_total_skills": 2914,
-        "run_id": 122,
+        "run_id": 123,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -2878,32 +2950,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-122.json"
+        "freshie/reports/run-delta-123.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "jrqou2eckh7kaobuqabk6t3nlti87m5l",
-        "export_run_id": 122,
+        "export_dolt_commit": "eenir1ifu293j3ntnkf7m2jp5c433p0o",
+        "export_run_id": 123,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "e1833ddeb245f3a9b1672af9e1a172da8522cd92d9b45c129943f9daa24bc952",
+        "grades_csv_sha256": "c16c3cfbeb989594b205fe930484c8abacd405986d43c317da667f9088510608",
         "histogram_grades": {
-          "A": 2682,
-          "B": 517,
-          "C": 134,
+          "A": 2699,
+          "B": 501,
+          "C": 133,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2682,
-          "B": 517,
-          "C": 134,
+          "A": 2699,
+          "B": 501,
+          "C": 133,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "jrqou2eckh7kaobuqabk6t3nlti87m5l",
-        "inventory_run_id": 122,
+        "inventory_dolt_commit": "eenir1ifu293j3ntnkf7m2jp5c433p0o",
+        "inventory_run_id": 123,
         "target_lag_runs": 0
       }
     },
@@ -2913,7 +2985,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-122.json",
+        "freshie/reports/run-delta-123.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -2927,7 +2999,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 122,
+        "current_run_id": 123,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -2951,7 +3023,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-122.json",
+        "freshie/reports/run-delta-123.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"

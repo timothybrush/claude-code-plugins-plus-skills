@@ -87,6 +87,7 @@
       "Bash(cad-analyze:*)",
       "Bash(cad-revision:*)",
       "Bash(cargo:*)",
+      "Bash(castctl:*)",
       "Bash(cat:*)",
       "Bash(chmod:*)",
       "Bash(ci:*)",
@@ -12122,14 +12123,14 @@
       "slug": "castai-pack",
       "name": "castai-pack",
       "displayName": "castai pack",
-      "description": "Claude Code skill pack for Cast AI (18 skills)",
+      "description": "18 governed CAST AI operator workflows for Kubernetes cost monitoring and autoscaling",
       "category": "saas-packs",
       "keywords": [
         "castai",
         "cast ai",
         "saas",
-        "sdk",
-        "integration"
+        "autoscaling",
+        "operations"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -12137,15 +12138,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.4.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 85,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "castai pack claude code skill pack for cast ai (18 skills) saas-packs castai cast ai saas sdk integration"
+      "verificationScore": 92,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "castai pack 18 governed cast ai operator workflows for kubernetes cost monitoring and autoscaling saas-packs castai cast ai saas autoscaling operations"
     },
     {
       "type": "plugin",
@@ -24505,398 +24506,412 @@
       "id": "castai-ci-integration",
       "slug": "castai-ci-integration",
       "name": "castai-ci-integration",
-      "description": "Integrate CAST AI policy validation and cost checks into CI/CD pipelines. Use when adding CAST AI savings verification to GitHub Actions, validating Terraform plans, or gating deployments on cost thresholds. Trigger with phrases like \"cast ai CI\", \"cast ai github actions\", \"cast ai terraform CI\", \"cast ai pipeline\".",
+      "description": "Build a fail-closed CI lane for CAST AI configuration without exposing production credentials to untrusted changes. Use when validating CAST AI Terraform, Helm values, workload annotations, or an authorized read-only API smoke test. Trigger with: \"test CAST AI in CI\", \"gate CAST AI changes\", \"add a CAST AI contract job\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(gh:*)"
+        "Bash(terraform:*)",
+        "Bash(helm:*)",
+        "Bash(kubectl:*)",
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-ci-integration integrate cast ai policy validation and cost checks into ci/cd pipelines. use when adding cast ai savings verification to github actions, validating terraform plans, or gating deployments on cost thresholds. trigger with phrases like \"cast ai ci\", \"cast ai github actions\", \"cast ai terraform ci\", \"cast ai pipeline\". saas-packs read write edit bash(gh:*) "
+      "searchText": "castai-ci-integration build a fail-closed ci lane for cast ai configuration without exposing production credentials to untrusted changes. use when validating cast ai terraform, helm values, workload annotations, or an authorized read-only api smoke test. trigger with: \"test cast ai in ci\", \"gate cast ai changes\", \"add a cast ai contract job\". saas-packs read grep write edit bash(terraform:*) bash(helm:*) bash(kubectl:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-common-errors",
       "slug": "castai-common-errors",
       "name": "castai-common-errors",
-      "description": "Diagnose and fix CAST AI agent, API, and autoscaler errors. Use when the CAST AI agent is offline, nodes are not scaling, or API calls return errors. Trigger with phrases like \"cast ai error\", \"cast ai not working\", \"cast ai agent offline\", \"cast ai debug\", \"fix cast ai\".",
+      "description": "Diagnose CAST AI connection, agent, node autoscaling, and workload autoscaling failures without making speculative changes. Use when a cluster is disconnected, recommendations are absent, pods are not optimized, or capacity does not scale as expected. Trigger with: \"debug CAST AI\", \"CAST AI is not scaling\", \"why is CAST AI disconnected\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Bash(kubectl:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(helm:*)",
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-common-errors diagnose and fix cast ai agent, api, and autoscaler errors. use when the cast ai agent is offline, nodes are not scaling, or api calls return errors. trigger with phrases like \"cast ai error\", \"cast ai not working\", \"cast ai agent offline\", \"cast ai debug\", \"fix cast ai\". saas-packs read bash(kubectl:*) bash(curl:*) grep "
+      "searchText": "castai-common-errors diagnose cast ai connection, agent, node autoscaling, and workload autoscaling failures without making speculative changes. use when a cluster is disconnected, recommendations are absent, pods are not optimized, or capacity does not scale as expected. trigger with: \"debug cast ai\", \"cast ai is not scaling\", \"why is cast ai disconnected\". saas-packs read grep bash(kubectl:*) bash(helm:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-core-workflow-a",
       "slug": "castai-core-workflow-a",
       "name": "castai-core-workflow-a",
-      "description": "Configure CAST AI autoscaler policies and node templates for cost optimization. Use when enabling Phase 2 automation, setting spot instance policies, or configuring node downscaler and evictor settings. Trigger with phrases like \"cast ai autoscaler\", \"cast ai policies\", \"cast ai spot instances\", \"cast ai node optimization\".",
+      "description": "Connect a Kubernetes cluster to CAST AI in observation-first mode and establish a trustworthy cost baseline before automation. Use when onboarding a new EKS, GKE, AKS, or CAST AI Anywhere cluster. Trigger with: \"connect a cluster to CAST AI\", \"start CAST AI cost monitoring\", \"onboard CAST AI safely\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(curl:*)",
-        "Bash(kubectl:*)",
-        "Grep"
+        "Bash(castctl:*)",
+        "Bash(kubectl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-core-workflow-a configure cast ai autoscaler policies and node templates for cost optimization. use when enabling phase 2 automation, setting spot instance policies, or configuring node downscaler and evictor settings. trigger with phrases like \"cast ai autoscaler\", \"cast ai policies\", \"cast ai spot instances\", \"cast ai node optimization\". saas-packs read write edit bash(curl:*) bash(kubectl:*) grep "
+      "searchText": "castai-core-workflow-a connect a kubernetes cluster to cast ai in observation-first mode and establish a trustworthy cost baseline before automation. use when onboarding a new eks, gke, aks, or cast ai anywhere cluster. trigger with: \"connect a cluster to cast ai\", \"start cast ai cost monitoring\", \"onboard cast ai safely\". saas-packs read grep write edit bash(castctl:*) bash(kubectl:*) "
     },
     {
       "type": "skill",
       "id": "castai-core-workflow-b",
       "slug": "castai-core-workflow-b",
       "name": "castai-core-workflow-b",
-      "description": "Configure CAST AI Workload Autoscaler for pod-level right-sizing and VPA. Use when enabling workload autoscaling, configuring resource recommendations, or tuning pod CPU and memory requests with CAST AI. Trigger with phrases like \"cast ai workload autoscaler\", \"cast ai pod sizing\", \"cast ai resource recommendations\", \"cast ai VPA\".",
+      "description": "Enable CAST AI optimization through a measured canary with explicit node and workload policy boundaries. Use when observation-first onboarding is complete and Node Autoscaling, Workload Autoscaling, or managed HPA behavior can be activated. Trigger with: \"enable CAST AI automation\", \"canary CAST AI autoscaling\", \"apply CAST AI optimization policies\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(curl:*)",
         "Bash(kubectl:*)",
-        "Grep"
+        "Bash(terraform:*)",
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-core-workflow-b configure cast ai workload autoscaler for pod-level right-sizing and vpa. use when enabling workload autoscaling, configuring resource recommendations, or tuning pod cpu and memory requests with cast ai. trigger with phrases like \"cast ai workload autoscaler\", \"cast ai pod sizing\", \"cast ai resource recommendations\", \"cast ai vpa\". saas-packs read write edit bash(curl:*) bash(kubectl:*) grep "
+      "searchText": "castai-core-workflow-b enable cast ai optimization through a measured canary with explicit node and workload policy boundaries. use when observation-first onboarding is complete and node autoscaling, workload autoscaling, or managed hpa behavior can be activated. trigger with: \"enable cast ai automation\", \"canary cast ai autoscaling\", \"apply cast ai optimization policies\". saas-packs read grep write edit bash(kubectl:*) bash(terraform:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-cost-tuning",
       "slug": "castai-cost-tuning",
       "name": "castai-cost-tuning",
-      "description": "Maximize Kubernetes cost savings with CAST AI spot strategies and right-sizing. Use when analyzing cloud spend, optimizing spot-to-on-demand ratios, or configuring CAST AI for maximum savings. Trigger with phrases like \"cast ai cost\", \"cast ai savings\", \"cast ai spot strategy\", \"reduce kubernetes cost\", \"cast ai budget\".",
+      "description": "Analyze CAST AI cost, available-savings, and realized-savings reports into a defensible optimization plan. Use when investigating spend, validating savings claims, applying private-price adjustments, or prioritizing workloads and clusters. Trigger with: \"tune CAST AI costs\", \"verify CAST AI savings\", \"reduce Kubernetes spend with CAST AI\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-cost-tuning maximize kubernetes cost savings with cast ai spot strategies and right-sizing. use when analyzing cloud spend, optimizing spot-to-on-demand ratios, or configuring cast ai for maximum savings. trigger with phrases like \"cast ai cost\", \"cast ai savings\", \"cast ai spot strategy\", \"reduce kubernetes cost\", \"cast ai budget\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "castai-cost-tuning analyze cast ai cost, available-savings, and realized-savings reports into a defensible optimization plan. use when investigating spend, validating savings claims, applying private-price adjustments, or prioritizing workloads and clusters. trigger with: \"tune cast ai costs\", \"verify cast ai savings\", \"reduce kubernetes spend with cast ai\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "castai-debug-bundle",
       "slug": "castai-debug-bundle",
       "name": "castai-debug-bundle",
-      "description": "Collect CAST AI diagnostic bundle for support tickets and troubleshooting. Use when preparing a support case, collecting agent logs, or building a diagnostic snapshot of cluster state. Trigger with phrases like \"cast ai debug\", \"cast ai support bundle\", \"collect cast ai diagnostics\", \"cast ai logs\".",
+      "description": "Create a bounded, redacted CAST AI diagnostic bundle that preserves component, policy, and Kubernetes evidence for escalation. Use when triage must be handed to platform engineering, a cloud owner, or CAST AI support. Trigger with: \"collect CAST AI diagnostics\", \"make a CAST AI support bundle\", \"capture CAST AI evidence\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
+        "Write",
         "Bash(kubectl:*)",
-        "Bash(curl:*)",
-        "Bash(tar:*)",
         "Bash(helm:*)",
-        "Grep"
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-debug-bundle collect cast ai diagnostic bundle for support tickets and troubleshooting. use when preparing a support case, collecting agent logs, or building a diagnostic snapshot of cluster state. trigger with phrases like \"cast ai debug\", \"cast ai support bundle\", \"collect cast ai diagnostics\", \"cast ai logs\". saas-packs read bash(kubectl:*) bash(curl:*) bash(tar:*) bash(helm:*) grep "
+      "searchText": "castai-debug-bundle create a bounded, redacted cast ai diagnostic bundle that preserves component, policy, and kubernetes evidence for escalation. use when triage must be handed to platform engineering, a cloud owner, or cast ai support. trigger with: \"collect cast ai diagnostics\", \"make a cast ai support bundle\", \"capture cast ai evidence\". saas-packs read grep write bash(kubectl:*) bash(helm:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-deploy-integration",
       "slug": "castai-deploy-integration",
       "name": "castai-deploy-integration",
-      "description": "Deploy CAST AI across multi-cloud Kubernetes clusters with Terraform modules. Use when onboarding EKS, GKE, or AKS clusters to CAST AI using infrastructure-as-code patterns. Trigger with phrases like \"deploy cast ai\", \"cast ai eks\", \"cast ai gke\", \"cast ai aks\", \"cast ai terraform module\".",
+      "description": "Deploy CAST AI through a reviewable GitOps or Terraform lane with pinned artifacts, explicit control ownership, and staged promotion. Use when standardizing CAST AI across clusters or moving console-managed configuration into code. Trigger with: \"deploy CAST AI with GitOps\", \"manage CAST AI as code\", \"roll out CAST AI to multiple clusters\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(terraform:*)",
         "Bash(helm:*)",
-        "Bash(kubectl:*)"
+        "Bash(terraform:*)",
+        "Bash(kubectl:*)",
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-deploy-integration deploy cast ai across multi-cloud kubernetes clusters with terraform modules. use when onboarding eks, gke, or aks clusters to cast ai using infrastructure-as-code patterns. trigger with phrases like \"deploy cast ai\", \"cast ai eks\", \"cast ai gke\", \"cast ai aks\", \"cast ai terraform module\". saas-packs read write edit bash(terraform:*) bash(helm:*) bash(kubectl:*) "
+      "searchText": "castai-deploy-integration deploy cast ai through a reviewable gitops or terraform lane with pinned artifacts, explicit control ownership, and staged promotion. use when standardizing cast ai across clusters or moving console-managed configuration into code. trigger with: \"deploy cast ai with gitops\", \"manage cast ai as code\", \"roll out cast ai to multiple clusters\". saas-packs read grep write edit bash(helm:*) bash(terraform:*) bash(kubectl:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-hello-world",
       "slug": "castai-hello-world",
       "name": "castai-hello-world",
-      "description": "Query CAST AI cluster savings report and node inventory. Use when verifying CAST AI connectivity, viewing cluster cost savings, or listing managed nodes after onboarding. Trigger with phrases like \"cast ai hello world\", \"cast ai savings\", \"cast ai cluster status\", \"test cast ai connection\".",
+      "description": "Run a safe first CAST AI cluster connection that proves Cost Monitoring and agent health before enabling optimization. Use when starting a new evaluation, sandbox, or operator walkthrough. Trigger with: \"CAST AI hello world\", \"try CAST AI safely\", \"connect my first CAST AI cluster\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
+        "Bash(castctl:*)",
         "Bash(kubectl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-hello-world query cast ai cluster savings report and node inventory. use when verifying cast ai connectivity, viewing cluster cost savings, or listing managed nodes after onboarding. trigger with phrases like \"cast ai hello world\", \"cast ai savings\", \"cast ai cluster status\", \"test cast ai connection\". saas-packs read write edit bash(curl:*) bash(kubectl:*) "
+      "searchText": "castai-hello-world run a safe first cast ai cluster connection that proves cost monitoring and agent health before enabling optimization. use when starting a new evaluation, sandbox, or operator walkthrough. trigger with: \"cast ai hello world\", \"try cast ai safely\", \"connect my first cast ai cluster\". saas-packs read grep write bash(castctl:*) bash(kubectl:*) "
     },
     {
       "type": "skill",
       "id": "castai-install-auth",
       "slug": "castai-install-auth",
       "name": "castai-install-auth",
-      "description": "Install and configure CAST AI agent on a Kubernetes cluster with API key authentication. Use when onboarding a cluster to CAST AI, setting up Helm charts, or configuring Terraform provider authentication. Trigger with phrases like \"install cast ai\", \"connect cluster to cast ai\", \"cast ai setup\", \"cast ai api key\", \"cast ai helm install\".",
+      "description": "Choose and configure the correct CAST AI authentication boundary for castctl, REST API, Terraform, or enterprise child-organization access. Use when connecting a cluster, provisioning an automation identity, or repairing region and organization mismatches. Trigger with: \"authenticate CAST AI\", \"set up a CAST AI API key\", \"configure CAST AI access\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(helm:*)",
-        "Bash(kubectl:*)",
-        "Bash(terraform:*)",
-        "Grep"
+        "Bash(castctl:*)",
+        "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-install-auth install and configure cast ai agent on a kubernetes cluster with api key authentication. use when onboarding a cluster to cast ai, setting up helm charts, or configuring terraform provider authentication. trigger with phrases like \"install cast ai\", \"connect cluster to cast ai\", \"cast ai setup\", \"cast ai api key\", \"cast ai helm install\". saas-packs read write edit bash(helm:*) bash(kubectl:*) bash(terraform:*) grep "
+      "searchText": "castai-install-auth choose and configure the correct cast ai authentication boundary for castctl, rest api, terraform, or enterprise child-organization access. use when connecting a cluster, provisioning an automation identity, or repairing region and organization mismatches. trigger with: \"authenticate cast ai\", \"set up a cast ai api key\", \"configure cast ai access\". saas-packs read grep write edit bash(castctl:*) bash(curl:*) "
     },
     {
       "type": "skill",
       "id": "castai-local-dev-loop",
       "slug": "castai-local-dev-loop",
       "name": "castai-local-dev-loop",
-      "description": "Set up a local Kubernetes development loop with CAST AI cost monitoring. Use when building cost-aware deployments, testing autoscaler policies, or iterating on Terraform CAST AI configurations locally. Trigger with phrases like \"cast ai dev setup\", \"cast ai local testing\", \"develop with cast ai\", \"cast ai terraform dev\".",
+      "description": "Build an offline-first local loop for CAST AI Terraform, Helm, policy, and workload configuration before touching a sandbox cluster. Use when developing infrastructure modules, annotations, or CI checks. Trigger with: \"develop CAST AI locally\", \"test CAST AI configuration\", \"make a CAST AI dev loop\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(kubectl:*)",
-        "Bash(helm:*)",
         "Bash(terraform:*)",
-        "Grep"
+        "Bash(helm:*)",
+        "Bash(kubectl:*)",
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-local-dev-loop set up a local kubernetes development loop with cast ai cost monitoring. use when building cost-aware deployments, testing autoscaler policies, or iterating on terraform cast ai configurations locally. trigger with phrases like \"cast ai dev setup\", \"cast ai local testing\", \"develop with cast ai\", \"cast ai terraform dev\". saas-packs read write edit bash(kubectl:*) bash(helm:*) bash(terraform:*) grep "
+      "searchText": "castai-local-dev-loop build an offline-first local loop for cast ai terraform, helm, policy, and workload configuration before touching a sandbox cluster. use when developing infrastructure modules, annotations, or ci checks. trigger with: \"develop cast ai locally\", \"test cast ai configuration\", \"make a cast ai dev loop\". saas-packs read grep write edit bash(terraform:*) bash(helm:*) bash(kubectl:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-performance-tuning",
       "slug": "castai-performance-tuning",
       "name": "castai-performance-tuning",
-      "description": "Optimize CAST AI autoscaler performance, node provisioning speed, and API efficiency. Use when nodes take too long to provision, autoscaler is not reacting fast enough, or optimizing API call patterns for multi-cluster dashboards. Trigger with phrases like \"cast ai performance\", \"cast ai slow\", \"cast ai node provisioning\", \"cast ai autoscaler speed\".",
+      "description": "Tune CAST AI node and workload autoscaling against application SLOs, scheduling constraints, and recommendation confidence. Use when optimization causes latency, disruption, slow provisioning, or unstable replica and resource behavior. Trigger with: \"tune CAST AI performance\", \"stabilize CAST AI autoscaling\", \"fix CAST AI scaling latency\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(curl:*)",
         "Bash(kubectl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-performance-tuning optimize cast ai autoscaler performance, node provisioning speed, and api efficiency. use when nodes take too long to provision, autoscaler is not reacting fast enough, or optimizing api call patterns for multi-cluster dashboards. trigger with phrases like \"cast ai performance\", \"cast ai slow\", \"cast ai node provisioning\", \"cast ai autoscaler speed\". saas-packs read write edit bash(curl:*) bash(kubectl:*) "
+      "searchText": "castai-performance-tuning tune cast ai node and workload autoscaling against application slos, scheduling constraints, and recommendation confidence. use when optimization causes latency, disruption, slow provisioning, or unstable replica and resource behavior. trigger with: \"tune cast ai performance\", \"stabilize cast ai autoscaling\", \"fix cast ai scaling latency\". saas-packs read grep write edit bash(kubectl:*) "
     },
     {
       "type": "skill",
       "id": "castai-prod-checklist",
       "slug": "castai-prod-checklist",
       "name": "castai-prod-checklist",
-      "description": "Production readiness checklist for CAST AI cluster onboarding. Use when going live with CAST AI autoscaling, validating Phase 2 setup, or preparing for production cost optimization. Trigger with phrases like \"cast ai production\", \"cast ai go-live\", \"cast ai checklist\", \"cast ai launch\".",
+      "description": "Run a fail-closed production-readiness review for a CAST AI cluster before enabling or expanding automation. Use when deciding onboarding approval, control-plane migration, or rollout between cluster rings. Trigger with: \"review CAST AI for production\", \"CAST AI go-live checklist\", \"approve CAST AI automation\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
+        "Write",
+        "Edit",
         "Bash(kubectl:*)",
-        "Bash(curl:*)",
         "Bash(helm:*)",
-        "Grep"
+        "Bash(terraform:*)",
+        "Bash(castctl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-prod-checklist production readiness checklist for cast ai cluster onboarding. use when going live with cast ai autoscaling, validating phase 2 setup, or preparing for production cost optimization. trigger with phrases like \"cast ai production\", \"cast ai go-live\", \"cast ai checklist\", \"cast ai launch\". saas-packs read bash(kubectl:*) bash(curl:*) bash(helm:*) grep "
+      "searchText": "castai-prod-checklist run a fail-closed production-readiness review for a cast ai cluster before enabling or expanding automation. use when deciding onboarding approval, control-plane migration, or rollout between cluster rings. trigger with: \"review cast ai for production\", \"cast ai go-live checklist\", \"approve cast ai automation\". saas-packs read grep write edit bash(kubectl:*) bash(helm:*) bash(terraform:*) bash(castctl:*) "
     },
     {
       "type": "skill",
       "id": "castai-rate-limits",
       "slug": "castai-rate-limits",
       "name": "castai-rate-limits",
-      "description": "Handle CAST AI API rate limits with backoff and request queuing. Use when hitting 429 errors, optimizing API call patterns, or implementing rate-aware batch operations. Trigger with phrases like \"cast ai rate limit\", \"cast ai 429\", \"cast ai throttle\", \"cast ai API limits\".",
+      "description": "Build a CAST AI REST client that respects endpoint-specific throttling, bounded retries, and an explicit request budget. Use when a job receives 429 responses, polls CAST AI, or fans out across clusters and organizations. Trigger with: \"handle CAST AI rate limits\", \"stop CAST AI 429s\", \"make CAST AI polling safe\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-rate-limits handle cast ai api rate limits with backoff and request queuing. use when hitting 429 errors, optimizing api call patterns, or implementing rate-aware batch operations. trigger with phrases like \"cast ai rate limit\", \"cast ai 429\", \"cast ai throttle\", \"cast ai api limits\". saas-packs read write edit "
+      "searchText": "castai-rate-limits build a cast ai rest client that respects endpoint-specific throttling, bounded retries, and an explicit request budget. use when a job receives 429 responses, polls cast ai, or fans out across clusters and organizations. trigger with: \"handle cast ai rate limits\", \"stop cast ai 429s\", \"make cast ai polling safe\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "castai-reference-architecture",
       "slug": "castai-reference-architecture",
       "name": "castai-reference-architecture",
-      "description": "CAST AI reference architecture for multi-cluster Kubernetes cost optimization. Use when designing CAST AI deployment across environments, planning Terraform module structure, or establishing team standards. Trigger with phrases like \"cast ai architecture\", \"cast ai best practices\", \"cast ai multi-cluster\", \"cast ai terraform structure\".",
+      "description": "Design a CAST AI reference architecture that separates hosted control-plane services, in-cluster components, cloud permissions, delivery ownership, and Kubernetes scaling controls. Use when reviewing architecture, planning multi-cluster rollout, or mapping responsibilities. Trigger with: \"design CAST AI architecture\", \"map CAST AI components\", \"review CAST AI control planes\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-reference-architecture cast ai reference architecture for multi-cluster kubernetes cost optimization. use when designing cast ai deployment across environments, planning terraform module structure, or establishing team standards. trigger with phrases like \"cast ai architecture\", \"cast ai best practices\", \"cast ai multi-cluster\", \"cast ai terraform structure\". saas-packs read write edit grep "
+      "searchText": "castai-reference-architecture design a cast ai reference architecture that separates hosted control-plane services, in-cluster components, cloud permissions, delivery ownership, and kubernetes scaling controls. use when reviewing architecture, planning multi-cluster rollout, or mapping responsibilities. trigger with: \"design cast ai architecture\", \"map cast ai components\", \"review cast ai control planes\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "castai-sdk-patterns",
       "slug": "castai-sdk-patterns",
       "name": "castai-sdk-patterns",
-      "description": "Production-ready CAST AI REST API wrapper patterns in TypeScript and Python. Use when building reusable CAST AI clients, implementing retry logic, or wrapping the CAST AI API for team use. Trigger with phrases like \"cast ai API patterns\", \"cast ai client wrapper\", \"cast ai TypeScript\", \"cast ai Python client\".",
+      "description": "Build a production REST adapter for CAST AI from the current OpenAPI contract without inventing an unofficial SDK surface. Use when wrapping CAST AI operations in TypeScript, Python, or another service. Trigger with: \"build a CAST AI client\", \"wrap the CAST AI API\", \"integrate CAST AI in code\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-sdk-patterns production-ready cast ai rest api wrapper patterns in typescript and python. use when building reusable cast ai clients, implementing retry logic, or wrapping the cast ai api for team use. trigger with phrases like \"cast ai api patterns\", \"cast ai client wrapper\", \"cast ai typescript\", \"cast ai python client\". saas-packs read write edit "
+      "searchText": "castai-sdk-patterns build a production rest adapter for cast ai from the current openapi contract without inventing an unofficial sdk surface. use when wrapping cast ai operations in typescript, python, or another service. trigger with: \"build a cast ai client\", \"wrap the cast ai api\", \"integrate cast ai in code\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "castai-security-basics",
       "slug": "castai-security-basics",
       "name": "castai-security-basics",
-      "description": "Secure CAST AI API keys, RBAC configuration, and Kvisor security agent. Use when hardening CAST AI cluster access, configuring security scanning, or implementing API key rotation procedures. Trigger with phrases like \"cast ai security\", \"cast ai api key rotation\", \"cast ai rbac\", \"cast ai kvisor\", \"secure cast ai\".",
+      "description": "Review CAST AI identity, Kubernetes RBAC, cloud IAM, Kvisor, network, and evidence boundaries against enabled features. Use when preparing onboarding, automation expansion, or security-agent changes. Trigger with: \"secure CAST AI\", \"audit CAST AI permissions\", \"review Kvisor access\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
         "Bash(kubectl:*)",
-        "Bash(helm:*)",
-        "Grep"
+        "Bash(helm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-security-basics secure cast ai api keys, rbac configuration, and kvisor security agent. use when hardening cast ai cluster access, configuring security scanning, or implementing api key rotation procedures. trigger with phrases like \"cast ai security\", \"cast ai api key rotation\", \"cast ai rbac\", \"cast ai kvisor\", \"secure cast ai\". saas-packs read write edit bash(kubectl:*) bash(helm:*) grep "
+      "searchText": "castai-security-basics review cast ai identity, kubernetes rbac, cloud iam, kvisor, network, and evidence boundaries against enabled features. use when preparing onboarding, automation expansion, or security-agent changes. trigger with: \"secure cast ai\", \"audit cast ai permissions\", \"review kvisor access\". saas-packs read grep write edit bash(kubectl:*) bash(helm:*) "
     },
     {
       "type": "skill",
       "id": "castai-upgrade-migration",
       "slug": "castai-upgrade-migration",
       "name": "castai-upgrade-migration",
-      "description": "Upgrade CAST AI Helm charts, Terraform provider, and agent components. Use when upgrading CAST AI versions, checking for breaking changes, or migrating between CAST AI agent releases. Trigger with phrases like \"upgrade cast ai\", \"update cast ai agent\", \"cast ai helm upgrade\", \"cast ai terraform upgrade\".",
+      "description": "Upgrade the CAST AI umbrella chart or migrate standalone releases with preserved values, explicit downtime, staged verification, and recovery evidence. Use when performing component updates, GitOps adoption, or consolidation with castctl. Trigger with: \"upgrade CAST AI\", \"migrate CAST AI Helm releases\", \"move CAST AI to the umbrella chart\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
         "Bash(helm:*)",
-        "Bash(terraform:*)",
-        "Bash(kubectl:*)"
+        "Bash(kubectl:*)",
+        "Bash(castctl:*)",
+        "Bash(terraform:*)"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-upgrade-migration upgrade cast ai helm charts, terraform provider, and agent components. use when upgrading cast ai versions, checking for breaking changes, or migrating between cast ai agent releases. trigger with phrases like \"upgrade cast ai\", \"update cast ai agent\", \"cast ai helm upgrade\", \"cast ai terraform upgrade\". saas-packs read write edit bash(helm:*) bash(terraform:*) bash(kubectl:*) "
+      "searchText": "castai-upgrade-migration upgrade the cast ai umbrella chart or migrate standalone releases with preserved values, explicit downtime, staged verification, and recovery evidence. use when performing component updates, gitops adoption, or consolidation with castctl. trigger with: \"upgrade cast ai\", \"migrate cast ai helm releases\", \"move cast ai to the umbrella chart\". saas-packs read grep write edit bash(helm:*) bash(kubectl:*) bash(castctl:*) bash(terraform:*) "
     },
     {
       "type": "skill",
       "id": "castai-webhooks-events",
       "slug": "castai-webhooks-events",
       "name": "castai-webhooks-events",
-      "description": "Configure CAST AI webhook notifications for cluster events and audit logs. Use when setting up alerts for node scaling, cost threshold events, or integrating CAST AI events with Slack, PagerDuty, or custom endpoints. Trigger with phrases like \"cast ai webhooks\", \"cast ai notifications\", \"cast ai slack alerts\", \"cast ai events\".",
+      "description": "Design and operate CAST AI webhook notifications with explicit severity routing, schema tolerance, receiver security, deduplication, and audit-log reconciliation. Use when connecting CAST AI to an incident or operations system. Trigger with: \"configure CAST AI webhooks\", \"route CAST AI notifications\", \"audit CAST AI events\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "castai-pack",
         "category": "saas-packs"
       },
-      "searchText": "castai-webhooks-events configure cast ai webhook notifications for cluster events and audit logs. use when setting up alerts for node scaling, cost threshold events, or integrating cast ai events with slack, pagerduty, or custom endpoints. trigger with phrases like \"cast ai webhooks\", \"cast ai notifications\", \"cast ai slack alerts\", \"cast ai events\". saas-packs read write edit bash(curl:*) "
+      "searchText": "castai-webhooks-events design and operate cast ai webhook notifications with explicit severity routing, schema tolerance, receiver security, deduplication, and audit-log reconciliation. use when connecting cast ai to an incident or operations system. trigger with: \"configure cast ai webhooks\", \"route cast ai notifications\", \"audit cast ai events\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
