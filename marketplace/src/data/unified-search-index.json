@@ -236,6 +236,7 @@
       "Bash(python:*launch_tracker*)",
       "Bash(python:*mempool*)",
       "Bash(python:*whale*)",
+      "Bash(qn:*)",
       "Bash(radon:*)",
       "Bash(redis-cli:*)",
       "Bash(report-gen:*)",
@@ -1391,6 +1392,7 @@
       "rollback",
       "routing",
       "row-level-security",
+      "rpc",
       "rugpull",
       "rules",
       "rum",
@@ -1512,6 +1514,7 @@
       "strategy",
       "stratify",
       "streaming",
+      "streams",
       "stress-test",
       "stress-testing",
       "stryker",
@@ -13139,13 +13142,14 @@
       "slug": "quicknode-pack",
       "name": "quicknode-pack",
       "displayName": "quicknode pack",
-      "description": "Claude Code skill pack for QuickNode (18 skills)",
+      "description": "18 governed QuickNode operator workflows for blockchain RPC and data infrastructure",
       "category": "saas-packs",
       "keywords": [
         "quicknode",
-        "saas",
-        "sdk",
-        "integration"
+        "blockchain",
+        "rpc",
+        "operations",
+        "streams"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -13153,15 +13157,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.5.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 85,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "quicknode pack claude code skill pack for quicknode (18 skills) saas-packs quicknode saas sdk integration"
+      "verificationScore": 92,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "quicknode pack 18 governed quicknode operator workflows for blockchain rpc and data infrastructure saas-packs quicknode blockchain rpc operations streams"
     },
     {
       "type": "plugin",
@@ -65193,407 +65197,388 @@
       "id": "quicknode-ci-integration",
       "slug": "quicknode-ci-integration",
       "name": "quicknode-ci-integration",
-      "description": "QuickNode ci integration — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode ci integration\", \"quicknode-ci-integration\", \"blockchain RPC\".",
+      "description": "Build a fork-safe QuickNode CI contract lane with mocked default tests and a protected read-only integration check. Use when preventing chain, network, method, SDK, or secret drift before deployment. Trigger with: \"test QuickNode in CI\", \"add a QuickNode contract test\", \"secure QuickNode GitHub Actions\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-ci-integration quicknode ci integration — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode ci integration\", \"quicknode-ci-integration\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-ci-integration build a fork-safe quicknode ci contract lane with mocked default tests and a protected read-only integration check. use when preventing chain, network, method, sdk, or secret drift before deployment. trigger with: \"test quicknode in ci\", \"add a quicknode contract test\", \"secure quicknode github actions\". saas-packs read grep write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-common-errors",
       "slug": "quicknode-common-errors",
       "name": "quicknode-common-errors",
-      "description": "Diagnose and fix QuickNode RPC errors: nonce issues, gas failures, rate limits. Use when encountering blockchain RPC errors, failed transactions, or connection issues. Trigger with phrases like \"quicknode error\", \"RPC error\", \"nonce too low\", \"gas estimation failed\".",
+      "description": "Triage QuickNode transport, authentication, security-filter, capacity, chain, and application failures while preserving the original error layer. Use when RPC, SDK, or endpoint requests fail and ownership is unclear. Trigger with: \"debug a QuickNode error\", \"QuickNode RPC failed\", \"classify a QuickNode error code\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(curl:*)"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-common-errors diagnose and fix quicknode rpc errors: nonce issues, gas failures, rate limits. use when encountering blockchain rpc errors, failed transactions, or connection issues. trigger with phrases like \"quicknode error\", \"rpc error\", \"nonce too low\", \"gas estimation failed\". saas-packs read grep bash(curl:*) "
+      "searchText": "quicknode-common-errors triage quicknode transport, authentication, security-filter, capacity, chain, and application failures while preserving the original error layer. use when rpc, sdk, or endpoint requests fail and ownership is unclear. trigger with: \"debug a quicknode error\", \"quicknode rpc failed\", \"classify a quicknode error code\". saas-packs read grep bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-core-workflow-a",
       "slug": "quicknode-core-workflow-a",
       "name": "quicknode-core-workflow-a",
-      "description": "QuickNode core workflow a — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode core workflow a\", \"quicknode-core-workflow-a\", \"blockchain RPC\".",
+      "description": "Design a safe EVM transaction-submission path over QuickNode with simulation, fee and nonce policy, signer isolation, broadcast identity, and confirmation rules. Use when moving a read-only integration into transaction writes. Trigger with: \"send transactions through QuickNode\", \"build an EVM write path\", \"harden QuickNode transaction submission\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-core-workflow-a quicknode core workflow a — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode core workflow a\", \"quicknode-core-workflow-a\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-core-workflow-a design a safe evm transaction-submission path over quicknode with simulation, fee and nonce policy, signer isolation, broadcast identity, and confirmation rules. use when moving a read-only integration into transaction writes. trigger with: \"send transactions through quicknode\", \"build an evm write path\", \"harden quicknode transaction submission\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "quicknode-core-workflow-b",
       "slug": "quicknode-core-workflow-b",
       "name": "quicknode-core-workflow-b",
-      "description": "Work with NFT and token APIs via QuickNode: metadata, balances, transfer history. Use when building NFT or token features, checking balances, or tracking transfers. Trigger with phrases like \"quicknode NFT\", \"token balance\", \"NFT metadata\", \"ERC-20 balance\".",
+      "description": "Analyze and specify a chain-data contract for QuickNode across network identity, API family, historical retention, archive access, pagination, and add-ons. Use when a workload needs historical state, traces, tokens, NFTs, or chain-specific APIs. Trigger with: \"analyze QuickNode data requirements\", \"audit archive access\", \"design a QuickNode read workload\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-core-workflow-b work with nft and token apis via quicknode: metadata, balances, transfer history. use when building nft or token features, checking balances, or tracking transfers. trigger with phrases like \"quicknode nft\", \"token balance\", \"nft metadata\", \"erc-20 balance\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "quicknode-core-workflow-b analyze and specify a chain-data contract for quicknode across network identity, api family, historical retention, archive access, pagination, and add-ons. use when a workload needs historical state, traces, tokens, nfts, or chain-specific apis. trigger with: \"analyze quicknode data requirements\", \"audit archive access\", \"design a quicknode read workload\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "quicknode-cost-tuning",
       "slug": "quicknode-cost-tuning",
       "name": "quicknode-cost-tuning",
-      "description": "QuickNode cost tuning — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode cost tuning\", \"quicknode-cost-tuning\", \"blockchain RPC\".",
+      "description": "Attribute and reduce QuickNode API-credit consumption by product, endpoint, method, chain, tag, and workload while preserving correctness. Use when forecasting a billing cycle, investigating an overage, or evaluating a caching or data-access change. Trigger with: \"reduce QuickNode cost\", \"analyze QuickNode credits\", \"find expensive RPC methods\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-cost-tuning quicknode cost tuning — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode cost tuning\", \"quicknode-cost-tuning\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-cost-tuning attribute and reduce quicknode api-credit consumption by product, endpoint, method, chain, tag, and workload while preserving correctness. use when forecasting a billing cycle, investigating an overage, or evaluating a caching or data-access change. trigger with: \"reduce quicknode cost\", \"analyze quicknode credits\", \"find expensive rpc methods\". saas-packs read grep write edit bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-debug-bundle",
       "slug": "quicknode-debug-bundle",
       "name": "quicknode-debug-bundle",
-      "description": "QuickNode debug bundle — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode debug bundle\", \"quicknode-debug-bundle\", \"blockchain RPC\".",
+      "description": "Collect a bounded, redacted QuickNode incident bundle that preserves endpoint, method, timing, HTTP, JSON-RPC, chain, and client evidence without leaking credentials or signed payloads. Use when escalating a reproducible provider or integration failure. Trigger with: \"build a QuickNode debug bundle\", \"collect QuickNode support evidence\", \"triage an RPC incident\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-debug-bundle quicknode debug bundle — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode debug bundle\", \"quicknode-debug-bundle\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-debug-bundle collect a bounded, redacted quicknode incident bundle that preserves endpoint, method, timing, http, json-rpc, chain, and client evidence without leaking credentials or signed payloads. use when escalating a reproducible provider or integration failure. trigger with: \"build a quicknode debug bundle\", \"collect quicknode support evidence\", \"triage an rpc incident\". saas-packs read grep bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-deploy-integration",
       "slug": "quicknode-deploy-integration",
       "name": "quicknode-deploy-integration",
-      "description": "QuickNode deploy integration — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode deploy integration\", \"quicknode-deploy-integration\", \"blockchain RPC\".",
+      "description": "Deploy a QuickNode integration with environment-scoped endpoints, preflight reads, staged traffic, observability, and reversible credential cutover. Use when releasing a new RPC endpoint, SDK client, Stream, or Webhook consumer. Trigger with: \"deploy QuickNode\", \"roll out a QuickNode endpoint\", \"canary a QuickNode integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-deploy-integration quicknode deploy integration — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode deploy integration\", \"quicknode-deploy-integration\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-deploy-integration deploy a quicknode integration with environment-scoped endpoints, preflight reads, staged traffic, observability, and reversible credential cutover. use when releasing a new rpc endpoint, sdk client, stream, or webhook consumer. trigger with: \"deploy quicknode\", \"roll out a quicknode endpoint\", \"canary a quicknode integration\". saas-packs read grep write edit bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-hello-world",
       "slug": "quicknode-hello-world",
       "name": "quicknode-hello-world",
-      "description": "QuickNode hello world — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode hello world\", \"quicknode-hello-world\", \"blockchain RPC\".",
+      "description": "Prove a new QuickNode RPC endpoint with a minimal, read-only JSON-RPC contract before application integration. Use when onboarding a chain endpoint or separating provider failures from client-library failures. Trigger with: \"test my QuickNode endpoint\", \"make the first QuickNode request\", \"verify QuickNode RPC\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-hello-world quicknode hello world — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode hello world\", \"quicknode-hello-world\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-hello-world prove a new quicknode rpc endpoint with a minimal, read-only json-rpc contract before application integration. use when onboarding a chain endpoint or separating provider failures from client-library failures. trigger with: \"test my quicknode endpoint\", \"make the first quicknode request\", \"verify quicknode rpc\". saas-packs read grep write edit bash(curl:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-install-auth",
       "slug": "quicknode-install-auth",
       "name": "quicknode-install-auth",
-      "description": "QuickNode install auth — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode install auth\", \"quicknode-install-auth\", \"blockchain RPC\".",
+      "description": "Choose and configure the correct QuickNode credential boundary for RPC endpoints, the Admin API, the unified SDK, and the qn CLI. Use when onboarding an endpoint, separating environments, or rotating access without exposing tokens. Trigger with: \"authenticate QuickNode\", \"configure a QuickNode endpoint\", \"rotate QuickNode credentials\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)",
+        "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-install-auth quicknode install auth — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode install auth\", \"quicknode-install-auth\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-install-auth choose and configure the correct quicknode credential boundary for rpc endpoints, the admin api, the unified sdk, and the qn cli. use when onboarding an endpoint, separating environments, or rotating access without exposing tokens. trigger with: \"authenticate quicknode\", \"configure a quicknode endpoint\", \"rotate quicknode credentials\". saas-packs read grep write edit bash(qn:*) bash(curl:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-local-dev-loop",
       "slug": "quicknode-local-dev-loop",
       "name": "quicknode-local-dev-loop",
-      "description": "QuickNode local dev loop — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode local dev loop\", \"quicknode-local-dev-loop\", \"blockchain RPC\".",
+      "description": "Create a deterministic local QuickNode development loop with transport fixtures, base-URL injection, redacted recordings, and an opt-in read-only sandbox check. Use when developing SDK, RPC, Stream, or Webhook integrations without consuming live credits on every test. Trigger with: \"develop against QuickNode locally\", \"mock QuickNode\", \"test a QuickNode adapter offline\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-local-dev-loop quicknode local dev loop — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode local dev loop\", \"quicknode-local-dev-loop\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-local-dev-loop create a deterministic local quicknode development loop with transport fixtures, base-url injection, redacted recordings, and an opt-in read-only sandbox check. use when developing sdk, rpc, stream, or webhook integrations without consuming live credits on every test. trigger with: \"develop against quicknode locally\", \"mock quicknode\", \"test a quicknode adapter offline\". saas-packs read grep write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-performance-tuning",
       "slug": "quicknode-performance-tuning",
       "name": "quicknode-performance-tuning",
-      "description": "QuickNode performance tuning — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode performance tuning\", \"quicknode-performance-tuning\", \"blockchain RPC\".",
+      "description": "Tune QuickNode RPC performance from endpoint metrics, method mix, payload size, connection reuse, and chain semantics instead of synthetic request counts. Use when tail latency, errors, or credit use regress. Trigger with: \"optimize QuickNode latency\", \"analyze QuickNode p95\", \"reduce RPC response time\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-performance-tuning quicknode performance tuning — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode performance tuning\", \"quicknode-performance-tuning\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-performance-tuning tune quicknode rpc performance from endpoint metrics, method mix, payload size, connection reuse, and chain semantics instead of synthetic request counts. use when tail latency, errors, or credit use regress. trigger with: \"optimize quicknode latency\", \"analyze quicknode p95\", \"reduce rpc response time\". saas-packs read grep write edit bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-prod-checklist",
       "slug": "quicknode-prod-checklist",
       "name": "quicknode-prod-checklist",
-      "description": "QuickNode prod checklist — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode prod checklist\", \"quicknode-prod-checklist\", \"blockchain RPC\".",
+      "description": "Run a fail-closed production-readiness review for a QuickNode endpoint and its SDK, transaction, Stream, or Webhook consumers. Use when preparing a launch, major traffic increase, or provider migration. Trigger with: \"QuickNode production checklist\", \"audit QuickNode readiness\", \"approve a QuickNode launch\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-prod-checklist quicknode prod checklist — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode prod checklist\", \"quicknode-prod-checklist\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-prod-checklist run a fail-closed production-readiness review for a quicknode endpoint and its sdk, transaction, stream, or webhook consumers. use when preparing a launch, major traffic increase, or provider migration. trigger with: \"quicknode production checklist\", \"audit quicknode readiness\", \"approve a quicknode launch\". saas-packs read grep bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-rate-limits",
       "slug": "quicknode-rate-limits",
       "name": "quicknode-rate-limits",
-      "description": "QuickNode rate limits — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode rate limits\", \"quicknode-rate-limits\", \"blockchain RPC\".",
+      "description": "Analyze and govern QuickNode plan, IP, and method-specific rate limits without inventing a universal threshold. Use when requests receive QuickNode limit codes, one method needs a protective budget, or retry policy must respect endpoint controls. Trigger with: \"analyze a QuickNode rate limit\", \"detect a method limit\", \"control QuickNode request bursts\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-rate-limits quicknode rate limits — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode rate limits\", \"quicknode-rate-limits\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-rate-limits analyze and govern quicknode plan, ip, and method-specific rate limits without inventing a universal threshold. use when requests receive quicknode limit codes, one method needs a protective budget, or retry policy must respect endpoint controls. trigger with: \"analyze a quicknode rate limit\", \"detect a method limit\", \"control quicknode request bursts\". saas-packs read grep write edit bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-reference-architecture",
       "slug": "quicknode-reference-architecture",
       "name": "quicknode-reference-architecture",
-      "description": "QuickNode reference architecture — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode reference architecture\", \"quicknode-reference-architecture\", \"blockchain RPC\".",
+      "description": "Analyze and design a QuickNode production boundary that separates control-plane API keys, data-plane endpoint tokens, chain reads and writes, event ingestion, durable state, and observability. Use when multiple services or QuickNode products need clear ownership and failure isolation. Trigger with: \"analyze QuickNode architecture\", \"design QuickNode infrastructure\", \"audit QuickNode trust boundaries\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-reference-architecture quicknode reference architecture — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode reference architecture\", \"quicknode-reference-architecture\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-reference-architecture analyze and design a quicknode production boundary that separates control-plane api keys, data-plane endpoint tokens, chain reads and writes, event ingestion, durable state, and observability. use when multiple services or quicknode products need clear ownership and failure isolation. trigger with: \"analyze quicknode architecture\", \"design quicknode infrastructure\", \"audit quicknode trust boundaries\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "quicknode-sdk-patterns",
       "slug": "quicknode-sdk-patterns",
       "name": "quicknode-sdk-patterns",
-      "description": "Production-ready QuickNode SDK and ethers.js patterns for blockchain applications. Use when building production dApps, implementing retry logic, or establishing patterns. Trigger with phrases like \"quicknode patterns\", \"ethers best practices\", \"web3 patterns\".",
+      "description": "Adopt the current unified QuickNode SDK with explicit product clients, timeouts, environment configuration, and platform checks. Use when coordinating Admin API, RPC, Streams, Webhooks, KV Store, or SQL Explorer from one service. Trigger with: \"use the QuickNode SDK\", \"build a QuickNode client\", \"standardize QuickNode API access\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit"
+        "Edit",
+        "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-sdk-patterns production-ready quicknode sdk and ethers.js patterns for blockchain applications. use when building production dapps, implementing retry logic, or establishing patterns. trigger with phrases like \"quicknode patterns\", \"ethers best practices\", \"web3 patterns\". saas-packs read write edit "
+      "searchText": "quicknode-sdk-patterns adopt the current unified quicknode sdk with explicit product clients, timeouts, environment configuration, and platform checks. use when coordinating admin api, rpc, streams, webhooks, kv store, or sql explorer from one service. trigger with: \"use the quicknode sdk\", \"build a quicknode client\", \"standardize quicknode api access\". saas-packs read grep write edit bash(npm:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-security-basics",
       "slug": "quicknode-security-basics",
       "name": "quicknode-security-basics",
-      "description": "QuickNode security basics — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode security basics\", \"quicknode-security-basics\", \"blockchain RPC\".",
+      "description": "Harden QuickNode endpoints with server-side token handling, separate credentials, least-privilege account roles, and plan-appropriate security filters. Use when reviewing exposure, isolating applications, or responding to a leaked endpoint. Trigger with: \"secure QuickNode\", \"harden a QuickNode endpoint\", \"rotate a leaked QuickNode token\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-security-basics quicknode security basics — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode security basics\", \"quicknode-security-basics\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-security-basics harden quicknode endpoints with server-side token handling, separate credentials, least-privilege account roles, and plan-appropriate security filters. use when reviewing exposure, isolating applications, or responding to a leaked endpoint. trigger with: \"secure quicknode\", \"harden a quicknode endpoint\", \"rotate a leaked quicknode token\". saas-packs read grep write edit bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-upgrade-migration",
       "slug": "quicknode-upgrade-migration",
       "name": "quicknode-upgrade-migration",
-      "description": "QuickNode upgrade migration — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode upgrade migration\", \"quicknode-upgrade-migration\", \"blockchain RPC\".",
+      "description": "Migrate a QuickNode SDK, endpoint, chain API, token, or event product with inventory, compatibility tests, canary traffic, and rollback. Use when adopting the unified SDK, responding to a chain deprecation, or rotating infrastructure without losing writes or events. Trigger with: \"upgrade QuickNode\", \"migrate a QuickNode endpoint\", \"plan a QuickNode cutover\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit",
         "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Bash(qn:*)"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-upgrade-migration quicknode upgrade migration — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode upgrade migration\", \"quicknode-upgrade-migration\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-upgrade-migration migrate a quicknode sdk, endpoint, chain api, token, or event product with inventory, compatibility tests, canary traffic, and rollback. use when adopting the unified sdk, responding to a chain deprecation, or rotating infrastructure without losing writes or events. trigger with: \"upgrade quicknode\", \"migrate a quicknode endpoint\", \"plan a quicknode cutover\". saas-packs read grep write edit bash(npm:*) bash(qn:*) "
     },
     {
       "type": "skill",
       "id": "quicknode-webhooks-events",
       "slug": "quicknode-webhooks-events",
       "name": "quicknode-webhooks-events",
-      "description": "QuickNode webhooks events — blockchain RPC and Web3 infrastructure integration. Use when working with QuickNode for blockchain development. Trigger with phrases like \"quicknode webhooks events\", \"quicknode-webhooks-events\", \"blockchain RPC\".",
+      "description": "Build an authenticated, idempotent QuickNode Webhooks or Streams receiver with bounded acknowledgement, replay safety, and reorganization handling. Use when delivering onchain events to HTTP or durable destinations. Trigger with: \"receive QuickNode webhooks\", \"secure a QuickNode Stream\", \"handle duplicate blockchain events\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "quicknode-pack",
         "category": "saas-packs"
       },
-      "searchText": "quicknode-webhooks-events quicknode webhooks events — blockchain rpc and web3 infrastructure integration. use when working with quicknode for blockchain development. trigger with phrases like \"quicknode webhooks events\", \"quicknode-webhooks-events\", \"blockchain rpc\". saas-packs read write edit bash(npm:*) bash(curl:*) grep "
+      "searchText": "quicknode-webhooks-events build an authenticated, idempotent quicknode webhooks or streams receiver with bounded acknowledgement, replay safety, and reorganization handling. use when delivering onchain events to http or durable destinations. trigger with: \"receive quicknode webhooks\", \"secure a quicknode stream\", \"handle duplicate blockchain events\". saas-packs read grep write edit "
     },
     {
       "type": "skill",

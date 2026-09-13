@@ -14,16 +14,16 @@
     "source": "scripts/validate-skills-schema.py --marketplace --skills-only --json",
     "status": "measured",
     "values": {
-      "a_error_total": 28,
-      "a_failing": 11,
-      "ab_error_total": 250,
-      "ab_failing": 100,
-      "b_failing": 89,
-      "error_files": 357,
-      "error_total": 2878,
+      "a_error_total": 26,
+      "a_failing": 9,
+      "ab_error_total": 232,
+      "ab_failing": 82,
+      "b_failing": 73,
+      "error_files": 339,
+      "error_total": 2860,
       "grade_distribution": {
-        "A": 2699,
-        "B": 501,
+        "A": 2715,
+        "B": 485,
         "C": 133,
         "D": 154,
         "F": 4
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25512
+        "tracked_files": 25550
       }
     },
     "2": {
@@ -90,8 +90,8 @@
           "validator_reported_mixed_denominator_percent": 80.9
         },
         "marketplace_terminal": {
-          "error_total_all_validated_surfaces": 3115,
-          "fully_compliant_surfaces": 1872,
+          "error_total_all_validated_surfaces": 3097,
+          "fully_compliant_surfaces": 1890,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,19 +101,19 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 38.9
+          "validator_reported_mixed_denominator_percent": 39.3
         },
         "skill_rows": {
-          "a_error_total": 28,
-          "a_failing": 11,
-          "ab_error_total": 250,
-          "ab_failing": 100,
-          "b_failing": 89,
-          "error_files": 357,
-          "error_total": 2878,
+          "a_error_total": 26,
+          "a_failing": 9,
+          "ab_error_total": 232,
+          "ab_failing": 82,
+          "b_failing": 73,
+          "error_files": 339,
+          "error_total": 2860,
           "grade_distribution": {
-            "A": 2699,
-            "B": 501,
+            "A": 2715,
+            "B": 485,
             "C": 133,
             "D": 154,
             "F": 4
@@ -131,15 +131,15 @@
       "values": {
         "average_score": 91.3,
         "grade_distribution": {
-          "A": 2699,
-          "B": 501,
+          "A": 2715,
+          "B": 485,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 77.3,
-          "B": 14.4,
+          "A": 77.8,
+          "B": 13.9,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -154,12 +154,12 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "a_error_total": 28,
-        "a_failing": 11,
-        "ab_error_total": 250,
-        "ab_failing": 100,
-        "b_error_total": 222,
-        "b_failing": 89,
+        "a_error_total": 26,
+        "a_failing": 9,
+        "ab_error_total": 232,
+        "ab_failing": 82,
+        "b_error_total": 206,
+        "b_failing": 73,
         "certified_target": 0,
         "skill_summary_rows": 3491
       }
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 283,
+        "distinct_values": 301,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -364,14 +364,22 @@
           },
           {
             "count": 1,
+            "value": "Control-plane reads require authenticated qn access; product and endpoint changes remain approval-gated"
+          },
+          {
+            "count": 1,
             "value": "Covers documented CAST AI connection and umbrella-chart modes; exact components and permissions depend on selected features and provider"
+          },
+          {
+            "count": 1,
+            "value": "Credit formulas, product inclusion, and prices are plan-specific and must be read from current account data"
           },
           {
             "count": 1,
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2423,
+            "count": 2405,
             "value": "Designed for Claude Code"
           },
           {
@@ -1227,6 +1235,34 @@
             "value": "Designed for Claude Code; worker, award, compensation, payroll, and integration changes require HCM, payroll, security, and program-owner approval"
           },
           {
+            "count": 1,
+            "value": "Detailed endpoint logs are Enterprise-only; collect equivalent application evidence when unavailable"
+          },
+          {
+            "count": 1,
+            "value": "EVM method availability, fee fields, and finality rules vary by chain and network"
+          },
+          {
+            "count": 1,
+            "value": "Error meanings can be chain-specific; use the selected chain reference plus QuickNode infrastructure codes"
+          },
+          {
+            "count": 1,
+            "value": "JWT, referrer allowlists, domain masking, and advanced rate controls can be plan-specific"
+          },
+          {
+            "count": 1,
+            "value": "Live checks require a protected CI environment and a read-only QuickNode credential"
+          },
+          {
+            "count": 1,
+            "value": "Method and advanced endpoint limits depend on plan and chain; qn access requires an authenticated account"
+          },
+          {
+            "count": 1,
+            "value": "Metrics availability depends on plan; method behavior and safe batching vary by chain"
+          },
+          {
             "count": 7,
             "value": "Model-agnostic workflow; requires Python 3.10+; optional Snowflake CLI for live read-only evidence collection"
           },
@@ -1264,6 +1300,14 @@
           },
           {
             "count": 1,
+            "value": "Product availability, destination counts, and endpoint capabilities depend on chain and plan"
+          },
+          {
+            "count": 1,
+            "value": "Readiness evidence varies by chain, product, plan, and application write authority"
+          },
+          {
+            "count": 1,
             "value": "Requires CAST AI Cost Monitoring data and access to the organization pricing and workload context needed to interpret it"
           },
           {
@@ -1297,6 +1341,14 @@
           {
             "count": 18,
             "value": "Requires Node.js 20+, approved Anima API access, current Anima SDK documentation, and authorized Figma or website source access"
+          },
+          {
+            "count": 1,
+            "value": "Requires a QuickNode HTTP endpoint and a documented read method for the selected chain"
+          },
+          {
+            "count": 1,
+            "value": "Requires a QuickNode account; Admin API and advanced endpoint-security features depend on the account plan"
           },
           {
             "count": 1,
@@ -1404,6 +1456,18 @@
           },
           {
             "count": 1,
+            "value": "SDK base URL overrides are for local, staging, and approved sandbox boundaries"
+          },
+          {
+            "count": 1,
+            "value": "SDK native targets and chain API deprecations must be checked against current QuickNode documentation"
+          },
+          {
+            "count": 1,
+            "value": "Supported APIs, archive availability, pruning, and add-ons vary by chain and network"
+          },
+          {
+            "count": 1,
             "value": "Supports CAST AI documented connection paths; cloud permissions and available features vary by provider and subscription"
           },
           {
@@ -1412,7 +1476,15 @@
           },
           {
             "count": 1,
+            "value": "Unified SDK supports documented native targets; Node.js package supports TypeScript, CommonJS, ES modules, and Bun"
+          },
+          {
+            "count": 1,
             "value": "Verified against @aomi-labs/client v0.1.42 and the current aomi-widget/packages/client TypeScript CLI. Install globally via npm install -g @aomi-labs/client@latest, or run on demand via npx @aomi-labs/client@latest. The CLI defaults to https://api.aomi.dev; pass --backend-url https://api-staging.aomi.dev when explicitly targeting staging. viem and Solana signing dependencies are bundled by the package. Designed for claude-code; also works with Cursor, Codex CLI, Gemini, and any agent runtime that supports the Anthropic skill spec."
+          },
+          {
+            "count": 1,
+            "value": "Webhooks and Streams have distinct APIs and delivery controls; destination options depend on plan"
           },
           {
             "count": 1,
@@ -2844,7 +2916,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25512
+        "tracked_files": 25550
       }
     },
     "47": {
@@ -2929,15 +3001,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-123.json",
+        "freshie/reports/run-delta-124.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "eenir1ifu293j3ntnkf7m2jp5c433p0o",
+        "dolt_commit": "coq7lg1jnu8gqu8i2ghidpc2krcam2qu",
         "header_total_skills": 2914,
-        "run_id": 123,
+        "run_id": 124,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -2950,32 +3022,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-123.json"
+        "freshie/reports/run-delta-124.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "eenir1ifu293j3ntnkf7m2jp5c433p0o",
-        "export_run_id": 123,
+        "export_dolt_commit": "coq7lg1jnu8gqu8i2ghidpc2krcam2qu",
+        "export_run_id": 124,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "c16c3cfbeb989594b205fe930484c8abacd405986d43c317da667f9088510608",
+        "grades_csv_sha256": "06f8c99efbc8d95a252d33fef051da6b3bbd56c5e2dfea53b20449302c0c44aa",
         "histogram_grades": {
-          "A": 2699,
-          "B": 501,
+          "A": 2715,
+          "B": 485,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2699,
-          "B": 501,
+          "A": 2715,
+          "B": 485,
           "C": 133,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "eenir1ifu293j3ntnkf7m2jp5c433p0o",
-        "inventory_run_id": 123,
+        "inventory_dolt_commit": "coq7lg1jnu8gqu8i2ghidpc2krcam2qu",
+        "inventory_run_id": 124,
         "target_lag_runs": 0
       }
     },
@@ -2985,7 +3057,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-123.json",
+        "freshie/reports/run-delta-124.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -2999,7 +3071,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 123,
+        "current_run_id": 124,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3023,7 +3095,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-123.json",
+        "freshie/reports/run-delta-124.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
